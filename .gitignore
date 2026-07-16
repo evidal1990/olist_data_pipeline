@@ -220,4 +220,4 @@ __marimo__/
 .DS_Store
 .claude/*
 docs/*
-airbyte-gcs-key.json
+airbyte-bq-key.json
