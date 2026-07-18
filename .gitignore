@@ -222,3 +222,5 @@ __marimo__/
 docs/*
 airbyte-bq-key.json
 dbt-bq-user-key.json
+.dbt/
+dbt_project.yml
