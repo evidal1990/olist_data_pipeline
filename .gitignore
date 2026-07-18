@@ -221,3 +221,4 @@ __marimo__/
 .claude/*
 docs/*
 airbyte-bq-key.json
+dbt-bq-user-key.json
