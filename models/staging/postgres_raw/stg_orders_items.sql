@@ -12,7 +12,7 @@ select
     price,
     freight_value,
     shipping_limit_date,
-    updated_at
+    cast(updated_at as timestamp) as updated_at
 from {{ source('postgres_raw', 'olist_order_items') }}
 
 {% if is_incremental() %}

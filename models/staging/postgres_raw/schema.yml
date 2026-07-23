@@ -1,0 +1,82 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Tabela de clientes cadastrados na plataforma"
+    database: postgres_raw
+    schema: olist
+    columns:
+      - name: customer_id
+        description: "Identificador do cliente"
+        data_type: STRING
+        primary_key: true
+        tests:
+          - not null
+          - unique
+      - name: customer_unique_id
+        description: "Identificador único do cliente"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not null
+          - unique
+      - name: customer_zip_code_prefix
+        description: "Código postal do cliente"
+        data_type: INTEGER
+        primary_key: false
+        tests:
+          - not null
+      - name: customer_city
+        description: "Cidade onde o cliente reside"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not null
+      - name: customer_state
+        description: "Estado onde o cliente reside"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not null
+      - name: is_active
+        description: "Indica se o cliente está ativo ou não"
+        data_type: BOOL
+        primary_key: false
+        tests:
+          - not null
+      - name: updated_at
+        description: "Data da última atualização do registro"
+        data_type: TIMESTAMP
+        primary_key: false
+        tests:
+          - not null
+  - name: stg_geolocation
+    columns:
+      - name: geolocaltion_zip_code_prefix
+        description: "Código postal utilizado para identificar um endereço"
+        data_type: INTEGER
+        tests:
+          - not null
+      - name: geolocation_state
+        description: "Refere-se a um estado brasileiro"
+        data_type: STRING
+        tests:
+          - not null
+      - name: geolocation_city
+        description: "Refere-se a uma cidade brasileira"
+        data_type: STRING
+        tests:
+          - not null
+      - name: geolocation_lat
+        description: "Distância, medida em graus, de qualquer ponto da Terra até a linha do Equador"
+        data_type: NUMERIC
+      - name: geolocation_lat
+        description: "Coordenada geográfica que especifica a posição leste-oeste de qualquer ponto da Terra"
+        data_type: NUMERIC
+      - name: updated_at
+        description: "Data da última atualização do registro"
+        data_type: TIMESTAMP
+        primary_key: false
+        tests:
+          - not null
+  

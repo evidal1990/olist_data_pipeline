@@ -9,7 +9,7 @@ select
     seller_zip_code_prefix,
     seller_city,
     seller_state,
-    updated_at
+    cast(updated_at as timestamp) as updated_at
 from {{ source('postgres_raw', 'olist_sellers') }}
 
 {% if is_incremental() %}

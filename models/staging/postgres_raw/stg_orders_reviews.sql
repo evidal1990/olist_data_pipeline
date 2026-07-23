@@ -12,7 +12,7 @@ select
     review_comment_message,
     cast(review_creation_date as datetime) as review_creation_date,
     review_answer_timestamp,
-    updated_at
+    cast(updated_at as timestamp) as updated_at
 from {{ source('postgres_raw', 'olist_order_reviews') }}
 
 {% if is_incremental() %}

@@ -10,7 +10,7 @@ select
     geolocation_lng,
     geolocation_city,
     geolocation_state,
-    updated_at
+    cast(updated_at as timestamp) as updated_at
 from {{ source('postgres_raw', 'olist_geolocation') }}
 
 {% if is_incremental() %}

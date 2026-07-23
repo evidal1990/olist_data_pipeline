@@ -10,7 +10,7 @@ select
     order_status,
     order_purchase_timestamp,
     order_delivered_customer_date,
-    updated_at
+    cast(updated_at as timestamp) as updated_at
 from {{ source('postgres_raw', 'olist_orders') }}
 
 {% if is_incremental() %}

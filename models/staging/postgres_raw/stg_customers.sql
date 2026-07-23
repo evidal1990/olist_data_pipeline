@@ -11,7 +11,7 @@ select
     customer_city,
     customer_state,
     cast(is_active as boolean) as is_active,
-    updated_at
+    cast(updated_at as timestamp) as updated_at
 from {{ source('postgres_raw', 'olist_customers') }}
 
 {% if is_incremental() %}

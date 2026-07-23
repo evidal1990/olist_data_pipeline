@@ -14,7 +14,7 @@ select
     product_length_cm,
     product_height_cm,
     product_width_cm,
-    updated_at
+    cast(updated_at as timestamp) as updated_at
 from {{ source('postgres_raw', 'olist_products') }}
 
 {% if is_incremental() %}

@@ -10,7 +10,7 @@ select
     payment_type,
     payment_installments,
     payment_value,
-    updated_at
+    cast(updated_at as timestamp) as updated_at
 from {{ source('postgres_raw', 'olist_order_payments') }}
 
 {% if is_incremental() %}
