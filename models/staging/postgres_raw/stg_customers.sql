@@ -1,5 +1,5 @@
 {{ config(
-    materialized = 'view'
+    materialized = 'table'
 ) }}
 
 select
@@ -8,5 +8,6 @@ select
     customer_zip_code_prefix,
     customer_city,
     customer_state,
-    cast(is_active as boolean) as is_active
+    cast(is_active as boolean) as is_active,
+    updated_at
 from {{ source('postgres_raw', 'olist_customers') }}

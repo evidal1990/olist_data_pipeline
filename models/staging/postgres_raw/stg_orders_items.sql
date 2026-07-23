@@ -1,5 +1,5 @@
 {{ config(
-    materialized = 'view'
+    materialized = 'table'
 ) }}
 
 select
@@ -9,5 +9,6 @@ select
     seller_id,
     price,
     freight_value,
-    shipping_limit_date
+    shipping_limit_date,
+    updated_at
 from {{ source('postgres_raw', 'olist_order_items') }}

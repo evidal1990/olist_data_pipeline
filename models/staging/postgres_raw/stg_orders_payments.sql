@@ -1,5 +1,5 @@
 {{ config(
-    materialized = 'view'
+    materialized = 'table'
 ) }}
 
 select
@@ -7,5 +7,6 @@ select
     payment_sequential,
     payment_type,
     payment_installments,
-    payment_value
+    payment_value,
+    updated_at
 from {{ source('postgres_raw', 'olist_order_payments') }}
