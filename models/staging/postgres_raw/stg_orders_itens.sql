@@ -7,7 +7,7 @@ select
     order_item_id,
     product_id,
     seller_id,
-    price,
-    freight_value,
+    cast(price as decimal(10, 2)) as price,
+    cast(freight_value as decimal(10, 2)) as freight_value,
     shipping_limit_date
 from {{ source('postgres_raw', 'olist_order_items') }}
