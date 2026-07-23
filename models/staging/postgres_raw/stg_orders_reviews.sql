@@ -1,5 +1,7 @@
 {{ config(
-    materialized = 'table'
+    materialized = 'incremental', 
+    unique_key = 'review_id',
+    on_schema_change = 'fail'
 ) }}
 
 select
@@ -12,3 +14,7 @@ select
     review_answer_timestamp,
     updated_at
 from {{ source('postgres_raw', 'olist_order_reviews') }}
+
+{% if is_incremental() %}
+where updated_at >= (select max(updated_at) from {{ this }})
+{% endif %}

@@ -1,5 +1,7 @@
 {{ config(
-    materialized = 'table'
+    materialized = 'incremental', 
+    unique_key = 'product_id',
+    on_schema_change = 'fail'
 ) }}
 
 select
@@ -14,3 +16,7 @@ select
     product_width_cm,
     updated_at
 from {{ source('postgres_raw', 'olist_products') }}
+
+{% if is_incremental() %}
+where updated_at >= (select max(updated_at) from {{ this }})
+{% endif %}

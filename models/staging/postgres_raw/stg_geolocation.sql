@@ -1,5 +1,7 @@
 {{ config(
-    materialized = 'table'
+    materialized = 'incremental', 
+    unique_key = ('geolocation_lat', 'geolocation_lng'),
+    on_schema_change = 'fail'
 ) }}
 
 select
@@ -10,3 +12,7 @@ select
     geolocation_state,
     updated_at
 from {{ source('postgres_raw', 'olist_geolocation') }}
+
+{% if is_incremental() %}
+where updated_at >= (select max(updated_at) from {{ this }})
+{% endif %}

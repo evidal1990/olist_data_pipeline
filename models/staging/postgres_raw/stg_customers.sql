@@ -1,5 +1,7 @@
 {{ config(
-    materialized = 'table'
+    materialized = 'incremental', 
+    unique_key = 'customer_id',
+    on_schema_change = 'fail'
 ) }}
 
 select
@@ -11,3 +13,7 @@ select
     cast(is_active as boolean) as is_active,
     updated_at
 from {{ source('postgres_raw', 'olist_customers') }}
+
+{% if is_incremental() %}
+where updated_at >= (select max(updated_at) from {{ this }})
+{% endif %}

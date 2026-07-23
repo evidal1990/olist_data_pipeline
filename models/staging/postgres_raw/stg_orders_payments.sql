@@ -1,5 +1,7 @@
 {{ config(
-    materialized = 'table'
+    materialized = 'incremental', 
+    unique_key = 'order_id',
+    on_schema_change = 'fail'
 ) }}
 
 select
@@ -10,3 +12,7 @@ select
     payment_value,
     updated_at
 from {{ source('postgres_raw', 'olist_order_payments') }}
+
+{% if is_incremental() %}
+where updated_at >= (select max(updated_at) from {{ this }})
+{% endif %}
