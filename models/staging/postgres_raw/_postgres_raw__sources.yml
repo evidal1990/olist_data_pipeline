@@ -4,6 +4,16 @@ sources:
   - name: postgres_raw
     database: olist-501002
     schema: postgres_raw
+    loaded_at_field: _airbyte_extracted_at
+    freshness:
+      warn_after: {
+        count: 24, 
+        period: hour
+      }
+      error_after: {
+        count: 25, 
+        period: hour
+      }
     tables:
       - name: olist_orders
       - name: olist_customers
@@ -13,3 +23,4 @@ sources:
       - name: olist_products
       - name: olist_sellers
       - name: olist_geolocation
+        freshness: null
