@@ -230,6 +230,10 @@ models:
         primary_key: false
         tests:
           - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_orders')
+                field: order_id
       - name: order_item_id
         description: "Número sequencial que identifica qual a posição do item na compra"
         data_type: INTEGER
@@ -288,6 +292,10 @@ models:
         primary_key: false
         tests:
           - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_orders')
+                field: order_id
       - name: payment_sequential
         description: "Número sequencial que identifica qual a posição do item no pagamento"
         data_type: INTEGER
@@ -333,6 +341,10 @@ models:
         primary_key: false
         tests:
           - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_orders')
+                field: order_id
       - name: review_id
         description: "Código único de uma avaliação de uma compra"
         data_type: STRING
