@@ -171,7 +171,7 @@ models:
         description: "Código único de um cliente que efetuou a compra"
         data_type: STRING
         primary_key: false
-        data_tests:
+        tests:
           - not_null
           - relationships:
               arguments:
@@ -216,6 +216,64 @@ models:
         description: "Data em que a compra foi entregue ao cliente"
         data_type: DATETIME
         primary_key: false
+      - name: updated_at
+        description: "Data da última atualização do registro"
+        data_type: TIMESTAMP
+        primary_key: false
+        tests:
+          - not_null
+  - name: stg_orders_items
+    columns:
+      - name: order_id
+        description: "Código único de uma compra"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not_null
+      - name: order_item_id
+        description: "Número sequencial que identifica qual a posição do item na compra"
+        data_type: INTEGER
+        primary_key: false
+        tests:
+          - not_null
+      - name: product_id
+        description: "Código único de um produto"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_products')
+                field: product_id
+      - name: seller_id
+        description: "Código único de um fornecedor"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_sellers')
+                field: seller_id
+      - name: price
+        description: "Preço bruto do produto sem o frete"
+        data_type: NUMERIC
+        primary_key: false
+        tests:
+          - not_null
+      - name: freight_value
+        description: "Valor do frete para o envio do produto"
+        data_type: NUMERIC
+        primary_key: false
+        tests:
+          - not_null
+      - name: shipping_limit_date
+        description: "Data limite para que o produto seja entregue à transportadora pelo fornecedor"
+        data_type: DATETIME
+        primary_key: false
+        tests:
+          - not_null
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
