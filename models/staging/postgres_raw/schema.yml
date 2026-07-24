@@ -11,62 +11,62 @@ models:
         data_type: STRING
         primary_key: true
         tests:
-          - not null
+          - not_null
           - unique
       - name: customer_unique_id
         description: "Identificador único do cliente"
         data_type: STRING
         primary_key: false
         tests:
-          - not null
+          - not_null
           - unique
       - name: customer_zip_code_prefix
         description: "Código postal do cliente"
         data_type: INTEGER
         primary_key: false
         tests:
-          - not null
+          - not_null
       - name: customer_city
         description: "Cidade onde o cliente reside"
         data_type: STRING
         primary_key: false
         tests:
-          - not null
+          - not_null
       - name: customer_state
         description: "Estado onde o cliente reside"
         data_type: STRING
         primary_key: false
         tests:
-          - not null
+          - not_null
       - name: is_active
         description: "Indica se o cliente está ativo ou não"
         data_type: BOOL
         primary_key: false
         tests:
-          - not null
+          - not_null
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
         primary_key: false
         tests:
-          - not null
+          - not_null
   - name: stg_geolocation
     columns:
-      - name: geolocaltion_zip_code_prefix
+      - name: geolocation_zip_code_prefix
         description: "Código postal utilizado para identificar um endereço"
         data_type: INTEGER
         tests:
-          - not null
+          - not_null
       - name: geolocation_state
         description: "Refere-se a um estado brasileiro"
         data_type: STRING
         tests:
-          - not null
+          - not_null
       - name: geolocation_city
         description: "Refere-se a uma cidade brasileira"
         data_type: STRING
         tests:
-          - not null
+          - not_null
       - name: geolocation_lat
         description: "Distância, medida em graus, de qualquer ponto da Terra até a linha do Equador"
         data_type: NUMERIC
@@ -78,7 +78,7 @@ models:
         data_type: TIMESTAMP
         primary_key: false
         tests:
-          - not null
+          - not_null
   - name: stg_products
     columns:
       - name: product_id
@@ -86,12 +86,12 @@ models:
         data_type: STRING
         primary_key: true
         tests:
-          - not null
+          - not_null
       - name: product_category_name
         description: "Nome da categoria de um produto"
         data_type: STRING
         tests:
-          - not null
+          - not_null
       - name: product_name_length
         description: "Quantidade de caracteres do nome do produto"
         data_type: INTEGER
@@ -105,26 +105,121 @@ models:
         description: "Peso do produto calculado em gramas"
         data_type: NUMERIC
         tests:
-          - not null
+          - not_null
       - name: product_length_cm
         description: "Comprimento do produto medido em centímetros"
         data_type: NUMERIC
         tests:
-          - not null
+          - not_null
       - name: product_height_cm
         description: "Altura do produto medida em centímetros"
         data_type: NUMERIC
         tests:
-          - not null
+          - not_null
       - name: product_width_cm
         description: "Largura do produto medida em centímetros"
         data_type: NUMERIC
         tests:
-          - not null
+          - not_null
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
         primary_key: false
         tests:
-          - not null
+          - not_null
+  - name: stg_sellers
+    columns:
+      - name: seller_id
+        description: "Código único de um fornecedor"
+        data_type: STRING
+        primary_key: true
+        tests:
+          - not_null
+      - name: seller_zip_code_prefix
+        description: "Código postal do cliente"
+        data_type: INTEGER
+        primary_key: false
+        tests:
+          - not_null
+      - name: seller_city
+        description: "Cidade onde o fornecedor está localizado"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not_null
+      - name: seller_state
+        description: "Estado onde o fornecedor está localizado"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not_null
+      - name: updated_at
+        description: "Data da última atualização do registro"
+        data_type: TIMESTAMP
+        primary_key: false
+        tests:
+          - not_null
+  - name: stg_orders
+    columns:
+      - name: order_id
+        description: "Código único de uma compra"
+        data_type: STRING
+        primary_key: true
+        tests:
+          - not_null
+      - name: customer_id
+        description: "Código único de um cliente que efetuou a compra"
+        data_type: STRING
+        primary_key: false
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stg_customers')
+                field: customer_id
+      - name: order_status
+        description: "Status da compra desde que ela foi realizada até a sua conclusão"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - approved
+                  - canceled
+                  - created
+                  - delivered
+                  - invoiced
+                  - processing
+                  - shipped
+                  - unavailable
+      - name: order_purchase_timestamp
+        description: "Data em que a compra foi realizada pelo cliente"
+        data_type: DATETIME
+        primary_key: false
+        tests:
+          - not_null
+      - name: order_approved_at
+        description: "Data em que a compra foi aprovada após o pagamento"
+        data_type: DATETIME
+        primary_key: false
+      - name: order_delivered_carrier_date
+        description: "Data em que a compra foi entregue à transportadora pelo fornecedor"
+        data_type: DATETIME
+        primary_key: 
+      - name: order_estimated_delivery_date
+        description: "Data em que a compra está prevista para ser entregue ao cliente"
+        data_type: DATETIME
+        primary_key: false
+      - name: order_delivered_customer_date
+        description: "Data em que a compra foi entregue ao cliente"
+        data_type: DATETIME
+        primary_key: false
+      - name: updated_at
+        description: "Data da última atualização do registro"
+        data_type: TIMESTAMP
+        primary_key: false
+        tests:
+          - not_null
   
