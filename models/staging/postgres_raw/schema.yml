@@ -319,3 +319,57 @@ models:
         primary_key: false
         tests:
           - not_null
+      - name: updated_at
+        description: "Data da última atualização do registro"
+        data_type: TIMESTAMP
+        primary_key: false
+        tests:
+          - not_null
+  - name: stg_orders_reviews
+    columns:
+      - name: order_id
+        description: "Código único de uma compra"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not_null
+      - name: review_id
+        description: "Código único de uma avaliação de uma compra"
+        data_type: STRING
+        primary_key: false
+        tests:
+          - not_null
+      - name: review_score
+        description: "Nota de avaliação de uma compra em um range de 1 a 5"
+        data_type: INTEGER
+        primary_key: false
+        tests:
+          - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 1
+                max_value: 5
+      - name: review_comment_title
+        description: "Título do comentário deixado na avaliação de uma compra"
+        data_type: STRING
+        primary_key: false
+      - name: review_creation_date
+        description: "Data em que uma avaliação foi realizada"
+        data_type: DATETIME
+        primary_key: false
+        tests:
+          - not_null
+      - name: review_comment_message
+        description: "Mensagem do comentário deixado na avaliação de uma compra"
+        data_type: STRING
+        primary_key: false
+      - name: review_answer_timestamp
+        description: "Data em que uma avaliação foi respondida pela equipe de atendimento da empresa"
+        data_type: DATETIME
+        primary_key: false
+      - name: updated_at
+        description: "Data da última atualização do registro"
+        data_type: TIMESTAMP
+        primary_key: false
+        tests:
+          - not_null
