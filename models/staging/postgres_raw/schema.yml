@@ -31,6 +31,9 @@ models:
         data_type: STRING
         tests:
           - not_null
+          - valid_city_for_state:
+              arguments:
+                state_column: customer_state
       - name: customer_state
         description: "Estado onde o cliente reside"
         data_type: STRING
@@ -67,6 +70,9 @@ models:
         data_type: STRING
         tests:
           - not_null
+          - valid_city_for_state:
+              arguments:
+                state_column: geolocation_state
       - name: geolocation_lat
         description: "Distância, medida em graus, de qualquer ponto da Terra até a linha do Equador"
         data_type: NUMERIC
@@ -181,6 +187,9 @@ models:
         data_type: STRING
         tests:
           - not_null
+          - valid_city_for_state:
+              arguments:
+                state_column: seller_state
       - name: seller_state
         description: "Estado onde o fornecedor está localizado"
         data_type: STRING
