@@ -26,6 +26,10 @@ models:
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 1000
+                max_value: 99999
       - name: customer_city
         description: "Cidade onde o cliente reside"
         data_type: STRING
@@ -40,7 +44,7 @@ models:
           - not_null
       - name: is_active
         description: "Indica se o cliente está ativo ou não"
-        data_type: BOOL
+        data_type: BOOLEAN
         primary_key: false
         tests:
           - not_null
@@ -57,6 +61,10 @@ models:
         data_type: INTEGER
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 1000
+                max_value: 99999
       - name: geolocation_state
         description: "Refere-se a um estado brasileiro"
         data_type: STRING
@@ -70,9 +78,19 @@ models:
       - name: geolocation_lat
         description: "Distância, medida em graus, de qualquer ponto da Terra até a linha do Equador"
         data_type: NUMERIC
-      - name: geolocation_lat
+        tests: 
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 90
+      - name: geolocation_lng
         description: "Coordenada geográfica que especifica a posição leste-oeste de qualquer ponto da Terra"
         data_type: NUMERIC
+        tests: 
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
+                max_value: 180
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
@@ -96,32 +114,56 @@ models:
       - name: product_name_length
         description: "Quantidade de caracteres do nome do produto"
         data_type: INTEGER
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: product_description_length
         description: "Quantidade de caracteres da descrição do produto"
         data_type: INTEGER
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: product_photos_qty
         description: "Quantidade de fotos que o produto possui"
         data_type: INTEGER
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: product_weight_g
         description: "Peso do produto calculado em gramas"
         data_type: NUMERIC
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: product_length_cm
         description: "Comprimento do produto medido em centímetros"
         data_type: NUMERIC
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: product_height_cm
         description: "Altura do produto medida em centímetros"
         data_type: NUMERIC
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: product_width_cm
         description: "Largura do produto medida em centímetros"
         data_type: NUMERIC
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
@@ -143,6 +185,10 @@ models:
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 1000
+                max_value: 99999
       - name: seller_city
         description: "Cidade onde o fornecedor está localizado"
         data_type: STRING
@@ -203,22 +249,41 @@ models:
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: "'2016-01-01 00:00:00'"
       - name: order_approved_at
         description: "Data em que a compra foi aprovada após o pagamento"
         data_type: DATETIME
         primary_key: false
+        tests: 
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: "'2016-01-01 00:00:00'"
       - name: order_delivered_carrier_date
         description: "Data em que a compra foi entregue à transportadora pelo fornecedor"
         data_type: DATETIME
-        primary_key:
+        primary_key: false
+        tests: 
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: "'2016-01-01 00:00:00'"
       - name: order_estimated_delivery_date
         description: "Data em que a compra está prevista para ser entregue ao cliente"
         data_type: DATETIME
         primary_key: false
+        tests: 
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: "'2016-01-01 00:00:00'"
       - name: order_delivered_customer_date
         description: "Data em que a compra foi entregue ao cliente"
         data_type: DATETIME
         primary_key: false
+        tests:
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: "'2016-01-01 00:00:00'"
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
@@ -243,6 +308,9 @@ models:
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 1
       - name: product_id
         description: "Código único de um produto"
         data_type: STRING
@@ -269,18 +337,27 @@ models:
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: freight_value
         description: "Valor do frete para o envio do produto"
         data_type: NUMERIC
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: shipping_limit_date
         description: "Data limite para que o produto seja entregue à transportadora pelo fornecedor"
         data_type: DATETIME
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: "'2016-01-01 00:00:00'"
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
@@ -305,6 +382,9 @@ models:
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 1
       - name: payment_type
         description: "Meio de pagamento utilizado para pagar um item da compra"
         data_type: STRING
@@ -324,12 +404,18 @@ models:
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: payment_installments
         description: "Quantidade de parcelas utilizadas para pagar um produto"
         data_type: INTEGER
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: 0
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
@@ -374,6 +460,9 @@ models:
         primary_key: false
         tests:
           - not_null
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: "'2016-01-01 00:00:00'"
       - name: review_comment_message
         description: "Mensagem do comentário deixado na avaliação de uma compra"
         data_type: STRING
@@ -382,6 +471,10 @@ models:
         description: "Data em que uma avaliação foi respondida pela equipe de atendimento da empresa"
         data_type: DATETIME
         primary_key: false
+        tests: 
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                min_value: "'2016-01-01 00:00:00'"
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
