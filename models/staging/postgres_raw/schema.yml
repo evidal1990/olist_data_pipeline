@@ -3,27 +3,23 @@ version: 2
 models:
   - name: stg_customers
     description: "Tabela de clientes cadastrados na plataforma"
-    database: postgres_raw
     schema: olist
     columns:
       - name: customer_id
         description: "Identificador do cliente"
         data_type: STRING
-        primary_key: true
         tests:
           - not_null
           - unique
       - name: customer_unique_id
         description: "Identificador único do cliente"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
           - unique
       - name: customer_zip_code_prefix
         description: "Código postal do cliente"
         data_type: INTEGER
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -33,25 +29,21 @@ models:
       - name: customer_city
         description: "Cidade onde o cliente reside"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
       - name: customer_state
         description: "Estado onde o cliente reside"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
       - name: is_active
         description: "Indica se o cliente está ativo ou não"
         data_type: BOOLEAN
-        primary_key: false
         tests:
           - not_null
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
-        primary_key: false
         tests:
           - not_null
   - name: stg_geolocation
@@ -94,7 +86,6 @@ models:
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
-        primary_key: false
         tests:
           - not_null
   - name: stg_products
@@ -102,7 +93,6 @@ models:
       - name: product_id
         description: "Código único de um produto"
         data_type: STRING
-        primary_key: true
         tests:
           - not_null
           - unique
@@ -167,7 +157,6 @@ models:
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
-        primary_key: false
         tests:
           - not_null
   - name: stg_sellers
@@ -175,14 +164,12 @@ models:
       - name: seller_id
         description: "Código único de um fornecedor"
         data_type: STRING
-        primary_key: true
         tests:
           - not_null
           - unique
       - name: seller_zip_code_prefix
         description: "Código postal do cliente"
         data_type: INTEGER
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -192,19 +179,16 @@ models:
       - name: seller_city
         description: "Cidade onde o fornecedor está localizado"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
       - name: seller_state
         description: "Estado onde o fornecedor está localizado"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
-        primary_key: false
         tests:
           - not_null
   - name: stg_orders
@@ -212,14 +196,12 @@ models:
       - name: order_id
         description: "Código único de uma compra"
         data_type: STRING
-        primary_key: true
         tests:
           - not_null
           - unique
       - name: customer_id
         description: "Código único de um cliente que efetuou a compra"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
           - relationships:
@@ -229,7 +211,6 @@ models:
       - name: order_status
         description: "Status da compra desde que ela foi realizada até a sua conclusão"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
           - accepted_values:
@@ -246,7 +227,6 @@ models:
       - name: order_purchase_timestamp
         description: "Data em que a compra foi realizada pelo cliente"
         data_type: DATETIME
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -255,7 +235,6 @@ models:
       - name: order_approved_at
         description: "Data em que a compra foi aprovada após o pagamento"
         data_type: DATETIME
-        primary_key: false
         tests: 
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
@@ -263,7 +242,6 @@ models:
       - name: order_delivered_carrier_date
         description: "Data em que a compra foi entregue à transportadora pelo fornecedor"
         data_type: DATETIME
-        primary_key: false
         tests: 
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
@@ -271,7 +249,6 @@ models:
       - name: order_estimated_delivery_date
         description: "Data em que a compra está prevista para ser entregue ao cliente"
         data_type: DATETIME
-        primary_key: false
         tests: 
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
@@ -279,7 +256,6 @@ models:
       - name: order_delivered_customer_date
         description: "Data em que a compra foi entregue ao cliente"
         data_type: DATETIME
-        primary_key: false
         tests:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
@@ -287,7 +263,6 @@ models:
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
-        primary_key: false
         tests:
           - not_null
   - name: stg_orders_items
@@ -295,7 +270,6 @@ models:
       - name: order_id
         description: "Código único de uma compra"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
           - relationships:
@@ -305,7 +279,6 @@ models:
       - name: order_item_id
         description: "Número sequencial que identifica qual a posição do item na compra"
         data_type: INTEGER
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -314,7 +287,6 @@ models:
       - name: product_id
         description: "Código único de um produto"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
           - relationships:
@@ -324,7 +296,6 @@ models:
       - name: seller_id
         description: "Código único de um fornecedor"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
           - relationships:
@@ -334,7 +305,6 @@ models:
       - name: price
         description: "Preço bruto do produto sem o frete"
         data_type: NUMERIC
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -343,7 +313,6 @@ models:
       - name: freight_value
         description: "Valor do frete para o envio do produto"
         data_type: NUMERIC
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -352,7 +321,6 @@ models:
       - name: shipping_limit_date
         description: "Data limite para que o produto seja entregue à transportadora pelo fornecedor"
         data_type: DATETIME
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -361,7 +329,6 @@ models:
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
-        primary_key: false
         tests:
           - not_null
   - name: stg_orders_payments
@@ -369,7 +336,6 @@ models:
       - name: order_id
         description: "Código único de uma compra"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
           - relationships:
@@ -379,7 +345,6 @@ models:
       - name: payment_sequential
         description: "Número sequencial que identifica qual a posição do item no pagamento"
         data_type: INTEGER
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -388,7 +353,6 @@ models:
       - name: payment_type
         description: "Meio de pagamento utilizado para pagar um item da compra"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
           - accepted_values:
@@ -401,7 +365,6 @@ models:
       - name: payment_value
         description: "Valor total do produto incluindo o custo do frete"
         data_type: NUMERIC
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -410,7 +373,6 @@ models:
       - name: payment_installments
         description: "Quantidade de parcelas utilizadas para pagar um produto"
         data_type: INTEGER
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -419,7 +381,6 @@ models:
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
-        primary_key: false
         tests:
           - not_null
   - name: stg_orders_reviews
@@ -427,7 +388,6 @@ models:
       - name: order_id
         description: "Código único de uma compra"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
           - relationships:
@@ -437,13 +397,11 @@ models:
       - name: review_id
         description: "Código único de uma avaliação de uma compra"
         data_type: STRING
-        primary_key: false
         tests:
           - not_null
       - name: review_score
         description: "Nota de avaliação de uma compra em um range de 1 a 5"
         data_type: INTEGER
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -453,11 +411,9 @@ models:
       - name: review_comment_title
         description: "Título do comentário deixado na avaliação de uma compra"
         data_type: STRING
-        primary_key: false
       - name: review_creation_date
         description: "Data em que uma avaliação foi realizada"
         data_type: DATETIME
-        primary_key: false
         tests:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
@@ -466,11 +422,10 @@ models:
       - name: review_comment_message
         description: "Mensagem do comentário deixado na avaliação de uma compra"
         data_type: STRING
-        primary_key: false
       - name: review_answer_timestamp
         description: "Data em que uma avaliação foi respondida pela equipe de atendimento da empresa"
         data_type: DATETIME
-        primary_key: false
+        
         tests: 
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
@@ -478,6 +433,5 @@ models:
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
-        primary_key: false
         tests:
           - not_null
