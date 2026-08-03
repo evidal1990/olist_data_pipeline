@@ -1,6 +1,6 @@
 {{ config(
     materialized = 'incremental', 
-    unique_key = 'order_id',
+    unique_key = ('order_id', 'payment_sequential'),
     on_schema_change = 'fail'
 ) }}
 
