@@ -50,6 +50,8 @@ models:
         tests:
           - not_null
   - name: stg_geolocation
+    description: "Tabela de geolocalizações dos clientes e dos fornecedores"
+    schema: olist
     columns:
       - name: geolocation_zip_code_prefix
         description: "Código postal utilizado para identificar um endereço"
@@ -95,6 +97,8 @@ models:
         tests:
           - not_null
   - name: stg_products
+    description: "Tabela de produtos cadastrados na plataforma"
+    schema: olist
     columns:
       - name: product_id
         description: "Código único de um produto"
@@ -166,6 +170,8 @@ models:
         tests:
           - not_null
   - name: stg_sellers
+    description: "Tabela de fornecedores cadastrados na plataforma"
+    schema: olist
     columns:
       - name: seller_id
         description: "Código único de um fornecedor"
@@ -201,6 +207,8 @@ models:
         tests:
           - not_null
   - name: stg_orders
+    description: "Tabela de compras realizadas na plataforma"
+    schema: olist
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -275,6 +283,8 @@ models:
         tests:
           - not_null
   - name: stg_orders_items
+    description: "Tabela de itens das compras realizadas na plataforma"
+    schema: olist
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -341,6 +351,8 @@ models:
         tests:
           - not_null
   - name: stg_orders_payments
+    description: "Tabela de pagamentos das compras realizadas na plataforma"
+    schema: olist
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -393,6 +405,8 @@ models:
         tests:
           - not_null
   - name: stg_orders_reviews
+    description: "Tabela de avaliações das compras realizadas na plataforma"
+    schema: olist
     columns:
       - name: order_id
         description: "Código único de uma compra"
