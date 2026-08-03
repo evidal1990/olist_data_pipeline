@@ -18,5 +18,5 @@ select
 from {{ source('postgres_raw', 'olist_products') }}
 
 {% if is_incremental() %}
-where cast(updated_at as timestamp) >= (select max(updated_at) from {{ this }})
+where cast(updated_at as timestamp) >= (select cast(max(updated_at) as timestamp) from {{ this }})
 {% endif %}
