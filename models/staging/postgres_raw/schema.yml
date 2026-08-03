@@ -2,7 +2,16 @@ version: 2
 
 models:
   - name: stg_customers
-    description: "Tabela de clientes cadastrados na plataforma"
+    description: |
+      Modelo incremental (unique_key = customer_id) que expõe o cadastro de clientes da plataforma.
+
+      **Grão**
+      - Uma linha por customer_id.
+
+      **Observações**
+      - customer_id representa uma identidade de compra.
+      - Um mesmo consumidor pode possuir múltiplos customer_id.
+      - O agrupamento do consumidor é realizado por customer_unique_id.
     schema: olist
     columns:
       - name: customer_id
@@ -50,7 +59,14 @@ models:
         tests:
           - not_null
   - name: stg_geolocation
-    description: "Tabela de geolocalizações dos clientes e dos fornecedores"
+    description: |
+      Modelo incremental (unique_key = (geolocation_lat, geolocation_lng)) com dados de geolocalização por CEP.
+
+      **Grão pretendido**
+      - uma linha por combinação (lat, lng)
+
+      **Observações**
+      - Conforme o relatório da Bronze (M2), a fonte tem ~52 registros por CEP (1.000.163 linhas para 19.015 CEPs únicos), portanto o grão pretendido não é por CEP.
     schema: olist
     columns:
       - name: geolocation_zip_code_prefix
@@ -97,7 +113,11 @@ models:
         tests:
           - not_null
   - name: stg_products
-    description: "Tabela de produtos cadastrados na plataforma"
+    description: |
+      Modelo incremental (unique_key = product_id) com o catálogo de produtos.
+
+      **Grão**
+      - Uma linha por product_id.
     schema: olist
     columns:
       - name: product_id
@@ -170,7 +190,11 @@ models:
         tests:
           - not_null
   - name: stg_sellers
-    description: "Tabela de fornecedores cadastrados na plataforma"
+    description: |
+      Modelo incremental (unique_key = seller_id) com o cadastro de vendedores.
+
+      **Grão**
+      - Uma linha por seller_id.
     schema: olist
     columns:
       - name: seller_id
@@ -207,7 +231,11 @@ models:
         tests:
           - not_null
   - name: stg_orders
-    description: "Tabela de compras realizadas na plataforma"
+    description: |
+      Modelo incremental (unique_key = order_id) com o ciclo de vida do pedido (compra, aprovação, envio, entrega, previsão de entrega).
+
+      **Grão**
+      - Uma linha por order_id.
     schema: olist
     columns:
       - name: order_id
@@ -283,7 +311,11 @@ models:
         tests:
           - not_null
   - name: stg_orders_items
-    description: "Tabela de itens das compras realizadas na plataforma"
+    description: |
+      Modelo incremental (unique_key = (order_id, order_item_id)) com os itens de cada pedido.
+
+      **Grão**
+      - Uma linha por item do pedido.
     schema: olist
     columns:
       - name: order_id
@@ -351,7 +383,14 @@ models:
         tests:
           - not_null
   - name: stg_orders_payments
-    description: "Tabela de pagamentos das compras realizadas na plataforma"
+    description: |
+      Modelo incremental (unique_key = order_id) com os pagamentos de cada pedido.
+
+      **Grão**
+      - O grão real dos dados é order_id + payment_sequential
+
+      **Observações**
+      - Um pedido pode ter múltiplos pagamentos (parcelas/formas de pagamento combinadas), diferenciados por payment_sequential
     schema: olist
     columns:
       - name: order_id
@@ -405,7 +444,11 @@ models:
         tests:
           - not_null
   - name: stg_orders_reviews
-    description: "Tabela de avaliações das compras realizadas na plataforma"
+    description: |
+      Modelo incremental (unique_key = review_id) com as avaliações de pedidos feitas pelos clientes.
+
+      **Grão**
+      - Uma linha por review_id
     schema: olist
     columns:
       - name: order_id
