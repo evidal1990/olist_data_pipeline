@@ -81,7 +81,7 @@ models:
         tests: 
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
-                min_value: 0
+                min_value: -90
                 max_value: 90
       - name: geolocation_lng
         description: "Coordenada geográfica que especifica a posição leste-oeste de qualquer ponto da Terra"
@@ -89,7 +89,7 @@ models:
         tests: 
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
-                min_value: 0
+                min_value: -180
                 max_value: 180
       - name: updated_at
         description: "Data da última atualização do registro"
