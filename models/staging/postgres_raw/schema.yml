@@ -68,6 +68,12 @@ models:
       **Observações**
       - Conforme o relatório da Bronze (M2), a fonte tem ~52 registros por CEP (1.000.163 linhas para 19.015 CEPs únicos), portanto o grão pretendido não é por CEP.
     schema: olist
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - geolocation_lat
+              - geolocation_lng
     columns:
       - name: geolocation_zip_code_prefix
         description: "Código postal utilizado para identificar um endereço"
@@ -317,6 +323,12 @@ models:
       **Grão**
       - Uma linha por item do pedido.
     schema: olist
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - order_id
+              - order_item_id
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -392,6 +404,12 @@ models:
       **Observações**
       - Um pedido pode ter múltiplos pagamentos (parcelas/formas de pagamento combinadas), diferenciados por payment_sequential
     schema: olist
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - order_id
+              - payment_sequential
     columns:
       - name: order_id
         description: "Código único de uma compra"

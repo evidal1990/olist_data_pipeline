@@ -1,6 +1,6 @@
 {{ config(
     materialized = 'incremental', 
-    unique_key = ('geolocation_zip_code_prefix', 'geolocation_lat', 'geolocation_lng', 'geolocation_city', 'geolocation_state'),
+    unique_key = ('geolocation_lat', 'geolocation_lng'),
     on_schema_change = 'fail'
 ) }}
 
