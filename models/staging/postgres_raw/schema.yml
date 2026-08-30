@@ -47,6 +47,34 @@ models:
         data_type: STRING
         tests:
           - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - AC
+                  - AL
+                  - AP
+                  - AM
+                  - BA
+                  - CE
+                  - DF
+                  - ES
+                  - GO
+                  - MA
+                  - MT
+                  - MS
+                  - MG
+                  - PA
+                  - PB
+                  - PR
+                  - RJ
+                  - RN
+                  - RS
+                  - RO
+                  - RR
+                  - SC
+                  - SP
+                  - SE
+                  - TO
       - name: is_active
         description: "Indica se o cliente está ativo ou não"
         data_type: BOOLEAN
@@ -88,6 +116,34 @@ models:
         data_type: STRING
         tests:
           - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - AC
+                  - AL
+                  - AP
+                  - AM
+                  - BA
+                  - CE
+                  - DF
+                  - ES
+                  - GO
+                  - MA
+                  - MT
+                  - MS
+                  - MG
+                  - PA
+                  - PB
+                  - PR
+                  - RJ
+                  - RN
+                  - RS
+                  - RO
+                  - RR
+                  - SC
+                  - SP
+                  - SE
+                  - TO
       - name: geolocation_city
         description: "Refere-se a uma cidade brasileira"
         data_type: STRING
@@ -230,6 +286,34 @@ models:
         data_type: STRING
         tests:
           - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - AC
+                  - AL
+                  - AP
+                  - AM
+                  - BA
+                  - CE
+                  - DF
+                  - ES
+                  - GO
+                  - MA
+                  - MT
+                  - MS
+                  - MG
+                  - PA
+                  - PB
+                  - PR
+                  - RJ
+                  - RN
+                  - RS
+                  - RO
+                  - RR
+                  - SC
+                  - SP
+                  - SE
+                  - TO
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
