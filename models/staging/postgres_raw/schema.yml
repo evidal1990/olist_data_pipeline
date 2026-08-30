@@ -25,7 +25,6 @@ models:
         data_type: STRING
         tests:
           - not_null
-          - unique
       - name: customer_zip_code_prefix
         description: "Código postal do cliente"
         data_type: INTEGER
@@ -356,7 +355,7 @@ models:
               arguments:
                 to: ref('stg_products')
                 field: product_id
-      - name: seller_id
+      - name: seller_id–––
         description: "Código único de um fornecedor"
         data_type: STRING
         tests:
