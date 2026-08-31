@@ -34,6 +34,10 @@ models:
               arguments:
                 min_value: 1000
                 max_value: 99999
+          - relationships:
+              arguments:
+                to: ref('stg_geolocation')
+                field: geolocation_zip_code_prefix
       - name: customer_city
         description: "Cidade onde o cliente reside"
         data_type: STRING
@@ -273,6 +277,10 @@ models:
               arguments:
                 min_value: 1000
                 max_value: 99999
+          - relationships:
+              arguments:
+                to: ref('stg_geolocation')
+                field: geolocation_zip_code_prefix
       - name: seller_city
         description: "Cidade onde o fornecedor está localizado"
         data_type: STRING
