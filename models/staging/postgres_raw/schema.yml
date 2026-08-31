@@ -70,6 +70,8 @@ models:
                   - PA
                   - PB
                   - PR
+                  - PE
+                  - PI
                   - RJ
                   - RN
                   - RS
@@ -83,7 +85,12 @@ models:
         description: "Indica se o cliente está ativo ou não"
         data_type: BOOLEAN
         tests:
-          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - True
+                  - False
+                quote: false
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
@@ -137,6 +144,8 @@ models:
                   - MS
                   - MG
                   - PA
+                  - PE
+                  - PI
                   - PB
                   - PR
                   - RJ
@@ -313,6 +322,8 @@ models:
                   - PA
                   - PB
                   - PR
+                  - PE
+                  - PI
                   - RJ
                   - RN
                   - RS
