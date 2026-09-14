@@ -190,6 +190,7 @@ models:
         description: "Distância, medida em graus, de qualquer ponto da Terra até a linha do Equador"
         data_type: NUMERIC
         tests: 
+          - not_null
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: -90
@@ -198,6 +199,7 @@ models:
         description: "Coordenada geográfica que especifica a posição leste-oeste de qualquer ponto da Terra"
         data_type: NUMERIC
         tests: 
+          - not_null
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: -180
