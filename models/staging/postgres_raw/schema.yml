@@ -193,8 +193,8 @@ models:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
-                min_value: -90
-                max_value: 90
+                min_value: -35.0
+                max_value: 6.0
       - name: geolocation_lng
         description: "Coordenada geográfica que especifica a posição leste-oeste de qualquer ponto da Terra"
         data_type: NUMERIC
@@ -202,8 +202,8 @@ models:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
-                min_value: -180
-                max_value: 180
+                min_value: -75.0
+                max_value: -30.0
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
