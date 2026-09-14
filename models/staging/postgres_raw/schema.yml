@@ -13,6 +13,12 @@ models:
       - Um mesmo consumidor pode possuir múltiplos customer_id.
       - O agrupamento do consumidor é realizado por customer_unique_id.
     schema: olist
+    tests:
+      # RQ-BR-02 (Bronze): olist_customers >= 314.000. Sem max_value pois o
+      # modelo é incremental (merge por customer_id) e a contagem só deve crescer.
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments:
+            min_value: 314000
     columns:
       - name: customer_id
         description: "Identificador do cliente"
@@ -112,6 +118,11 @@ models:
             combination_of_columns:
               - geolocation_lat
               - geolocation_lng
+      # RQ-BR-02 (Bronze): olist_geolocation >= 1.000.000. Sem max_value pois o
+      # modelo é incremental (merge por geolocation_lat, geolocation_lng) e a contagem só deve crescer.
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments:
+            min_value: 1000000
     columns:
       - name: geolocation_zip_code_prefix
         description: "Código postal utilizado para identificar um endereço"
@@ -193,6 +204,12 @@ models:
       **Grão**
       - Uma linha por product_id.
     schema: olist
+    # RQ-BR-02 (Bronze): olist_products >= 113.000. Sem max_value pois o
+    # modelo é incremental (merge por product_id) e a contagem só deve crescer.
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments:
+            min_value: 113000
     columns:
       - name: product_id
         description: "Código único de um produto"
@@ -270,6 +287,12 @@ models:
       **Grão**
       - Uma linha por seller_id.
     schema: olist
+    # RQ-BR-02 (Bronze): olist_sellers >= 8500. Sem max_value pois o
+    # modelo é incremental (merge por seller_id) e a contagem só deve crescer.
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments:
+            min_value: 8500  
     columns:
       - name: seller_id
         description: "Código único de um fornecedor"
@@ -345,6 +368,12 @@ models:
       **Grão**
       - Uma linha por order_id.
     schema: olist
+    tests:
+      # RQ-BR-02 (Bronze): olist_orders >= 450.000. Sem max_value pois o
+      # modelo é incremental (merge por order_id) e a contagem só deve crescer.
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments:
+            min_value: 450000
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -431,6 +460,11 @@ models:
             combination_of_columns:
               - order_id
               - order_item_id
+      # RQ-BR-02 (Bronze): olist_order_items >= 740.000. Sem max_value pois o
+      # modelo é incremental (merge por order_id + order_item_id) e a contagem só deve crescer.
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments:
+            min_value: 740000
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -458,7 +492,7 @@ models:
               arguments:
                 to: ref('stg_products')
                 field: product_id
-      - name: seller_id–––
+      - name: seller_id
         description: "Código único de um fornecedor"
         data_type: STRING
         tests:
@@ -512,6 +546,11 @@ models:
             combination_of_columns:
               - order_id
               - payment_sequential
+        # RQ-BR-02 (Bronze): olist_order_payments >= 530.000. Sem max_value pois o
+        # modelo é incremental (merge por order_id + payment_sequential) e a contagem só deve crescer.
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments:
+            min_value: 530000
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -570,6 +609,12 @@ models:
       **Grão**
       - Uma linha por review_id
     schema: olist
+    # RQ-BR-02 (Bronze): olist_order_reviews >= 336.000. Sem max_value pois o
+    # modelo é incremental (merge por review_id) e a contagem só deve crescer.
+    tests:
+      - dbt_expectations.expect_table_row_count_to_be_between:
+          arguments:
+            min_value: 336000
     columns:
       - name: order_id
         description: "Código único de uma compra"
