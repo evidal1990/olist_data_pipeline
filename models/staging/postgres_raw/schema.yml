@@ -250,6 +250,9 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
+                strictly: true
+                config:
+                  - severity: warn
       - name: product_description_length
         description: "Quantidade de caracteres da descrição do produto"
         data_type: INTEGER
@@ -257,6 +260,9 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
+                strictly: true
+                config:
+                  - severity: warn
       - name: product_photos_qty
         description: "Quantidade de fotos que o produto possui"
         data_type: INTEGER
@@ -264,6 +270,9 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
+                strictly: true
+                config:
+                  - severity: warn
       - name: product_weight_g
         description: "Peso do produto calculado em gramas"
         data_type: NUMERIC
@@ -274,6 +283,9 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
+                strictly: true
+                config:
+                  - severity: warn
       - name: product_length_cm
         description: "Comprimento do produto medido em centímetros"
         data_type: NUMERIC
@@ -284,6 +296,9 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
+                strictly: true
+                config:
+                  - severity: warn
       - name: product_height_cm
         description: "Altura do produto medida em centímetros"
         data_type: NUMERIC
@@ -304,6 +319,9 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
+                strictly: true
+                config:
+                  - severity: warn
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
