@@ -233,16 +233,16 @@ models:
         data_type: STRING
         tests:
           - not_null:
-            - config:
-              - severity: error
+              config:
+                severity: error
           - unique
       - name: product_category_name
         description: "Nome da categoria de um produto"
         data_type: STRING
         tests:
           - not_null:
-            - config:
-              - severity: warn
+              config:
+                severity: warn
       - name: product_name_length
         description: "Quantidade de caracteres do nome do produto"
         data_type: INTEGER
@@ -251,8 +251,8 @@ models:
               arguments:
                 min_value: 0
                 strictly: true
-                config:
-                  - severity: warn
+              config:
+                severity: warn
       - name: product_description_length
         description: "Quantidade de caracteres da descrição do produto"
         data_type: INTEGER
@@ -261,77 +261,108 @@ models:
               arguments:
                 min_value: 0
                 strictly: true
-                config:
-                  - severity: warn
+              config:
+                severity: warn
       - name: product_photos_qty
         description: "Quantidade de fotos que o produto possui"
         data_type: INTEGER
         tests:
           - not_null:
-            - config:
-              - severity: warn
+              config:
+                severity: warn
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
                 strictly: true
-                config:
-                  - severity: warn
+              config:
+                severity: warn
       - name: product_weight_g
         description: "Peso do produto calculado em gramas"
         data_type: NUMERIC
         tests:
           - not_null:
-            - config:
-              - severity: warn
+              config:
+                severity: warn
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
                 strictly: true
-                config:
-                  - severity: warn
+              config:
+                severity: warn
+          # max_value = 30000g: limite de postagem para encomenda nos Correios
+          # (SEDEX/PAC). Teto não-estrito (<=): só flagra quem excede o limite,
+          # não quem está exatamente nele (502 produtos de categorias não
+          # relacionadas convergem para 30000g — provável valor-sentinela de
+          # cadastro, mas isso é um risco separado, não tratado aqui).
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                max_value: 30000
+              config:
+                severity: warn
       - name: product_length_cm
         description: "Comprimento do produto medido em centímetros"
         data_type: NUMERIC
         tests:
           - not_null:
-            - config:
-              - severity: warn
+              config:
+                severity: warn
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
                 strictly: true
-                config:
-                  - severity: warn
+              config:
+                severity: warn
+          # max_value = 105cm: maior lado aceito para encomenda nos Correios;
+          # teto não-estrito (<=) para não flagrar os produtos legitimamente
+          # cadastrados no limite exato.
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                max_value: 105
+              config:
+                severity: warn
       - name: product_height_cm
         description: "Altura do produto medida em centímetros"
         data_type: NUMERIC
         tests:
           - not_null:
-            - config:
-              - severity: warn
+              config:
+                severity: warn
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
+                strictly: true
+              config:
+                severity: warn
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                max_value: 105
+              config:
+                severity: warn
       - name: product_width_cm
         description: "Largura do produto medida em centímetros"
         data_type: NUMERIC
         tests:
           - not_null:
-            - config:
-              - severity: warn
+              config:
+                severity: warn
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
                 strictly: true
-                config:
-                  - severity: warn
+              config:
+                severity: warn
+          - dbt_expectations.expect_column_values_to_be_between:
+              arguments:
+                max_value: 105
+              config:
+                severity: warn
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
         tests:
           - not_null:
-            - config:
-              - severity: error
+              config:
+                severity: error
   - name: stg_sellers
     description: |
       Modelo incremental (unique_key = seller_id) com o cadastro de vendedores.
