@@ -19,11 +19,11 @@ models:
       - dbt_expectations.expect_table_row_count_to_be_between:
           arguments:
             min_value: 314000
-      - dbt.utils.recency:
+      - dbt_utils.recency:
           arguments:
-            column: updated_at
-            recency_type: day
-            recency_value: 1
+            field: updated_at
+            datepart: day
+            interval: 1
     columns:
       - name: customer_id
         description: "Identificador do cliente"
@@ -128,11 +128,11 @@ models:
       - dbt_expectations.expect_table_row_count_to_be_between:
           arguments:
             min_value: 1000000
-      - dbt.utils.recency:
+      - dbt_utils.recency:
           arguments:
-            column: updated_at
-            recency_type: day
-            recency_value: 1
+            field: updated_at
+            datepart: day
+            interval: 1
     columns:
       - name: geolocation_zip_code_prefix
         description: "Código postal utilizado para identificar um endereço"
@@ -222,11 +222,11 @@ models:
       - dbt_expectations.expect_table_row_count_to_be_between:
           arguments:
             min_value: 113000
-      - dbt.utils.recency:
+      - dbt_utils.recency:
           arguments:
-            column: updated_at
-            recency_type: day
-            recency_value: 1
+            field: updated_at
+            datepart: day
+            interval: 1
     columns:
       - name: product_id
         description: "Código único de um produto"
@@ -310,11 +310,11 @@ models:
       - dbt_expectations.expect_table_row_count_to_be_between:
           arguments:
             min_value: 8500  
-      - dbt.utils.recency:
+      - dbt_utils.recency:
           arguments:
-            column: updated_at
-            recency_type: day
-            recency_value: 1
+            field: updated_at
+            datepart: day
+            interval: 1
     columns:
       - name: seller_id
         description: "Código único de um fornecedor"
@@ -396,11 +396,11 @@ models:
       - dbt_expectations.expect_table_row_count_to_be_between:
           arguments:
             min_value: 450000
-      - dbt.utils.recency:
+      - dbt_utils.recency:
           arguments:
-            column: updated_at
-            recency_type: day
-            recency_value: 1
+            field: updated_at
+            datepart: day
+            interval: 1
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -492,11 +492,11 @@ models:
       - dbt_expectations.expect_table_row_count_to_be_between:
           arguments:
             min_value: 740000
-      - dbt.utils.recency:
+      - dbt_utils.recency:
           arguments:
-            column: updated_at
-            recency_type: day
-            recency_value: 1
+            field: updated_at
+            datepart: day
+            interval: 1
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -583,11 +583,11 @@ models:
       - dbt_expectations.expect_table_row_count_to_be_between:
           arguments:
             min_value: 530000
-      - dbt.utils.recency:
+      - dbt_utils.recency:
           arguments:
-            column: updated_at
-            recency_type: day
-            recency_value: 1
+            field: updated_at
+            datepart: day
+            interval: 1
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -652,11 +652,11 @@ models:
       - dbt_expectations.expect_table_row_count_to_be_between:
           arguments:
             min_value: 336000
-      - dbt.utils.recency:
+      - dbt_utils.recency:
           arguments:
-            column: updated_at
-            recency_type: day
-            recency_value: 1
+            field: updated_at
+            datepart: day
+            interval: 1
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -708,8 +708,3 @@ models:
         data_type: TIMESTAMP
         tests:
           - not_null
-          - dbt.utils.recency:
-              arguments:
-                column: updated_at
-                recency_type: day
-                recency_value: 1
