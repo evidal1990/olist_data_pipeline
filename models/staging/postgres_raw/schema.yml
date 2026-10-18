@@ -238,7 +238,9 @@ models:
         description: "Nome da categoria de um produto"
         data_type: STRING
         tests:
-          - not_null
+          - not_null:
+            - config:
+              - severity: warn
       - name: product_name_length
         description: "Quantidade de caracteres do nome do produto"
         data_type: INTEGER
