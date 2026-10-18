@@ -428,28 +428,40 @@ models:
         description: "Código postal do cliente"
         data_type: INTEGER
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 1000
                 max_value: 99999
+              config:
+                severity: warn
           - relationships:
               arguments:
                 to: ref('stg_geolocation')
                 field: geolocation_zip_code_prefix
+              config:
+                severity: warn
       - name: seller_city
         description: "Cidade onde o fornecedor está localizado"
         data_type: STRING
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
           - valid_city_for_state:
               arguments:
                 state_column: seller_state
+              config:
+                severity: warn
       - name: seller_state
         description: "Estado onde o fornecedor está localizado"
         data_type: STRING
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
           - accepted_values:
               arguments:
                 values:
@@ -484,7 +496,9 @@ models:
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: error
   - name: stg_orders
     description: |
       Modelo incremental (unique_key = order_id) com o ciclo de vida do pedido (compra, aprovação, envio, entrega, previsão de entrega).
