@@ -23,7 +23,7 @@ models:
           arguments:
             field: updated_at
             datepart: day
-stg_            interval: 1
+            interval: 1
     columns:
       - name: customer_id
         description: "Identificador do cliente"
@@ -517,6 +517,24 @@ stg_            interval: 1
             field: updated_at
             datepart: day
             interval: 1
+      - dbt_utils.expression_is_true:
+          name: check_order_funnel_integrity
+          arguments:
+            expression: >
+              order_purchase_timestamp <= order_approved_at
+              and order_approved_at <= order_delivered_carrier_date
+              and order_delivered_carrier_date <= order_delivered_customer_date
+          config:
+            severity: warn
+      # RQ-SV-07 / achado A5 (Bronze): despacho deve ser estritamente anterior
+      # à entrega. Separado do funil porque compra = aprovação no mesmo
+      # instante é legítimo (aprovação automática) e não deve gerar falha.
+      - dbt_utils.expression_is_true:
+          name: check_carrier_before_customer_delivery
+          arguments:
+            expression: "order_delivered_carrier_date < order_delivered_customer_date"
+          config:
+            severity: warn
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -529,8 +547,8 @@ stg_            interval: 1
         data_type: STRING
         tests:
           - not_null:
-            config:
-              severity: warn
+              config:
+                severity: warn
           - relationships:
               arguments:
                 to: ref('stg_customers')
