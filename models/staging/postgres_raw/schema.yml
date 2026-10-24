@@ -582,45 +582,58 @@ models:
           - not_null:
               config:
                 severity: warn
+          # max_value = current_datetime(): uma compra não pode estar no futuro;
+          # datas futuras indicam erro de ingestão/carga e distorcem as séries temporais.
+          # current_datetime() (e não current_timestamp()) porque a coluna é DATETIME.
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+                max_value: "current_datetime()"
               config:
                 severity: warn
       - name: order_approved_at
         description: "Data em que a compra foi aprovada após o pagamento"
         data_type: DATETIME
         tests: 
+          # max_value = current_datetime(): datas futuras indicam erro de ingestão/carga.
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+                max_value: "current_datetime()"
               config:
                 severity: warn
       - name: order_delivered_carrier_date
         description: "Data em que a compra foi entregue à transportadora pelo fornecedor"
         data_type: DATETIME
         tests: 
+          # max_value = current_datetime(): um despacho não pode estar no futuro.
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+                max_value: "current_datetime()"
               config:
                 severity: warn
       - name: order_estimated_delivery_date
         description: "Data em que a compra está prevista para ser entregue ao cliente"
         data_type: DATETIME
         tests: 
+          # max_value = hoje + 90 dias: a previsão pode ser futura em pedidos em trânsito;
+          # a folga evita falso positivo e ainda captura datas absurdas (erro de carga).
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+                max_value: "datetime_add(current_datetime(), interval 90 day)"
               config:
                 severity: warn
       - name: order_delivered_customer_date
         description: "Data em que a compra foi entregue ao cliente"
         data_type: DATETIME
         tests:
+          # max_value = current_datetime(): uma entrega registrada no futuro é erro de carga.
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+                max_value: "current_datetime()"
               config:
                 severity: warn
       - name: updated_at
@@ -843,9 +856,11 @@ models:
         data_type: DATETIME
         tests:
           - not_null
+          # max_value = current_datetime(): datas futuras indicam erro de ingestão.
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+                max_value: "current_datetime()"
       - name: review_comment_message
         description: "Mensagem do comentário deixado na avaliação de uma compra"
         data_type: STRING
@@ -854,9 +869,11 @@ models:
         data_type: DATETIME
         
         tests: 
+          # max_value = current_datetime(): datas futuras indicam erro de ingestão.
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+                max_value: "current_datetime()"
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
