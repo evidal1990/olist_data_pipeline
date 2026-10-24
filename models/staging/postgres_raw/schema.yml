@@ -625,6 +625,13 @@ models:
                 max_value: "datetime_add(current_datetime(), interval 90 day)"
               config:
                 severity: warn
+          # RQ-SV-01/C2 (Bronze): pedido entregue precisa da data prevista para
+          # o cálculo de OTD/OTIF. Corrigido na fonte; o teste trava a regressão.
+          - not_null:
+              name: check_estimated_delivery_date_not_null_when_delivered
+              config:
+                where: "order_status = 'delivered'"
+                severity: warn
       - name: order_delivered_customer_date
         description: "Data em que a compra foi entregue ao cliente"
         data_type: DATETIME
@@ -635,6 +642,13 @@ models:
                 min_value: "'2016-01-01 00:00:00'"
                 max_value: "current_datetime()"
               config:
+                severity: warn
+          # RQ-SV-01/C1 (Bronze): pedido entregue precisa da data de entrega para
+          # o cálculo de OTD/OTIF/Lead Time. Corrigido na fonte; o teste trava a regressão.
+          - not_null:
+              name: check_delivered_customer_date_not_null_when_delivered
+              config:
+                where: "order_status = 'delivered'"
                 severity: warn
       - name: updated_at
         description: "Data da última atualização do registro"
