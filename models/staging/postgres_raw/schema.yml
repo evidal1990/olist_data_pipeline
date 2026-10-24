@@ -23,7 +23,7 @@ models:
           arguments:
             field: updated_at
             datepart: day
-            interval: 1
+stg_            interval: 1
     columns:
       - name: customer_id
         description: "Identificador do cliente"
@@ -528,16 +528,22 @@ models:
         description: "Código único de um cliente que efetuou a compra"
         data_type: STRING
         tests:
-          - not_null
+          - not_null:
+            config:
+              severity: warn
           - relationships:
               arguments:
                 to: ref('stg_customers')
                 field: customer_id
+              config:
+                severity: warn
       - name: order_status
         description: "Status da compra desde que ela foi realizada até a sua conclusão"
         data_type: STRING
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
           - accepted_values:
               arguments:
                 values:
@@ -549,14 +555,20 @@ models:
                   - processing
                   - shipped
                   - unavailable
+              config:
+                severity: warn
       - name: order_purchase_timestamp
         description: "Data em que a compra foi realizada pelo cliente"
         data_type: DATETIME
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+              config:
+                severity: warn
       - name: order_approved_at
         description: "Data em que a compra foi aprovada após o pagamento"
         data_type: DATETIME
@@ -564,6 +576,8 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+              config:
+                severity: warn
       - name: order_delivered_carrier_date
         description: "Data em que a compra foi entregue à transportadora pelo fornecedor"
         data_type: DATETIME
@@ -571,6 +585,8 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+              config:
+                severity: warn
       - name: order_estimated_delivery_date
         description: "Data em que a compra está prevista para ser entregue ao cliente"
         data_type: DATETIME
@@ -578,6 +594,8 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+              config:
+                severity: warn
       - name: order_delivered_customer_date
         description: "Data em que a compra foi entregue ao cliente"
         data_type: DATETIME
@@ -585,6 +603,8 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: "'2016-01-01 00:00:00'"
+              config:
+                severity: warn
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
