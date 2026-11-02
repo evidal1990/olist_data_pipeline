@@ -870,6 +870,7 @@ models:
         data_type: STRING
         tests:
           - not_null
+          - unique
       - name: review_score
         description: "Nota de avaliação de uma compra em um range de 1 a 5"
         data_type: INTEGER
