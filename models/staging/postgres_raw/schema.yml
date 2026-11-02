@@ -839,9 +839,12 @@ models:
           - not_null:
               config:
                 severity: warn
+          # RQ-SV-04 / achado A4 (Bronze): pagamento deve ser estritamente positivo.
+          # Limite em 0 (e não em 1) porque valores baixos são válidos: 1.527
+          # pagamentos positivos de até R$ 1. Warn até o financeiro validar os zeros.
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
-                min_value: 1
+                min_value: 0
                 strictly: true
               config:
                 severity: warn
