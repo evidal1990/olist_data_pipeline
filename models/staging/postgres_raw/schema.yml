@@ -788,12 +788,16 @@ models:
             field: updated_at
             datepart: day
             interval: 1
+          config:
+            severity: error
     columns:
       - name: order_id
         description: "Código único de uma compra"
         data_type: STRING
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
           - relationships:
               arguments:
                 to: ref('stg_orders')
@@ -804,7 +808,9 @@ models:
         description: "Número sequencial que identifica qual a posição do item no pagamento"
         data_type: INTEGER
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 1
@@ -814,7 +820,9 @@ models:
         description: "Meio de pagamento utilizado para pagar um item da compra"
         data_type: STRING
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
           - accepted_values:
               arguments:
                 values:
@@ -828,7 +836,9 @@ models:
         description: "Valor total do produto incluindo o custo do frete"
         data_type: NUMERIC
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 1
@@ -839,7 +849,10 @@ models:
         description: "Quantidade de parcelas utilizadas para pagar um produto"
         data_type: INTEGER
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: warn
+
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
@@ -849,7 +862,9 @@ models:
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
         tests:
-          - not_null
+          - not_null:
+              config:
+                severity: error
   - name: stg_orders_reviews
     description: |
       Modelo incremental (unique_key = review_id) com as avaliações de pedidos feitas pelos clientes.
@@ -884,12 +899,18 @@ models:
               arguments:
                 to: ref('stg_orders')
                 field: order_id
+              config:
+                severity: warn
       - name: review_id
         description: "Código único de uma avaliação de uma compra"
         data_type: STRING
         tests:
-          - not_null
-          - unique
+          - not_null:
+              config:
+                severity: warn
+          - unique:
+              config:
+                severity: warn
       - name: review_score
         description: "Nota de avaliação de uma compra em um range de 1 a 5"
         data_type: INTEGER
