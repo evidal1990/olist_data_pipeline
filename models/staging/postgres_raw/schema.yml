@@ -823,7 +823,8 @@ models:
           - not_null
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
-                min_value: 0
+                min_value: 1
+                strictly: true
       - name: payment_installments
         description: "Quantidade de parcelas utilizadas para pagar um produto"
         data_type: INTEGER
