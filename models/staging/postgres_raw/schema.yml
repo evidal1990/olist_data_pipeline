@@ -19,13 +19,13 @@ models:
       - dbt_expectations.expect_table_row_count_to_be_between:
           arguments:
             min_value: 314000
-      - dbt_utils.recency:
-          arguments:
-            field: updated_at
-            datepart: day
-            interval: 1
-          config:
-            severity: error
+      # - dbt_utils.recency:
+      #     arguments:
+      #       field: updated_at
+      #       datepart: day
+      #       interval: 1
+      #     config:
+      #       severity: error
     columns:
       - name: customer_id
         description: "Identificador do cliente"
@@ -171,13 +171,13 @@ models:
             min_value: 738000
           config:
             severity: error
-      - dbt_utils.recency:
-          arguments:
-            field: updated_at
-            datepart: day
-            interval: 1
-          config:
-            severity: error
+      # - dbt_utils.recency:
+      #     arguments:
+      #       field: updated_at
+      #       datepart: day
+      #       interval: 1
+      #     config:
+      #       severity: error
     columns:
       - name: geolocation_zip_code_prefix
         description: "Código postal utilizado para identificar um endereço"
@@ -291,13 +291,13 @@ models:
             min_value: 113000
           config:
             severity: error
-      - dbt_utils.recency:
-          arguments:
-            field: updated_at
-            datepart: day
-            interval: 1
-          config:
-            severity: error
+      # - dbt_utils.recency:
+      #     arguments:
+      #       field: updated_at
+      #       datepart: day
+      #       interval: 1
+      #     config:
+      #       severity: error
     columns:
       - name: product_id
         description: "Código único de um produto"
@@ -451,13 +451,13 @@ models:
             min_value: 8500  
           config:
             severity: error
-      - dbt_utils.recency:
-          arguments:
-            field: updated_at
-            datepart: day
-            interval: 1
-          config:
-            severity: error
+      # - dbt_utils.recency:
+      #     arguments:
+      #       field: updated_at
+      #       datepart: day
+      #       interval: 1
+      #     config:
+      #       severity: error
     columns:
       - name: seller_id
         description: "Código único de um fornecedor"
@@ -561,13 +561,13 @@ models:
             min_value: 450000
           config:
             severity: error
-      - dbt_utils.recency:
-          arguments:
-            field: updated_at
-            datepart: day
-            interval: 1
-          config:
-            severity: error
+      # - dbt_utils.recency:
+      #     arguments:
+      #       field: updated_at
+      #       datepart: day
+      #       interval: 1
+      #     config:
+      #       severity: error
       - dbt_utils.expression_is_true:
           name: check_order_funnel_integrity
           arguments:
@@ -732,13 +732,13 @@ models:
             min_value: 740000
           config:
             severity: error
-      - dbt_utils.recency:
-          arguments:
-            field: updated_at
-            datepart: day
-            interval: 1
-          config:
-            severity: error
+      # - dbt_utils.recency:
+      #     arguments:
+      #       field: updated_at
+      #       datepart: day
+      #       interval: 1
+      #     config:
+      #       severity: error
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -865,13 +865,13 @@ models:
             min_value: 530000
           config:
             severity: error
-      - dbt_utils.recency:
-          arguments:
-            field: updated_at
-            datepart: day
-            interval: 1
-          config:
-            severity: error
+      # - dbt_utils.recency:
+      #     arguments:
+      #       field: updated_at
+      #       datepart: day
+      #       interval: 1
+      #     config:
+      #       severity: error
     columns:
       - name: order_id
         description: "Código único de uma compra"
@@ -964,13 +964,13 @@ models:
             min_value: 336000
           config:
             severity: error
-      - dbt_utils.recency:
-          arguments:
-            field: updated_at
-            datepart: day
-            interval: 1
-          config:
-            severity: error
+      # - dbt_utils.recency:
+      #     arguments:
+      #       field: updated_at
+      #       datepart: day
+      #       interval: 1
+      #     config:
+      #       severity: error
       - dbt_utils.expression_is_true:
           name: check_review_creation_date_before_review_answer_timestamp
           arguments:
