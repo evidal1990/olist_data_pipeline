@@ -14,8 +14,8 @@ select
     geolocation_zip_code_prefix,
     geolocation_lat,
     geolocation_lng,
-    geolocation_city,
-    geolocation_state,
+    {{ clean_text('geolocation_city') }} as geolocation_city,
+    trim(geolocation_state) as geolocation_state,
     cast(updated_at as timestamp) as updated_at
 from {{ source('postgres_raw', 'olist_geolocation') }}
 

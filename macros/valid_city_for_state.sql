@@ -1,19 +1,27 @@
-{% macro _strip_accents(expr) -%}
-translate(lower({{ expr }}), 'áàâãäéèêëíìîïóòôõöúùûüç', 'aaaaaeeeeiiiiooooouuuuc')
+{#
+    Chave de comparação de nomes de cidade: minúsculas, sem acento,
+    apóstrofo tratado como espaço e espaços repetidos reduzidos a um.
+    Ex.: 'Itapejara D''Oeste' e 'itapejara d  oeste' -> 'itapejara d oeste'
+#}
+{% macro _city_key(expr) -%}
+{#- apóstrofo como literal: no BigQuery '' não escapa aspas, então usamos "'" -#}
+{%- set apostrophe = "chr(39)" if target.type == 'postgres' else '"\'"' -%}
+{{ clean_text("replace(translate(lower(" ~ expr ~ "), 'áàâãäéèêëíìîïóòôõöúùûüç', 'aaaaaeeeeiiiiooooouuuuc'), " ~ apostrophe ~ ", ' ')") }}
 {%- endmacro %}
 
 {% test valid_city_for_state(model, column_name, state_column) %}
 
 -- O seed brazilian_cities guarda os nomes oficiais com acento (IBGE),
--- enquanto as fontes do Olist trazem as cidades sem acento.
--- A comparação ignora acentos dos dois lados.
+-- enquanto as fontes do Olist trazem as cidades sem acento, às vezes com
+-- o apóstrofo trocado por espaço (d'oeste -> d oeste).
+-- A comparação ignora maiúsculas, acentos, apóstrofos e espaços repetidos.
 select *
 from {{ model }} m
 where {{ column_name }} is not null
 and not exists (
     select 1
     from {{ ref('brazilian_cities') }} c
-    where {{ _strip_accents('c.cidade') }} = {{ _strip_accents('m.' ~ column_name) }}
+    where {{ _city_key('c.cidade') }} = {{ _city_key('m.' ~ column_name) }}
       and c.estado = m.{{ state_column }}
 )
 

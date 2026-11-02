@@ -8,7 +8,7 @@ select
     customer_id,
     customer_unique_id,
     customer_zip_code_prefix,
-    customer_city,
+    {{ clean_text('customer_city') }} as customer_city,
     customer_state,
     cast(is_active as boolean) as is_active,
     cast(updated_at as timestamp) as updated_at

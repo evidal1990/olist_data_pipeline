@@ -7,7 +7,7 @@
 select
     seller_id,
     seller_zip_code_prefix,
-    seller_city,
+    {{ clean_text('seller_city') }} as seller_city,
     seller_state,
     cast(updated_at as timestamp) as updated_at
 from {{ source('postgres_raw', 'olist_sellers') }}
