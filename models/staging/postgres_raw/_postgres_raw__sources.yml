@@ -24,3 +24,8 @@ sources:
       - name: olist_sellers
       - name: olist_geolocation
         freshness: null
+        tests:
+          # RQ-BR-02 (Bronze): olist_geolocation >= 1.000.000.
+          - dbt_expectations.expect_table_row_count_to_be_between:
+              arguments:
+                min_value: 1000000

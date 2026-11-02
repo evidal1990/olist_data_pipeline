@@ -123,15 +123,27 @@ models:
                 severity: error
   - name: stg_geolocation
     description: |
-      Modelo incremental (unique_key = (geolocation_lat, geolocation_lng)) com dados de geolocalização por CEP.
+      Modelo incremental (unique_key = (geolocation_zip_code_prefix, geolocation_lat, geolocation_lng, geolocation_city, geolocation_state)) com dados de geolocalização por CEP.
 
-      **Grão pretendido**
-      - uma linha por combinação (lat, lng)
+      **Grão**
+      - uma linha por combinação (zip, lat, lng, city, state), removendo apenas duplicatas exatas da fonte (ADR-0001)
 
       **Observações**
-      - Conforme o relatório da Bronze (M2), a fonte tem ~52 registros por CEP (1.000.163 linhas para 19.015 CEPs únicos), portanto o grão pretendido não é por CEP.
+      - Conforme o relatório da Bronze (M2), a fonte tem ~52 registros por CEP (1.000.163 linhas para 19.015 CEPs únicos), portanto o grão não é por CEP.
+      - Um mesmo par (lat, lng) pode aparecer com CEP, cidade ou UF diferentes, portanto o grão também não é por coordenada.
     schema: olist
     tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - geolocation_zip_code_prefix
+              - geolocation_lat
+              - geolocation_lng
+              - geolocation_city
+              - geolocation_state
+          config:
+            severity: error
+      # Monitora coordenadas compartilhadas por CEPs/cidades; não é a chave do modelo.
       - dbt_utils.unique_combination_of_columns:
           arguments:
             combination_of_columns:
@@ -139,11 +151,12 @@ models:
               - geolocation_lng
           config:
             severity: warn
-      # RQ-BR-02 (Bronze): olist_geolocation >= 1.000.000. Sem max_value pois o
-      # modelo é incremental (merge por geolocation_lat, geolocation_lng) e a contagem só deve crescer.
+      # Baseline da staging após remover duplicatas exatas (738.016 linhas). O limite
+      # de RQ-BR-02 (>= 1.000.000) é validado na source. Sem max_value pois o modelo
+      # é incremental e a contagem só deve crescer.
       - dbt_expectations.expect_table_row_count_to_be_between:
           arguments:
-            min_value: 1000000
+            min_value: 738000
       - dbt_utils.recency:
           arguments:
             field: updated_at
