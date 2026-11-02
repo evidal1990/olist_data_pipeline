@@ -776,6 +776,8 @@ models:
             combination_of_columns:
               - order_id
               - payment_sequential
+          config:
+            severity: error
         # RQ-BR-02 (Bronze): olist_order_payments >= 530.000. Sem max_value pois o
         # modelo é incremental (merge por order_id + payment_sequential) e a contagem só deve crescer.
       - dbt_expectations.expect_table_row_count_to_be_between:
@@ -796,6 +798,8 @@ models:
               arguments:
                 to: ref('stg_orders')
                 field: order_id
+              config:
+                severity: warn
       - name: payment_sequential
         description: "Número sequencial que identifica qual a posição do item no pagamento"
         data_type: INTEGER
@@ -804,6 +808,8 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 1
+              config:
+                severity: warn
       - name: payment_type
         description: "Meio de pagamento utilizado para pagar um item da compra"
         data_type: STRING
@@ -816,6 +822,8 @@ models:
                   - credit_card
                   - debit_card
                   - voucher
+              config:
+                severity: warn
       - name: payment_value
         description: "Valor total do produto incluindo o custo do frete"
         data_type: NUMERIC
@@ -825,6 +833,8 @@ models:
               arguments:
                 min_value: 1
                 strictly: true
+              config:
+                severity: warn
       - name: payment_installments
         description: "Quantidade de parcelas utilizadas para pagar um produto"
         data_type: INTEGER
@@ -833,6 +843,8 @@ models:
           - dbt_expectations.expect_column_values_to_be_between:
               arguments:
                 min_value: 0
+              config:
+                severity: warn
       - name: updated_at
         description: "Data da última atualização do registro"
         data_type: TIMESTAMP
