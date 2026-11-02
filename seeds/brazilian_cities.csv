@@ -1,17 +1,17 @@
 estado,cidade
-AC,acrelandia
+AC,acrelândia
 AC,assis brasil
-AC,brasileia
+AC,brasiléia
 AC,bujari
 AC,capixaba
 AC,cruzeiro do sul
-AC,epitaciolandia
-AC,feijo
-AC,jordao
+AC,epitaciolândia
+AC,feijó
+AC,jordão
 AC,manoel urbano
 AC,marechal thaumaturgo
-AC,mancio lima
-AC,placido de castro
+AC,mâncio lima
+AC,plácido de castro
 AC,porto acre
 AC,porto walter
 AC,rio branco
@@ -19,16 +19,16 @@ AC,rodrigues alves
 AC,santa rosa do purus
 AC,sena madureira
 AC,senador guiomard
-AC,tarauaca
+AC,tarauacá
 AC,xapuri
 AL,anadia
 AL,arapiraca
 AL,atalaia
-AL,barra de santo antonio
-AL,barra de sao miguel
+AL,barra de santo antônio
+AL,barra de são miguel
 AL,batalha
 AL,belo monte
-AL,belem
+AL,belém
 AL,boca da mata
 AL,branquinha
 AL,cacimbinhas
@@ -39,12 +39,12 @@ AL,campo grande
 AL,canapi
 AL,capela
 AL,carneiros
-AL,cha preta
-AL,coite do noia
-AL,colonia leopoldina
+AL,chã preta
+AL,coité do nóia
+AL,colônia leopoldina
 AL,coqueiro seco
 AL,coruripe
-AL,craibas
+AL,craíbas
 AL,delmiro gouveia
 AL,dois riachos
 AL,estrela de alagoas
@@ -56,17 +56,17 @@ AL,ibateguara
 AL,igaci
 AL,igreja nova
 AL,inhapi
-AL,jacare dos homens
-AL,jacuipe
+AL,jacaré dos homens
+AL,jacuípe
 AL,japaratinga
 AL,jaramataia
-AL,jequia da praia
+AL,jequiá da praia
 AL,joaquim gomes
-AL,jundia
+AL,jundiá
 AL,junqueiro
 AL,lagoa da canoa
 AL,limoeiro de anadia
-AL,maceio
+AL,maceió
 AL,major isidoro
 AL,mar vermelho
 AL,maragogi
@@ -76,58 +76,58 @@ AL,maribondo
 AL,mata grande
 AL,matriz de camaragibe
 AL,messias
-AL,minador do negrao
-AL,monteiropolis
+AL,minador do negrão
+AL,monteirópolis
 AL,murici
 AL,novo lino
-AL,olho d'agua grande
-AL,olho d'agua das flores
-AL,olho d'agua do casado
-AL,olivenca
+AL,olho d'água grande
+AL,olho d'água das flores
+AL,olho d'água do casado
+AL,olivença
 AL,ouro branco
 AL,palestina
-AL,palmeira dos indios
+AL,palmeira dos índios
 AL,pariconha
 AL,paripueira
 AL,passo de camaragibe
 AL,paulo jacinto
 AL,penedo
-AL,piacabucu
+AL,piaçabuçu
 AL,pilar
 AL,pindoba
 AL,piranhas
 AL,porto calvo
-AL,porto real do colegio
+AL,porto real do colégio
 AL,porto de pedras
-AL,poco das trincheiras
-AL,pao de acucar
+AL,poço das trincheiras
+AL,pão de açúcar
 AL,quebrangulo
 AL,rio largo
 AL,roteiro
 AL,santa luzia do norte
 AL,santana do ipanema
-AL,santana do mundau
+AL,santana do mundaú
 AL,satuba
 AL,senador rui palmeira
-AL,sao bras
-AL,sao jose da laje
-AL,sao jose da tapera
-AL,sao luis do quitunde
-AL,sao miguel dos campos
-AL,sao miguel dos milagres
-AL,sao sebastiao
+AL,são brás
+AL,são josé da laje
+AL,são josé da tapera
+AL,são luís do quitunde
+AL,são miguel dos campos
+AL,são miguel dos milagres
+AL,são sebastião
 AL,tanque d'arca
 AL,taquarana
-AL,teotonio vilela
+AL,teotônio vilela
 AL,traipu
-AL,uniao dos palmares
-AL,vicosa
-AL,agua branca
-AM,alvaraes
-AM,amatura
-AM,anama
+AL,união dos palmares
+AL,viçosa
+AL,água branca
+AM,alvarães
+AM,amaturá
+AM,anamã
 AM,anori
-AM,apui
+AM,apuí
 AM,atalaia do norte
 AM,autazes
 AM,barcelos
@@ -141,100 +141,100 @@ AM,caapiranga
 AM,canutama
 AM,carauari
 AM,careiro
-AM,careiro da varzea
+AM,careiro da várzea
 AM,coari
-AM,codajas
-AM,eirunepe
+AM,codajás
+AM,eirunepé
 AM,envira
 AM,fonte boa
-AM,guajara
-AM,humaita
+AM,guajará
+AM,humaitá
 AM,ipixuna
 AM,iranduba
 AM,itacoatiara
 AM,itamarati
 AM,itapiranga
-AM,japura
-AM,jurua
-AM,jutai
-AM,labrea
+AM,japurá
+AM,juruá
+AM,jutaí
+AM,lábrea
 AM,manacapuru
 AM,manaquiri
 AM,manaus
-AM,manicore
-AM,maraa
-AM,maues
-AM,nhamunda
+AM,manicoré
+AM,maraã
+AM,maués
+AM,nhamundá
 AM,nova olinda do norte
-AM,novo airao
-AM,novo aripuana
+AM,novo airão
+AM,novo aripuanã
 AM,parintins
 AM,pauini
 AM,presidente figueiredo
 AM,rio preto da eva
 AM,santa isabel do rio negro
-AM,santo antonio do ica
+AM,santo antônio do içá
 AM,silves
-AM,sao gabriel da cachoeira
-AM,sao paulo de olivenca
-AM,sao sebastiao do uatuma
+AM,são gabriel da cachoeira
+AM,são paulo de olivença
+AM,são sebastião do uatumã
 AM,tabatinga
-AM,tapaua
-AM,tefe
+AM,tapauá
+AM,tefé
 AM,tonantins
 AM,uarini
-AM,urucara
+AM,urucará
 AM,urucurituba
-AP,amapa
-AP,calcoene
+AP,amapá
+AP,calçoene
 AP,cutias
 AP,ferreira gomes
 AP,itaubal
 AP,laranjal do jari
-AP,macapa
-AP,mazagao
+AP,macapá
+AP,mazagão
 AP,oiapoque
 AP,pedra branca do amapari
 AP,porto grande
-AP,pracuuba
+AP,pracuúba
 AP,santana
 AP,serra do navio
 AP,tartarugalzinho
-AP,vitoria do jari
-BA,abare
-BA,abaira
+AP,vitória do jari
+BA,abaré
+BA,abaíra
 BA,acajutiba
 BA,adustina
 BA,aiquara
 BA,alagoinhas
-BA,alcobaca
+BA,alcobaça
 BA,almadina
 BA,amargosa
-BA,amelia rodrigues
-BA,america dourada
-BA,anage
-BA,andarai
+BA,amélia rodrigues
+BA,américa dourada
+BA,anagé
+BA,andaraí
 BA,andorinha
 BA,angical
 BA,anguera
 BA,antas
-BA,antonio cardoso
-BA,antonio goncalves
-BA,apora
+BA,antônio cardoso
+BA,antônio gonçalves
+BA,aporá
 BA,apuarema
 BA,aracatu
 BA,araci
 BA,aramari
 BA,arataca
-BA,aratuipe
-BA,aracas
+BA,aratuípe
+BA,araçás
 BA,aurelino leal
-BA,baianopolis
+BA,baianópolis
 BA,baixa grande
-BA,banzae
+BA,banzaê
 BA,barra
 BA,barra da estiva
-BA,barra do choca
+BA,barra do choça
 BA,barra do mendes
 BA,barra do rocha
 BA,barreiras
@@ -251,25 +251,25 @@ BA,bom jesus da serra
 BA,boninal
 BA,bonito
 BA,boquira
-BA,botupora
-BA,brejolandia
-BA,brejoes
-BA,brotas de macaubas
+BA,botuporã
+BA,brejolândia
+BA,brejões
+BA,brotas de macaúbas
 BA,brumado
 BA,buerarema
 BA,buritirama
 BA,caatiba
-BA,cabaceiras do paraguacu
+BA,cabaceiras do paraguaçu
 BA,cachoeira
-BA,cacule
+BA,caculé
 BA,caetanos
-BA,caetite
+BA,caetité
 BA,cafarnaum
 BA,cairu
-BA,caldeirao grande
+BA,caldeirão grande
 BA,camacan
 BA,camamu
-BA,camacari
+BA,camaçari
 BA,campo alegre de lourdes
 BA,campo formoso
 BA,canarana
@@ -277,132 +277,132 @@ BA,canavieiras
 BA,candeal
 BA,candeias
 BA,candiba
-BA,cansancao
+BA,cansanção
 BA,canudos
-BA,canapolis
+BA,canápolis
 BA,capela do alto alegre
 BA,capim grosso
 BA,caravelas
-BA,caraibas
+BA,caraíbas
 BA,cardeal da silva
 BA,carinhanha
 BA,casa nova
 BA,castro alves
-BA,catolandia
+BA,catolândia
 BA,catu
 BA,caturama
-BA,caem
+BA,caém
 BA,central
-BA,chorrocho
-BA,cipo
+BA,chorrochó
+BA,cipó
 BA,coaraci
 BA,cocos
-BA,conceicao da feira
-BA,conceicao do almeida
-BA,conceicao do coite
-BA,conceicao do jacuipe
+BA,conceição da feira
+BA,conceição do almeida
+BA,conceição do coité
+BA,conceição do jacuípe
 BA,conde
-BA,condeuba
-BA,contendas do sincora
-BA,coracao de maria
+BA,condeúba
+BA,contendas do sincorá
+BA,coração de maria
 BA,cordeiros
 BA,coribe
-BA,coronel joao sa
+BA,coronel joão sá
 BA,correntina
 BA,cotegipe
-BA,cravolandia
-BA,cristopolis
-BA,crisopolis
+BA,cravolândia
+BA,cristópolis
+BA,crisópolis
 BA,cruz das almas
-BA,curaca
-BA,candido sales
-BA,cicero dantas
-BA,dias d'avila
-BA,dom basilio
+BA,curaçá
+BA,cândido sales
+BA,cícero dantas
+BA,dias d'ávila
+BA,dom basílio
 BA,dom macedo costa
-BA,dario meira
-BA,elisio medrado
+BA,dário meira
+BA,elísio medrado
 BA,encruzilhada
 BA,entre rios
 BA,esplanada
 BA,euclides da cunha
-BA,eunapolis
+BA,eunápolis
 BA,feira da mata
 BA,feira de santana
-BA,filadelfia
+BA,filadélfia
 BA,firmino alves
 BA,floresta azul
 BA,formosa do rio preto
-BA,fatima
+BA,fátima
 BA,gandu
-BA,gaviao
+BA,gavião
 BA,gentio do ouro
-BA,gloria
+BA,glória
 BA,gongogi
 BA,governador mangabeira
 BA,guajeru
 BA,guanambi
 BA,guaratinga
-BA,heliopolis
-BA,iacu
-BA,ibiassuce
-BA,ibicarai
+BA,heliópolis
+BA,iaçu
+BA,ibiassucê
+BA,ibicaraí
 BA,ibicoara
-BA,ibicui
+BA,ibicuí
 BA,ibipeba
 BA,ibipitanga
 BA,ibiquera
 BA,ibirapitanga
-BA,ibirapua
+BA,ibirapuã
 BA,ibirataia
 BA,ibitiara
-BA,ibitita
+BA,ibititá
 BA,ibotirama
 BA,ichu
-BA,igapora
-BA,igrapiuna
-BA,iguai
-BA,ilheus
+BA,igaporã
+BA,igrapiúna
+BA,iguaí
+BA,ilhéus
 BA,inhambupe
-BA,ipecaeta
-BA,ipiau
-BA,ipira
+BA,ipecaetá
+BA,ipiaú
+BA,ipirá
 BA,ipupiara
 BA,irajuba
 BA,iramaia
 BA,iraquara
-BA,irara
-BA,irece
+BA,irará
+BA,irecê
 BA,itabela
 BA,itaberaba
 BA,itabuna
-BA,itacare
-BA,itaete
+BA,itacaré
+BA,itaeté
 BA,itagi
-BA,itagiba
+BA,itagibá
 BA,itagimirim
-BA,itaguacu da bahia
-BA,itaju do colonia
-BA,itajuipe
+BA,itaguaçu da bahia
+BA,itaju do colônia
+BA,itajuípe
 BA,itamaraju
 BA,itamari
-BA,itambe
+BA,itambé
 BA,itanagra
-BA,itanhem
+BA,itanhém
 BA,itaparica
 BA,itapebi
 BA,itapetinga
 BA,itapicuru
 BA,itapitanga
-BA,itape
+BA,itapé
 BA,itaquara
 BA,itarantim
 BA,itatim
-BA,itirucu
-BA,itiuba
-BA,itororo
-BA,ituacu
-BA,itubera
+BA,itiruçu
+BA,itiúba
+BA,itororó
+BA,ituaçu
+BA,ituberá
 BA,iuiu
 BA,jaborandi
 BA,jacaraci
@@ -410,14 +410,14 @@ BA,jacobina
 BA,jaguaquara
 BA,jaguarari
 BA,jaguaripe
-BA,jandaira
-BA,jequie
+BA,jandaíra
+BA,jequié
 BA,jeremoabo
-BA,jiquirica
-BA,jitauna
-BA,joao dourado
+BA,jiquiriçá
+BA,jitaúna
+BA,joão dourado
 BA,juazeiro
-BA,jucurucu
+BA,jucuruçu
 BA,jussara
 BA,jussari
 BA,jussiape
@@ -426,18 +426,18 @@ BA,lagoa real
 BA,laje
 BA,lajedinho
 BA,lajedo do tabocal
-BA,lajedao
-BA,lamarao
-BA,lapao
+BA,lajedão
+BA,lamarão
+BA,lapão
 BA,lauro de freitas
-BA,lencois
-BA,licinio de almeida
+BA,lençóis
+BA,licínio de almeida
 BA,livramento de nossa senhora
-BA,luis eduardo magalhaes
+BA,luís eduardo magalhães
 BA,macajuba
 BA,macarani
-BA,macaubas
-BA,macurure
+BA,macaúbas
+BA,macururé
 BA,madre de deus
 BA,maetinga
 BA,maiquinique
@@ -445,13 +445,13 @@ BA,mairi
 BA,malhada
 BA,malhada de pedras
 BA,manoel vitorino
-BA,mansidao
-BA,maracas
+BA,mansidão
+BA,maracás
 BA,maragogipe
-BA,marau
-BA,marcionilio souza
+BA,maraú
+BA,marcionílio souza
 BA,mascote
-BA,mata de sao joao
+BA,mata de são joão
 BA,matina
 BA,medeiros neto
 BA,miguel calmon
@@ -459,33 +459,33 @@ BA,milagres
 BA,mirangaba
 BA,mirante
 BA,monte santo
-BA,morpara
-BA,morro do chapeu
+BA,morpará
+BA,morro do chapéu
 BA,mortugaba
-BA,mucuge
+BA,mucugê
 BA,mucuri
 BA,mulungu do morro
 BA,mundo novo
 BA,muniz ferreira
-BA,muquem do sao francisco
+BA,muquém do são francisco
 BA,muritiba
-BA,mutuipe
-BA,nazare
-BA,nilo pecanha
+BA,mutuípe
+BA,nazaré
+BA,nilo peçanha
 BA,nordestina
-BA,nova canaa
-BA,nova fatima
-BA,nova ibia
+BA,nova canaã
+BA,nova fátima
+BA,nova ibiá
 BA,nova itarana
-BA,nova redencao
+BA,nova redenção
 BA,nova soure
-BA,nova vicosa
+BA,nova viçosa
 BA,novo horizonte
 BA,novo triunfo
 BA,olindina
 BA,oliveira dos brejinhos
-BA,ouricangas
-BA,ourolandia
+BA,ouriçangas
+BA,ourolândia
 BA,palmas de monte alto
 BA,palmeiras
 BA,paramirim
@@ -494,169 +494,169 @@ BA,paripiranga
 BA,pau brasil
 BA,paulo afonso
 BA,pedro alexandre
-BA,pedrao
-BA,piata
-BA,pilao arcado
-BA,pindai
-BA,pindobacu
+BA,pedrão
+BA,piatã
+BA,pilão arcado
+BA,pindaí
+BA,pindobaçu
 BA,pintadas
-BA,pirai do norte
-BA,piripa
+BA,piraí do norte
+BA,piripá
 BA,piritiba
 BA,planaltino
 BA,planalto
 BA,pojuca
 BA,ponto novo
 BA,porto seguro
-BA,potiragua
-BA,pocoes
+BA,potiraguá
+BA,poções
 BA,prado
 BA,presidente dutra
-BA,presidente janio quadros
+BA,presidente jânio quadros
 BA,presidente tancredo neves
-BA,pe de serra
+BA,pé de serra
 BA,queimadas
 BA,quijingue
 BA,quixabeira
 BA,rafael jambeiro
 BA,remanso
-BA,retirolandia
+BA,retirolândia
 BA,riacho de santana
-BA,riachao das neves
-BA,riachao do jacuipe
+BA,riachão das neves
+BA,riachão do jacuípe
 BA,ribeira do amparo
 BA,ribeira do pombal
-BA,ribeirao do largo
+BA,ribeirão do largo
 BA,rio real
 BA,rio de contas
-BA,rio do antonio
+BA,rio do antônio
 BA,rio do pires
 BA,rodelas
 BA,ruy barbosa
 BA,salinas da margarida
 BA,salvador
-BA,santa brigida
-BA,santa barbara
-BA,santa cruz cabralia
-BA,santa cruz da vitoria
-BA,santa ines
+BA,santa brígida
+BA,santa bárbara
+BA,santa cruz cabrália
+BA,santa cruz da vitória
+BA,santa inês
 BA,santa luzia
-BA,santa maria da vitoria
-BA,santa rita de cassia
+BA,santa maria da vitória
+BA,santa rita de cássia
 BA,santa terezinha
 BA,santaluz
 BA,santana
-BA,santanopolis
+BA,santanópolis
 BA,santo amaro
-BA,santo antonio de jesus
-BA,santo estevao
-BA,sapeacu
+BA,santo antônio de jesus
+BA,santo estêvão
+BA,sapeaçu
 BA,saubara
-BA,saude
+BA,saúde
 BA,seabra
-BA,sebastiao laranjeiras
+BA,sebastião laranjeiras
 BA,senhor do bonfim
-BA,sento se
+BA,sento sé
 BA,serra dourada
 BA,serra preta
 BA,serra do ramalho
 BA,serrinha
-BA,serrolandia
-BA,simoes filho
+BA,serrolândia
+BA,simões filho
 BA,sobradinho
 BA,souto soares
-BA,satiro dias
-BA,sao desiderio
-BA,sao domingos
-BA,sao felipe
-BA,sao francisco do conde
-BA,sao felix
-BA,sao felix do coribe
-BA,sao gabriel
-BA,sao goncalo dos campos
-BA,sao jose da vitoria
-BA,sao jose do jacuipe
-BA,sao miguel das matas
-BA,sao sebastiao do passe
-BA,sitio do mato
-BA,sitio do quinto
+BA,sátiro dias
+BA,são desidério
+BA,são domingos
+BA,são felipe
+BA,são francisco do conde
+BA,são félix
+BA,são félix do coribe
+BA,são gabriel
+BA,são gonçalo dos campos
+BA,são josé da vitória
+BA,são josé do jacuípe
+BA,são miguel das matas
+BA,são sebastião do passé
+BA,sítio do mato
+BA,sítio do quinto
 BA,tabocas do brejo velho
-BA,tanhacu
+BA,tanhaçu
 BA,tanque novo
 BA,tanquinho
-BA,taperoa
-BA,tapiramuta
+BA,taperoá
+BA,tapiramutá
 BA,teixeira de freitas
 BA,teodoro sampaio
-BA,teofilandia
-BA,teolandia
+BA,teofilândia
+BA,teolândia
 BA,terra nova
 BA,tremedal
 BA,tucano
-BA,uaua
+BA,uauá
 BA,ubaitaba
-BA,ubata
-BA,ubaira
-BA,uibai
+BA,ubatã
+BA,ubaíra
+BA,uibaí
 BA,umburanas
 BA,una
 BA,urandi
-BA,urucuca
+BA,uruçuca
 BA,utinga
 BA,valente
-BA,valenca
+BA,valença
 BA,varzedo
 BA,vera cruz
 BA,vereda
-BA,vitoria da conquista
-BA,varzea nova
-BA,varzea da roca
-BA,varzea do poco
+BA,vitória da conquista
+BA,várzea nova
+BA,várzea da roça
+BA,várzea do poço
 BA,wagner
 BA,wanderley
-BA,wenceslau guimaraes
+BA,wenceslau guimarães
 BA,xique-xique
-BA,agua fria
-BA,erico cardoso
+BA,água fria
+BA,érico cardoso
 CE,abaiara
 CE,acarape
-CE,acarau
+CE,acaraú
 CE,acopiara
 CE,aiuaba
-CE,alcantaras
+CE,alcântaras
 CE,altaneira
 CE,alto santo
 CE,amontada
 CE,antonina do norte
-CE,apuiares
+CE,apuiarés
 CE,aquiraz
 CE,aracati
 CE,aracoiaba
-CE,ararenda
+CE,ararendá
 CE,araripe
 CE,aratuba
 CE,arneiroz
-CE,assare
+CE,assaré
 CE,aurora
 CE,baixio
-CE,banabuiu
+CE,banabuiú
 CE,barbalha
 CE,barreira
 CE,barro
 CE,barroquinha
-CE,baturite
+CE,baturité
 CE,beberibe
 CE,bela cruz
 CE,boa viagem
 CE,brejo santo
 CE,camocim
 CE,campos sales
-CE,caninde
+CE,canindé
 CE,capistrano
 CE,caridade
-CE,caririacu
-CE,carire
-CE,carius
+CE,caririaçu
+CE,cariré
+CE,cariús
 CE,carnaubal
 CE,cascavel
 CE,catarina
@@ -665,15 +665,15 @@ CE,caucaia
 CE,cedro
 CE,chaval
 CE,chorozinho
-CE,choro
-CE,coreau
-CE,crateus
+CE,choró
+CE,coreaú
+CE,crateús
 CE,crato
-CE,croata
+CE,croatá
 CE,cruz
 CE,deputado irapuan pinheiro
-CE,erere
-CE,eusebio
+CE,ereré
+CE,eusébio
 CE,farias brito
 CE,forquilha
 CE,fortaleza
@@ -682,31 +682,31 @@ CE,frecheirinha
 CE,general sampaio
 CE,granja
 CE,granjeiro
-CE,graca
-CE,groairas
-CE,guaiuba
+CE,graça
+CE,groaíras
+CE,guaiúba
 CE,guaraciaba do norte
 CE,guaramiranga
-CE,hidrolandia
+CE,hidrolândia
 CE,horizonte
 CE,ibaretama
 CE,ibiapina
 CE,ibicuitinga
-CE,icapui
-CE,ico
+CE,icapuí
+CE,icó
 CE,iguatu
-CE,independencia
+CE,independência
 CE,ipaporanga
 CE,ipaumirim
 CE,ipu
 CE,ipueiras
 CE,iracema
-CE,iraucuba
+CE,irauçuba
 CE,itaitinga
-CE,itaicaba
-CE,itapaje
+CE,itaiçaba
+CE,itapajé
 CE,itapipoca
-CE,itapiuna
+CE,itapiúna
 CE,itarema
 CE,itatira
 CE,jaguaretama
@@ -717,25 +717,25 @@ CE,jardim
 CE,jati
 CE,jijoca de jericoacoara
 CE,juazeiro do norte
-CE,jucas
+CE,jucás
 CE,lavras da mangabeira
 CE,limoeiro do norte
 CE,madalena
-CE,maracanau
+CE,maracanaú
 CE,maranguape
 CE,marco
-CE,martinopole
-CE,massape
+CE,martinópole
+CE,massapê
 CE,mauriti
 CE,meruoca
 CE,milagres
-CE,milha
-CE,miraima
-CE,missao velha
-CE,mombaca
+CE,milhã
+CE,miraíma
+CE,missão velha
+CE,mombaça
 CE,monsenhor tabosa
 CE,morada nova
-CE,moraujo
+CE,moraújo
 CE,morrinhos
 CE,mucambo
 CE,mulungu
@@ -743,13 +743,13 @@ CE,nova olinda
 CE,nova russas
 CE,novo oriente
 CE,ocara
-CE,oros
+CE,orós
 CE,pacajus
 CE,pacatuba
 CE,pacoti
-CE,pacuja
+CE,pacujá
 CE,palhano
-CE,palmacia
+CE,palmácia
 CE,paracuru
 CE,paraipaba
 CE,parambu
@@ -765,33 +765,33 @@ CE,poranga
 CE,porteiras
 CE,potengi
 CE,potiretama
-CE,quiterianopolis
-CE,quixada
-CE,quixelo
+CE,quiterianópolis
+CE,quixadá
+CE,quixelô
 CE,quixeramobim
-CE,quixere
-CE,redencao
+CE,quixeré
+CE,redenção
 CE,reriutaba
 CE,russas
 CE,saboeiro
 CE,salitre
-CE,santa quiteria
-CE,santana do acarau
+CE,santa quitéria
+CE,santana do acaraú
 CE,santana do cariri
 CE,senador pompeu
-CE,senador sa
+CE,senador sá
 CE,sobral
-CE,solonopole
-CE,sao benedito
-CE,sao goncalo do amarante
-CE,sao joao do jaguaribe
-CE,sao luis do curu
+CE,solonópole
+CE,são benedito
+CE,são gonçalo do amarante
+CE,são joão do jaguaribe
+CE,são luís do curu
 CE,tabuleiro do norte
 CE,tamboril
 CE,tarrafas
-CE,taua
-CE,tejucuoca
-CE,tiangua
+CE,tauá
+CE,tejuçuoca
+CE,tianguá
 CE,trairi
 CE,tururu
 CE,ubajara
@@ -800,351 +800,351 @@ CE,umirim
 CE,uruburetama
 CE,uruoca
 CE,varjota
-CE,vicosa do ceara
-CE,varzea alegre
-DF,brasilia
-ES,afonso claudio
+CE,viçosa do ceará
+CE,várzea alegre
+DF,brasília
+ES,afonso cláudio
 ES,alegre
 ES,alfredo chaves
 ES,alto rio novo
 ES,anchieta
-ES,apiaca
+ES,apiacá
 ES,aracruz
-ES,atilio vivacqua
+ES,atílio vivácqua
 ES,baixo guandu
-ES,barra de sao francisco
-ES,boa esperanca
+ES,barra de são francisco
+ES,boa esperança
 ES,bom jesus do norte
 ES,brejetuba
 ES,cachoeiro de itapemirim
 ES,cariacica
 ES,castelo
 ES,colatina
-ES,conceicao da barra
-ES,conceicao do castelo
-ES,divino de sao lourenco
+ES,conceição da barra
+ES,conceição do castelo
+ES,divino de são lourenço
 ES,domingos martins
 ES,dores do rio preto
 ES,ecoporanga
-ES,fundao
+ES,fundão
 ES,governador lindenberg
 ES,guarapari
-ES,guacui
+ES,guaçuí
 ES,ibatiba
-ES,ibiracu
+ES,ibiraçu
 ES,ibitirama
 ES,iconha
 ES,irupi
-ES,itaguacu
+ES,itaguaçu
 ES,itapemirim
 ES,itarana
-ES,iuna
-ES,jaguare
-ES,jeronimo monteiro
-ES,joao neiva
+ES,iúna
+ES,jaguaré
+ES,jerônimo monteiro
+ES,joão neiva
 ES,laranja da terra
 ES,linhares
-ES,mantenopolis
-ES,marataizes
+ES,mantenópolis
+ES,marataízes
 ES,marechal floriano
-ES,marilandia
+ES,marilândia
 ES,mimoso do sul
 ES,montanha
 ES,mucurici
 ES,muniz freire
 ES,muqui
-ES,nova venecia
+ES,nova venécia
 ES,pancas
-ES,pedro canario
+ES,pedro canário
 ES,pinheiros
-ES,piuma
+ES,piúma
 ES,ponto belo
 ES,presidente kennedy
 ES,rio bananal
 ES,rio novo do sul
 ES,santa leopoldina
-ES,santa maria de jetiba
+ES,santa maria de jetibá
 ES,santa teresa
 ES,serra
 ES,sooretama
-ES,sao domingos do norte
-ES,sao gabriel da palha
-ES,sao jose do calcado
-ES,sao mateus
-ES,sao roque do canaa
+ES,são domingos do norte
+ES,são gabriel da palha
+ES,são josé do calçado
+ES,são mateus
+ES,são roque do canaã
 ES,vargem alta
 ES,venda nova do imigrante
 ES,viana
-ES,vila pavao
-ES,vila valerio
+ES,vila pavão
+ES,vila valério
 ES,vila velha
-ES,vitoria
-ES,agua doce do norte
-ES,aguia branca
-GO,abadia de goias
-GO,abadiania
-GO,acreuna
-GO,adelandia
-GO,alexania
-GO,aloandia
+ES,vitória
+ES,água doce do norte
+ES,águia branca
+GO,abadia de goiás
+GO,abadiânia
+GO,acreúna
+GO,adelândia
+GO,alexânia
+GO,aloândia
 GO,alto horizonte
-GO,alto paraiso de goias
+GO,alto paraíso de goiás
 GO,alvorada do norte
 GO,amaralina
 GO,americano do brasil
-GO,amorinopolis
+GO,amorinópolis
 GO,anhanguera
 GO,anicuns
-GO,anapolis
-GO,aparecida de goiania
+GO,anápolis
+GO,aparecida de goiânia
 GO,aparecida do rio doce
-GO,apore
-GO,aragarcas
-GO,aragoiania
+GO,aporé
+GO,aragarças
+GO,aragoiânia
 GO,araguapaz
-GO,aracu
-GO,arenopolis
-GO,aruana
-GO,aurilandia
-GO,avelinopolis
+GO,araçu
+GO,arenópolis
+GO,aruanã
+GO,aurilândia
+GO,avelinópolis
 GO,baliza
 GO,barro alto
-GO,bela vista de goias
-GO,bom jardim de goias
-GO,bom jesus de goias
-GO,bonfinopolis
-GO,bonopolis
+GO,bela vista de goiás
+GO,bom jardim de goiás
+GO,bom jesus de goiás
+GO,bonfinópolis
+GO,bonópolis
 GO,brazabrantes
-GO,britania
+GO,britânia
 GO,buriti alegre
-GO,buriti de goias
-GO,buritinopolis
+GO,buriti de goiás
+GO,buritinópolis
 GO,cabeceiras
 GO,cachoeira alta
 GO,cachoeira dourada
-GO,cachoeira de goias
-GO,caiaponia
+GO,cachoeira de goiás
+GO,caiapônia
 GO,caldas novas
 GO,caldazinha
-GO,campestre de goias
-GO,campinacu
+GO,campestre de goiás
+GO,campinaçu
 GO,campinorte
-GO,campo alegre de goias
-GO,campo limpo de goias
+GO,campo alegre de goiás
+GO,campo limpo de goiás
 GO,campos belos
 GO,campos verdes
 GO,carmo do rio verde
-GO,castelandia
-GO,catalao
-GO,caturai
+GO,castelândia
+GO,catalão
+GO,caturaí
 GO,cavalcante
-GO,cacu
+GO,caçu
 GO,ceres
 GO,cezarina
-GO,chapadao do ceu
+GO,chapadão do céu
 GO,cidade ocidental
-GO,cocalzinho de goias
+GO,cocalzinho de goiás
 GO,colinas do sul
-GO,corumbaiba
-GO,corumba de goias
+GO,corumbaíba
+GO,corumbá de goiás
 GO,cristalina
-GO,cristianopolis
-GO,crixas
-GO,crominia
+GO,cristianópolis
+GO,crixás
+GO,cromínia
 GO,cumari
-GO,corrego do ouro
-GO,damianopolis
-GO,damolandia
-GO,davinopolis
+GO,córrego do ouro
+GO,damianópolis
+GO,damolândia
+GO,davinópolis
 GO,diorama
-GO,divinopolis de goias
-GO,doverlandia
+GO,divinópolis de goiás
+GO,doverlândia
 GO,edealina
-GO,edeia
+GO,edéia
 GO,estrela do norte
 GO,faina
 GO,fazenda nova
-GO,firminopolis
-GO,flores de goias
+GO,firminópolis
+GO,flores de goiás
 GO,formosa
 GO,formoso
-GO,gameleira de goias
+GO,gameleira de goiás
 GO,goiandira
 GO,goianira
-GO,goianapolis
-GO,goianesia
+GO,goianápolis
+GO,goianésia
 GO,goiatuba
-GO,goias
-GO,goiania
-GO,gouvelandia
-GO,guapo
-GO,guarani de goias
-GO,guaraita
+GO,goiás
+GO,goiânia
+GO,gouvelândia
+GO,guapó
+GO,guarani de goiás
+GO,guaraíta
 GO,guarinos
-GO,heitorai
+GO,heitoraí
 GO,hidrolina
-GO,hidrolandia
+GO,hidrolândia
 GO,iaciara
-GO,inaciolandia
+GO,inaciolândia
 GO,indiara
 GO,inhumas
 GO,ipameri
-GO,ipiranga de goias
-GO,ipora
-GO,israelandia
-GO,itaberai
+GO,ipiranga de goiás
+GO,iporá
+GO,israelândia
+GO,itaberaí
 GO,itaguari
 GO,itaguaru
-GO,itaja
+GO,itajá
 GO,itapaci
-GO,itapirapua
+GO,itapirapuã
 GO,itapuranga
-GO,itaruma
-GO,itaucu
+GO,itarumã
+GO,itauçu
 GO,itumbiara
-GO,ivolandia
+GO,ivolândia
 GO,jandaia
-GO,jaragua
-GO,jatai
+GO,jaraguá
+GO,jataí
 GO,jaupaci
-GO,jesupolis
-GO,joviania
+GO,jesúpolis
+GO,joviânia
 GO,jussara
 GO,lagoa santa
-GO,leopoldo de bulhoes
-GO,luziania
+GO,leopoldo de bulhões
+GO,luziânia
 GO,mairipotaba
-GO,mambai
+GO,mambaí
 GO,mara rosa
-GO,marzagao
-GO,matrincha
-GO,maurilandia
-GO,mimoso de goias
-GO,minacu
+GO,marzagão
+GO,matrinchã
+GO,maurilândia
+GO,mimoso de goiás
+GO,minaçu
 GO,mineiros
-GO,moipora
-GO,monte alegre de goias
-GO,montes claros de goias
+GO,moiporá
+GO,monte alegre de goiás
+GO,montes claros de goiás
 GO,montividiu
 GO,montividiu do norte
 GO,morrinhos
-GO,morro agudo de goias
-GO,mossamedes
-GO,mozarlandia
+GO,morro agudo de goiás
+GO,mossâmedes
+GO,mozarlândia
 GO,mundo novo
-GO,mutunopolis
-GO,nazario
-GO,neropolis
-GO,niquelandia
-GO,nova america
+GO,mutunópolis
+GO,nazário
+GO,nerópolis
+GO,niquelândia
+GO,nova américa
 GO,nova aurora
-GO,nova crixas
-GO,nova gloria
-GO,nova iguacu de goias
+GO,nova crixás
+GO,nova glória
+GO,nova iguaçu de goiás
 GO,nova roma
 GO,nova veneza
 GO,novo brasil
 GO,novo gama
 GO,novo planalto
 GO,orizona
-GO,ouro verde de goias
+GO,ouro verde de goiás
 GO,ouvidor
 GO,padre bernardo
-GO,palestina de goias
-GO,palmeiras de goias
+GO,palestina de goiás
+GO,palmeiras de goiás
 GO,palmelo
-GO,palminopolis
-GO,panama
+GO,palminópolis
+GO,panamá
 GO,paranaiguara
-GO,parauna
-GO,perolandia
-GO,petrolina de goias
-GO,pilar de goias
+GO,paraúna
+GO,perolândia
+GO,petrolina de goiás
+GO,pilar de goiás
 GO,piracanjuba
 GO,piranhas
-GO,pirenopolis
+GO,pirenópolis
 GO,pires do rio
 GO,planaltina
 GO,pontalina
 GO,porangatu
-GO,porteirao
-GO,portelandia
+GO,porteirão
+GO,portelândia
 GO,posse
 GO,professor jamil
-GO,quirinopolis
+GO,quirinópolis
 GO,rialma
-GO,rianapolis
+GO,rianápolis
 GO,rio quente
 GO,rio verde
 GO,rubiataba
-GO,sanclerlandia
-GO,santa barbara de goias
-GO,santa cruz de goias
-GO,santa fe de goias
-GO,santa helena de goias
+GO,sanclerlândia
+GO,santa bárbara de goiás
+GO,santa cruz de goiás
+GO,santa fé de goiás
+GO,santa helena de goiás
 GO,santa isabel
 GO,santa rita do araguaia
 GO,santa rita do novo destino
-GO,santa rosa de goias
-GO,santa tereza de goias
-GO,santa terezinha de goias
-GO,santo antonio da barra
-GO,santo antonio de goias
-GO,santo antonio do descoberto
+GO,santa rosa de goiás
+GO,santa tereza de goiás
+GO,santa terezinha de goiás
+GO,santo antônio da barra
+GO,santo antônio de goiás
+GO,santo antônio do descoberto
 GO,senador canedo
-GO,serranopolis
-GO,silvania
-GO,simolandia
-GO,sao domingos
-GO,sao francisco de goias
-GO,sao joao d'alianca
-GO,sao joao da parauna
-GO,sao luiz do norte
-GO,sao luis de montes belos
-GO,sao miguel do araguaia
-GO,sao miguel do passa quatro
-GO,sao patricio
-GO,sao simao
-GO,sitio d'abadia
-GO,taquaral de goias
-GO,teresina de goias
-GO,terezopolis de goias
+GO,serranópolis
+GO,silvânia
+GO,simolândia
+GO,são domingos
+GO,são francisco de goiás
+GO,são joão d'aliança
+GO,são joão da paraúna
+GO,são luiz do norte
+GO,são luís de montes belos
+GO,são miguel do araguaia
+GO,são miguel do passa quatro
+GO,são patrício
+GO,são simão
+GO,sítio d'abadia
+GO,taquaral de goiás
+GO,teresina de goiás
+GO,terezópolis de goiás
 GO,trindade
 GO,trombas
-GO,tres ranchos
-GO,turvelandia
-GO,turvania
+GO,três ranchos
+GO,turvelândia
+GO,turvânia
 GO,uirapuru
 GO,uruana
-GO,uruacu
-GO,urutai
-GO,valparaiso de goias
-GO,varjao
-GO,vianopolis
-GO,vicentinopolis
+GO,uruaçu
+GO,urutaí
+GO,valparaíso de goiás
+GO,varjão
+GO,vianópolis
+GO,vicentinópolis
 GO,vila boa
-GO,vila propicio
-GO,agua fria de goias
-GO,agua limpa
-GO,aguas lindas de goias
+GO,vila propício
+GO,água fria de goiás
+GO,água limpa
+GO,águas lindas de goiás
 MA,afonso cunha
-MA,alcantara
+MA,alcântara
 MA,aldeias altas
-MA,altamira do maranhao
-MA,alto alegre do maranhao
-MA,alto alegre do pindare
-MA,alto parnaiba
-MA,amapa do maranhao
-MA,amarante do maranhao
+MA,altamira do maranhão
+MA,alto alegre do maranhão
+MA,alto alegre do pindaré
+MA,alto parnaíba
+MA,amapá do maranhão
+MA,amarante do maranhão
 MA,anajatuba
 MA,anapurus
-MA,apicum-acu
-MA,araguana
+MA,apicum-açu
+MA,araguanã
 MA,araioses
 MA,arame
 MA,arari
-MA,axixa
-MA,acailandia
+MA,axixá
+MA,açailândia
 MA,bacabal
 MA,bacabeira
 MA,bacuri
@@ -1152,11 +1152,11 @@ MA,bacurituba
 MA,balsas
 MA,barra do corda
 MA,barreirinhas
-MA,barao de grajau
-MA,bela vista do maranhao
-MA,belagua
+MA,barão de grajaú
+MA,bela vista do maranhão
+MA,belágua
 MA,benedito leite
-MA,bequimao
+MA,bequimão
 MA,bernardo do mearim
 MA,boa vista do gurupi
 MA,bom jardim
@@ -1169,187 +1169,187 @@ MA,buriti bravo
 MA,buriticupu
 MA,buritirana
 MA,cachoeira grande
-MA,cajapio
+MA,cajapió
 MA,cajari
-MA,campestre do maranhao
+MA,campestre do maranhão
 MA,cantanhede
 MA,capinzal do norte
 MA,carolina
 MA,carutapera
 MA,caxias
 MA,cedral
-MA,central do maranhao
-MA,centro novo do maranhao
+MA,central do maranhão
+MA,centro novo do maranhão
 MA,centro do guilherme
 MA,chapadinha
-MA,cidelandia
-MA,codo
+MA,cidelândia
+MA,codó
 MA,coelho neto
 MA,colinas
-MA,conceicao do lago-acu
-MA,coroata
+MA,conceição do lago-açu
+MA,coroatá
 MA,cururupu
-MA,candido mendes
-MA,davinopolis
+MA,cândido mendes
+MA,davinópolis
 MA,dom pedro
 MA,duque bacelar
-MA,esperantinopolis
+MA,esperantinópolis
 MA,estreito
-MA,feira nova do maranhao
-MA,fernando falcao
+MA,feira nova do maranhão
+MA,fernando falcão
 MA,formosa da serra negra
 MA,fortaleza dos nogueiras
 MA,fortuna
 MA,godofredo viana
-MA,goncalves dias
+MA,gonçalves dias
 MA,governador archer
-MA,governador edison lobao
-MA,governador eugenio barros
+MA,governador edison lobão
+MA,governador eugênio barros
 MA,governador luiz rocha
 MA,governador newton bello
 MA,governador nunes freire
-MA,grajau
-MA,graca aranha
-MA,guimaraes
+MA,grajaú
+MA,graça aranha
+MA,guimarães
 MA,humberto de campos
 MA,icatu
-MA,igarape grande
-MA,igarape do meio
+MA,igarapé grande
+MA,igarapé do meio
 MA,imperatriz
-MA,itaipava do grajau
+MA,itaipava do grajaú
 MA,itapecuru mirim
-MA,itinga do maranhao
-MA,jatoba
+MA,itinga do maranhão
+MA,jatobá
 MA,jenipapo dos vieiras
-MA,joselandia
-MA,joao lisboa
-MA,junco do maranhao
+MA,joselândia
+MA,joão lisboa
+MA,junco do maranhão
 MA,lago verde
 MA,lago da pedra
 MA,lago do junco
 MA,lago dos rodrigues
-MA,lagoa grande do maranhao
+MA,lagoa grande do maranhão
 MA,lagoa do mato
 MA,lajeado novo
 MA,lima campos
 MA,loreto
-MA,luis domingues
-MA,magalhaes de almeida
-MA,maracacume
-MA,maraja do sena
-MA,maranhaozinho
+MA,luís domingues
+MA,magalhães de almeida
+MA,maracaçumé
+MA,marajá do sena
+MA,maranhãozinho
 MA,mata roma
 MA,matinha
-MA,matoes
-MA,matoes do norte
-MA,milagres do maranhao
+MA,matões
+MA,matões do norte
+MA,milagres do maranhão
 MA,mirador
 MA,miranda do norte
 MA,mirinzal
 MA,montes altos
-MA,moncao
+MA,monção
 MA,morros
 MA,nina rodrigues
 MA,nova colinas
 MA,nova iorque
-MA,nova olinda do maranhao
-MA,olho d'agua das cunhas
-MA,olinda nova do maranhao
-MA,palmeirandia
+MA,nova olinda do maranhão
+MA,olho d'água das cunhãs
+MA,olinda nova do maranhão
+MA,palmeirândia
 MA,paraibano
 MA,parnarama
 MA,passagem franca
 MA,pastos bons
 MA,paulino neves
 MA,paulo ramos
-MA,paco do lumiar
+MA,paço do lumiar
 MA,pedreiras
-MA,pedro do rosario
+MA,pedro do rosário
 MA,penalva
 MA,peri mirim
-MA,peritoro
-MA,pindare-mirim
+MA,peritoró
+MA,pindaré-mirim
 MA,pinheiro
 MA,pio xii
 MA,pirapemas
 MA,porto franco
-MA,porto rico do maranhao
-MA,pocao de pedras
+MA,porto rico do maranhão
+MA,poção de pedras
 MA,presidente dutra
 MA,presidente juscelino
-MA,presidente medici
+MA,presidente médici
 MA,presidente sarney
 MA,presidente vargas
 MA,primeira cruz
 MA,raposa
-MA,riachao
+MA,riachão
 MA,ribamar fiquene
-MA,rosario
-MA,sambaiba
-MA,santa filomena do maranhao
+MA,rosário
+MA,sambaíba
+MA,santa filomena do maranhão
 MA,santa helena
-MA,santa ines
+MA,santa inês
 MA,santa luzia
-MA,santa luzia do parua
-MA,santa quiteria do maranhao
+MA,santa luzia do paruá
+MA,santa quitéria do maranhão
 MA,santa rita
-MA,santana do maranhao
-MA,santo amaro do maranhao
-MA,santo antonio dos lopes
+MA,santana do maranhão
+MA,santo amaro do maranhão
+MA,santo antônio dos lopes
 MA,satubinha
 MA,senador alexandre costa
 MA,senador la rocque
-MA,serrano do maranhao
+MA,serrano do maranhão
 MA,sucupira do norte
-MA,sucupira do riachao
-MA,sao benedito do rio preto
-MA,sao bento
-MA,sao bernardo
-MA,sao domingos do azeitao
-MA,sao domingos do maranhao
-MA,sao francisco do brejao
-MA,sao francisco do maranhao
-MA,sao felix de balsas
-MA,sao jose de ribamar
-MA,sao jose dos basilios
-MA,sao joao batista
-MA,sao joao do caru
-MA,sao joao do paraiso
-MA,sao joao do soter
-MA,sao joao dos patos
-MA,sao luis
-MA,sao luis gonzaga do maranhao
-MA,sao mateus do maranhao
-MA,sao pedro da agua branca
-MA,sao pedro dos crentes
-MA,sao raimundo das mangabeiras
-MA,sao raimundo do doca bezerra
-MA,sao roberto
-MA,sao vicente ferrer
-MA,sitio novo
+MA,sucupira do riachão
+MA,são benedito do rio preto
+MA,são bento
+MA,são bernardo
+MA,são domingos do azeitão
+MA,são domingos do maranhão
+MA,são francisco do brejão
+MA,são francisco do maranhão
+MA,são félix de balsas
+MA,são josé de ribamar
+MA,são josé dos basílios
+MA,são joão batista
+MA,são joão do carú
+MA,são joão do paraíso
+MA,são joão do soter
+MA,são joão dos patos
+MA,são luís
+MA,são luís gonzaga do maranhão
+MA,são mateus do maranhão
+MA,são pedro da água branca
+MA,são pedro dos crentes
+MA,são raimundo das mangabeiras
+MA,são raimundo do doca bezerra
+MA,são roberto
+MA,são vicente ferrer
+MA,sítio novo
 MA,tasso fragoso
 MA,timbiras
 MA,timon
 MA,trizidela do vale
-MA,tufilandia
+MA,tufilândia
 MA,tuntum
-MA,turiacu
-MA,turilandia
-MA,tutoia
+MA,turiaçu
+MA,turilândia
+MA,tutóia
 MA,urbano santos
 MA,vargem grande
 MA,viana
-MA,vila nova dos martirios
+MA,vila nova dos martírios
 MA,vitorino freire
-MA,vitoria do mearim
-MA,ze doca
-MA,agua doce do maranhao
+MA,vitória do mearim
+MA,zé doca
+MA,água doce do maranhão
 MG,abadia dos dourados
-MG,abaete
+MG,abaeté
 MG,abre campo
 MG,acaiaca
 MG,aguanil
-MG,aimores
+MG,aimorés
 MG,aiuruoca
 MG,alagoa
 MG,albertina
@@ -1357,32 +1357,32 @@ MG,alfenas
 MG,alfredo vasconcelos
 MG,almenara
 MG,alpercata
-MG,alpinopolis
+MG,alpinópolis
 MG,alterosa
-MG,alto caparao
-MG,alto jequitiba
+MG,alto caparaó
+MG,alto jequitibá
 MG,alto rio doce
 MG,alvarenga
-MG,alvinopolis
+MG,alvinópolis
 MG,alvorada de minas
-MG,alem paraiba
+MG,além paraíba
 MG,amparo do serra
 MG,andradas
-MG,andrelandia
-MG,angelandia
-MG,antonio carlos
-MG,antonio dias
-MG,antonio prado de minas
+MG,andrelândia
+MG,angelândia
+MG,antônio carlos
+MG,antônio dias
+MG,antônio prado de minas
 MG,aracitaba
 MG,araguari
 MG,arantina
 MG,araponga
-MG,arapora
-MG,arapua
-MG,araxa
-MG,aracai
-MG,aracuai
-MG,araujos
+MG,araporã
+MG,arapuá
+MG,araxá
+MG,araçaí
+MG,araçuaí
+MG,araújos
 MG,arceburgo
 MG,arcos
 MG,areado
@@ -1390,19 +1390,19 @@ MG,argirita
 MG,aricanduva
 MG,arinos
 MG,astolfo dutra
-MG,ataleia
+MG,ataléia
 MG,augusto de lima
-MG,acucena
+MG,açucena
 MG,baependi
 MG,baldim
-MG,bambui
+MG,bambuí
 MG,bandeira
 MG,bandeira do sul
 MG,barbacena
 MG,barra longa
 MG,barroso
-MG,barao de cocais
-MG,barao do monte alto
+MG,barão de cocais
+MG,barão do monte alto
 MG,bela vista de minas
 MG,belmiro braga
 MG,belo horizonte
@@ -1410,14 +1410,14 @@ MG,belo oriente
 MG,belo vale
 MG,berilo
 MG,berizal
-MG,bertopolis
+MG,bertópolis
 MG,betim
 MG,bias fortes
 MG,bicas
 MG,biquinhas
-MG,boa esperanca
+MG,boa esperança
 MG,bocaina de minas
-MG,bocaiuva
+MG,bocaiúva
 MG,bom despacho
 MG,bom jardim de minas
 MG,bom jesus da penha
@@ -1426,19 +1426,19 @@ MG,bom jesus do galho
 MG,bom repouso
 MG,bom sucesso
 MG,bonfim
-MG,bonfinopolis de minas
+MG,bonfinópolis de minas
 MG,bonito de minas
 MG,borda da mata
 MG,botelhos
 MG,botumirim
-MG,brasilandia de minas
-MG,brasilia de minas
-MG,brazopolis
-MG,braunas
+MG,brasilândia de minas
+MG,brasília de minas
+MG,brazópolis
+MG,braúnas
 MG,brumadinho
-MG,bras pires
-MG,bueno brandao
-MG,buenopolis
+MG,brás pires
+MG,bueno brandão
+MG,buenópolis
 MG,bugre
 MG,buritis
 MG,buritizeiro
@@ -1447,18 +1447,18 @@ MG,cabo verde
 MG,cachoeira dourada
 MG,cachoeira da prata
 MG,cachoeira de minas
-MG,cachoeira de pajeu
-MG,caetanopolis
-MG,caete
+MG,cachoeira de pajeú
+MG,caetanópolis
+MG,caeté
 MG,caiana
 MG,cajuri
 MG,caldas
 MG,camacho
 MG,camanducaia
 MG,cambuquira
-MG,cambui
+MG,cambuí
 MG,campanha
-MG,campanario
+MG,campanário
 MG,campestre
 MG,campina verde
 MG,campo azul
@@ -1468,40 +1468,40 @@ MG,campo do meio
 MG,campos altos
 MG,campos gerais
 MG,cana verde
-MG,canaa
+MG,canaã
 MG,candeias
 MG,cantagalo
-MG,canapolis
-MG,caparao
+MG,canápolis
+MG,caparaó
 MG,capela nova
 MG,capelinha
 MG,capetinga
 MG,capim branco
-MG,capinopolis
-MG,capitao andrade
-MG,capitao eneas
-MG,capitolio
+MG,capinópolis
+MG,capitão andrade
+MG,capitão enéas
+MG,capitólio
 MG,caputira
-MG,caranaiba
-MG,carandai
+MG,caranaíba
+MG,carandaí
 MG,carangola
 MG,caratinga
-MG,carai
+MG,caraí
 MG,carbonita
-MG,careacu
+MG,careaçu
 MG,carlos chagas
 MG,carmo da cachoeira
 MG,carmo da mata
 MG,carmo de minas
 MG,carmo do cajuru
-MG,carmo do paranaiba
+MG,carmo do paranaíba
 MG,carmo do rio claro
-MG,carmesia
-MG,carmopolis de minas
+MG,carmésia
+MG,carmópolis de minas
 MG,carneirinho
 MG,carrancas
 MG,carvalhos
-MG,carvalhopolis
+MG,carvalhópolis
 MG,casa grande
 MG,cascalho rico
 MG,cataguases
@@ -1510,31 +1510,31 @@ MG,catas altas da noruega
 MG,catuji
 MG,catuti
 MG,caxambu
-MG,cedro do abaete
+MG,cedro do abaeté
 MG,central de minas
 MG,centralina
-MG,chale
-MG,chapada gaucha
+MG,chalé
+MG,chapada gaúcha
 MG,chapada do norte
 MG,chiador
-MG,chacara
-MG,cipotanea
+MG,chácara
+MG,cipotânea
 MG,claraval
-MG,claro dos pocoes
-MG,claudio
+MG,claro dos poções
+MG,cláudio
 MG,coimbra
 MG,coluna
 MG,comendador gomes
 MG,comercinho
-MG,conceicao da aparecida
-MG,conceicao da barra de minas
-MG,conceicao das alagoas
-MG,conceicao das pedras
-MG,conceicao de ipanema
-MG,conceicao do mato dentro
-MG,conceicao do para
-MG,conceicao do rio verde
-MG,conceicao dos ouros
+MG,conceição da aparecida
+MG,conceição da barra de minas
+MG,conceição das alagoas
+MG,conceição das pedras
+MG,conceição de ipanema
+MG,conceição do mato dentro
+MG,conceição do pará
+MG,conceição do rio verde
+MG,conceição dos ouros
 MG,confins
 MG,congonhal
 MG,congonhas
@@ -1542,12 +1542,12 @@ MG,congonhas do norte
 MG,conquista
 MG,conselheiro lafaiete
 MG,conselheiro pena
-MG,consolacao
+MG,consolação
 MG,contagem
 MG,coqueiral
-MG,coracao de jesus
+MG,coração de jesus
 MG,cordisburgo
-MG,cordislandia
+MG,cordislândia
 MG,corinto
 MG,coroaci
 MG,coromandel
@@ -1555,77 +1555,77 @@ MG,coronel fabriciano
 MG,coronel murta
 MG,coronel pacheco
 MG,coronel xavier chaves
-MG,couto de magalhaes de minas
+MG,couto de magalhães de minas
 MG,cristais
 MG,cristiano otoni
 MG,cristina
-MG,cristalia
-MG,crisolita
-MG,crucilandia
+MG,cristália
+MG,crisólita
+MG,crucilândia
 MG,cruzeiro da fortaleza
-MG,cruzilia
+MG,cruzília
 MG,cuparaque
 MG,curral de dentro
 MG,curvelo
-MG,cassia
-MG,corrego danta
-MG,corrego fundo
-MG,corrego novo
-MG,corrego do bom jesus
-MG,conego marinho
+MG,cássia
+MG,córrego danta
+MG,córrego fundo
+MG,córrego novo
+MG,córrego do bom jesus
+MG,cônego marinho
 MG,datas
 MG,delfim moreira
-MG,delfinopolis
+MG,delfinópolis
 MG,delta
 MG,descoberto
 MG,desterro de entre rios
 MG,desterro do melo
 MG,diamantina
 MG,diogo de vasconcelos
-MG,dionisio
+MG,dionísio
 MG,divino
 MG,divino das laranjeiras
-MG,divinolandia de minas
-MG,divinesia
-MG,divinopolis
+MG,divinolândia de minas
+MG,divinésia
+MG,divinópolis
 MG,divisa alegre
 MG,divisa nova
-MG,divisopolis
+MG,divisópolis
 MG,dom bosco
 MG,dom cavati
 MG,dom joaquim
-MG,dom silverio
-MG,dom vicoso
-MG,dona euzebia
+MG,dom silvério
+MG,dom viçoso
+MG,dona euzébia
 MG,dores de campos
-MG,dores de guanhaes
-MG,dores do indaia
+MG,dores de guanhães
+MG,dores do indaiá
 MG,dores do turvo
-MG,doresopolis
+MG,doresópolis
 MG,douradoquara
-MG,durande
-MG,eloi mendes
+MG,durandé
+MG,elói mendes
 MG,engenheiro caldas
 MG,engenheiro navarro
 MG,entre folhas
 MG,entre rios de minas
-MG,ervalia
+MG,ervália
 MG,esmeraldas
 MG,espera feliz
 MG,espinosa
-MG,espirito santo do dourado
+MG,espírito santo do dourado
 MG,estiva
 MG,estrela dalva
-MG,estrela do indaia
+MG,estrela do indaiá
 MG,estrela do sul
-MG,eugenopolis
-MG,ewbank da camara
+MG,eugenópolis
+MG,ewbank da câmara
 MG,extrema
 MG,fama
 MG,faria lemos
 MG,felisburgo
-MG,felixlandia
-MG,felicio dos santos
+MG,felixlândia
+MG,felício dos santos
 MG,fernandes tourinho
 MG,ferros
 MG,fervedouro
@@ -1634,84 +1634,84 @@ MG,formiga
 MG,formoso
 MG,fortaleza de minas
 MG,fortuna de minas
-MG,francisco badaro
+MG,francisco badaró
 MG,francisco dumont
-MG,francisco sa
-MG,franciscopolis
+MG,francisco sá
+MG,franciscópolis
 MG,frei gaspar
-MG,frei inocencio
+MG,frei inocêncio
 MG,frei lagonegro
 MG,fronteira
 MG,fronteira dos vales
 MG,fruta de leite
 MG,frutal
-MG,funilandia
-MG,galileia
+MG,funilândia
+MG,galiléia
 MG,gameleiras
-MG,glaucilandia
+MG,glaucilândia
 MG,goiabeira
-MG,goiana
+MG,goianá
 MG,gonzaga
-MG,goncalves
+MG,gonçalves
 MG,gouveia
 MG,governador valadares
 MG,grupiara
-MG,grao mogol
-MG,guanhaes
-MG,guape
+MG,grão mogol
+MG,guanhães
+MG,guapé
 MG,guaraciaba
 MG,guaraciama
 MG,guarani
-MG,guaranesia
-MG,guarara
+MG,guaranésia
+MG,guarará
 MG,guarda-mor
-MG,guaxupe
+MG,guaxupé
 MG,guidoval
-MG,guimarania
+MG,guimarânia
 MG,guiricema
-MG,gurinhata
+MG,gurinhatã
 MG,heliodora
 MG,iapu
 MG,ibertioga
-MG,ibiai
+MG,ibiaí
 MG,ibiracatu
 MG,ibiraci
-MG,ibirite
-MG,ibitiura de minas
+MG,ibirité
+MG,ibitiúra de minas
 MG,ibituruna
-MG,ibia
-MG,icarai de minas
-MG,igarape
+MG,ibiá
+MG,icaraí de minas
+MG,igarapé
 MG,igaratinga
 MG,iguatama
 MG,ijaci
-MG,ilicinea
-MG,imbe de minas
+MG,ilicínea
+MG,imbé de minas
 MG,inconfidentes
 MG,indaiabira
-MG,indianopolis
-MG,ingai
+MG,indianópolis
+MG,ingaí
 MG,inhapim
-MG,inhauma
+MG,inhaúma
 MG,inimutaba
 MG,ipaba
 MG,ipanema
 MG,ipatinga
-MG,ipiacu
-MG,ipuiuna
-MG,irai de minas
+MG,ipiaçu
+MG,ipuiúna
+MG,iraí de minas
 MG,itabira
 MG,itabirinha
 MG,itabirito
 MG,itacambira
 MG,itacarambi
 MG,itaguara
-MG,itaipe
-MG,itajuba
+MG,itaipé
+MG,itajubá
 MG,itamarandiba
 MG,itamarati de minas
 MG,itambacuri
-MG,itambe do mato dentro
+MG,itambé do mato dentro
 MG,itamogi
 MG,itamonte
 MG,itanhandu
@@ -1720,10 +1720,10 @@ MG,itaobim
 MG,itapagipe
 MG,itapecerica
 MG,itapeva
-MG,itatiaiucu
+MG,itatiaiuçu
 MG,itaverava
-MG,itau de minas
-MG,itauna
+MG,itaú de minas
+MG,itaúna
 MG,itinga
 MG,itueta
 MG,ituiutaba
@@ -1733,35 +1733,35 @@ MG,itutinga
 MG,jaboticatubas
 MG,jacinto
 MG,jacutinga
-MG,jacui
-MG,jaguaracu
+MG,jacuí
+MG,jaguaraçu
 MG,jampruca
-MG,janauba
-MG,januaria
-MG,japaraiba
+MG,janaúba
+MG,januária
+MG,japaraíba
 MG,japonvar
-MG,jaiba
+MG,jaíba
 MG,jeceaba
 MG,jenipapo de minas
 MG,jequeri
-MG,jequitai
-MG,jequitiba
+MG,jequitaí
+MG,jequitibá
 MG,jequitinhonha
-MG,jesuania
-MG,joanesia
-MG,joaquim felicio
-MG,joaima
-MG,jordania
-MG,josenopolis
-MG,jose goncalves de minas
-MG,jose raydan
-MG,joao monlevade
-MG,joao pinheiro
+MG,jesuânia
+MG,joanésia
+MG,joaquim felício
+MG,joaíma
+MG,jordânia
+MG,josenópolis
+MG,josé gonçalves de minas
+MG,josé raydan
+MG,joão monlevade
+MG,joão pinheiro
 MG,juatuba
 MG,juiz de fora
 MG,juramento
 MG,juruaia
-MG,juvenilia
+MG,juvenília
 MG,ladainha
 MG,lagamar
 MG,lagoa dourada
@@ -1784,8 +1784,8 @@ MG,lima duarte
 MG,limeira do oeste
 MG,lontra
 MG,luisburgo
-MG,luislandia
-MG,luminarias
+MG,luislândia
+MG,luminárias
 MG,luz
 MG,machacalis
 MG,machado
@@ -1793,177 +1793,177 @@ MG,madre de deus de minas
 MG,malacacheta
 MG,mamonas
 MG,manga
-MG,manhuacu
+MG,manhuaçu
 MG,manhumirim
 MG,mantena
 MG,mar de espanha
 MG,maravilhas
-MG,maria da fe
+MG,maria da fé
 MG,mariana
 MG,marilac
-MG,maripa de minas
-MG,marlieria
-MG,marmelopolis
+MG,maripá de minas
+MG,marliéria
+MG,marmelópolis
 MG,martinho campos
 MG,martins soares
 MG,mata verde
-MG,materlandia
+MG,materlândia
 MG,mateus leme
 MG,mathias lobato
 MG,matias barbosa
 MG,matias cardoso
-MG,matipo
+MG,matipó
 MG,mato verde
 MG,matozinhos
 MG,matutina
 MG,medeiros
 MG,medina
 MG,mendes pimentel
-MG,merces
+MG,mercês
 MG,mesquita
 MG,minas novas
 MG,minduri
 MG,mirabela
 MG,miradouro
-MG,miravania
-MG,mirai
+MG,miravânia
+MG,miraí
 MG,moeda
 MG,moema
 MG,monjolos
 MG,monsenhor paulo
-MG,montalvania
+MG,montalvânia
 MG,monte alegre de minas
 MG,monte azul
 MG,monte belo
 MG,monte carmelo
 MG,monte formoso
 MG,monte santo de minas
-MG,monte siao
+MG,monte sião
 MG,montes claros
 MG,montezuma
 MG,morada nova de minas
-MG,morro da garca
+MG,morro da garça
 MG,morro do pilar
 MG,munhoz
-MG,muriae
+MG,muriaé
 MG,mutum
 MG,muzambinho
-MG,mario campos
+MG,mário campos
 MG,nacip raydan
 MG,nanuque
 MG,naque
-MG,natalandia
-MG,natercia
+MG,natalândia
+MG,natércia
 MG,nazareno
 MG,nepomuceno
 MG,ninheira
-MG,nova belem
+MG,nova belém
 MG,nova era
 MG,nova lima
-MG,nova modica
+MG,nova módica
 MG,nova ponte
 MG,nova porteirinha
 MG,nova resende
 MG,nova serrana
-MG,nova uniao
+MG,nova união
 MG,novo cruzeiro
 MG,novo oriente de minas
 MG,novorizonte
 MG,olaria
-MG,olhos-d'agua
+MG,olhos-d'água
 MG,oliveira
 MG,oliveira fortes
-MG,olimpio noronha
-MG,onca de pitangui
-MG,oratorios
-MG,orizania
+MG,olímpio noronha
+MG,onça de pitangui
+MG,oratórios
+MG,orizânia
 MG,ouro branco
 MG,ouro fino
 MG,ouro preto
 MG,ouro verde de minas
 MG,padre carvalho
-MG,padre paraiso
+MG,padre paraíso
 MG,pai pedro
 MG,paineiras
 MG,pains
 MG,paiva
 MG,palma
-MG,palmopolis
+MG,palmópolis
 MG,papagaios
 MG,paracatu
-MG,paraguacu
-MG,paraisopolis
+MG,paraguaçu
+MG,paraisópolis
 MG,paraopeba
-MG,para de minas
+MG,pará de minas
 MG,passa quatro
 MG,passa tempo
 MG,passa vinte
-MG,passabem
+MG,passabém
 MG,passos
 MG,patis
 MG,patos de minas
-MG,patrocinio
-MG,patrocinio do muriae
-MG,paula candido
+MG,patrocínio
+MG,patrocínio do muriaé
+MG,paula cândido
 MG,paulistas
-MG,pavao
+MG,pavão
 MG,pedra azul
 MG,pedra bonita
 MG,pedra dourada
 MG,pedra do anta
-MG,pedra do indaia
+MG,pedra do indaiá
 MG,pedralva
 MG,pedras de maria da cruz
-MG,pedrinopolis
+MG,pedrinópolis
 MG,pedro leopoldo
 MG,pedro teixeira
 MG,pequeri
 MG,pequi
-MG,perdigao
+MG,perdigão
 MG,perdizes
-MG,perdoes
+MG,perdões
 MG,periquito
 MG,pescador
-MG,pecanha
+MG,peçanha
 MG,piau
 MG,piedade de caratinga
 MG,piedade de ponte nova
 MG,piedade do rio grande
 MG,piedade dos gerais
 MG,pimenta
-MG,pingo-d'agua
-MG,pintopolis
+MG,pingo-d'água
+MG,pintópolis
 MG,piracema
 MG,pirajuba
 MG,piranga
 MG,piranguinho
-MG,pirangucu
+MG,piranguçu
 MG,pirapetinga
 MG,pirapora
-MG,pirauba
+MG,piraúba
 MG,pitangui
 MG,piumhi
 MG,planura
 MG,pocrane
-MG,pompeu
+MG,pompéu
 MG,ponte nova
 MG,ponto chique
 MG,ponto dos volantes
 MG,porteirinha
 MG,porto firme
-MG,pote
+MG,poté
 MG,pouso alegre
 MG,pouso alto
-MG,poco fundo
-MG,pocos de caldas
+MG,poço fundo
+MG,poços de caldas
 MG,prados
 MG,prata
 MG,pratinha
-MG,pratapolis
+MG,pratápolis
 MG,presidente bernardes
 MG,presidente juscelino
 MG,presidente kubitschek
-MG,presidente olegario
+MG,presidente olegário
 MG,prudente de morais
 MG,quartel geral
 MG,queluzito
@@ -1976,288 +1976,288 @@ MG,resplendor
 MG,ressaquinha
 MG,riachinho
 MG,riacho dos machados
-MG,ribeirao vermelho
-MG,ribeirao das neves
+MG,ribeirão vermelho
+MG,ribeirão das neves
 MG,rio acima
 MG,rio casca
 MG,rio doce
 MG,rio espera
 MG,rio manso
 MG,rio novo
-MG,rio paranaiba
+MG,rio paranaíba
 MG,rio pardo de minas
 MG,rio piracicaba
 MG,rio pomba
 MG,rio preto
 MG,rio vermelho
 MG,rio do prado
-MG,ritapolis
+MG,ritápolis
 MG,rochedo de minas
 MG,rodeiro
 MG,romaria
-MG,rosario da limeira
+MG,rosário da limeira
 MG,rubelita
 MG,rubim
-MG,sabara
-MG,sabinopolis
+MG,sabará
+MG,sabinópolis
 MG,sacramento
 MG,salinas
 MG,salto da divisa
-MG,santa barbara
-MG,santa barbara do leste
-MG,santa barbara do monte verde
-MG,santa barbara do tugurio
+MG,santa bárbara
+MG,santa bárbara do leste
+MG,santa bárbara do monte verde
+MG,santa bárbara do tugúrio
 MG,santa cruz de minas
 MG,santa cruz de salinas
 MG,santa cruz do escalvado
-MG,santa efigenia de minas
-MG,santa fe de minas
+MG,santa efigênia de minas
+MG,santa fé de minas
 MG,santa helena de minas
 MG,santa juliana
 MG,santa luzia
 MG,santa margarida
 MG,santa maria de itabira
 MG,santa maria do salto
-MG,santa maria do suacui
+MG,santa maria do suaçuí
 MG,santa rita de caldas
 MG,santa rita de ibitipoca
 MG,santa rita de jacutinga
 MG,santa rita de minas
 MG,santa rita do itueto
-MG,santa rita do sapucai
+MG,santa rita do sapucaí
 MG,santa rosa da serra
-MG,santa vitoria
+MG,santa vitória
 MG,santana da vargem
 MG,santana de cataguases
 MG,santana de pirapama
 MG,santana do deserto
-MG,santana do garambeu
-MG,santana do jacare
-MG,santana do manhuacu
-MG,santana do paraiso
+MG,santana do garambéu
+MG,santana do jacaré
+MG,santana do manhuaçu
+MG,santana do paraíso
 MG,santana do riacho
 MG,santana dos montes
-MG,santo antonio do amparo
-MG,santo antonio do aventureiro
-MG,santo antonio do grama
-MG,santo antonio do itambe
-MG,santo antonio do jacinto
-MG,santo antonio do monte
-MG,santo antonio do retiro
-MG,santo antonio do rio abaixo
-MG,santo hipolito
+MG,santo antônio do amparo
+MG,santo antônio do aventureiro
+MG,santo antônio do grama
+MG,santo antônio do itambé
+MG,santo antônio do jacinto
+MG,santo antônio do monte
+MG,santo antônio do retiro
+MG,santo antônio do rio abaixo
+MG,santo hipólito
 MG,santos dumont
-MG,sapucai-mirim
-MG,sardoa
+MG,sapucaí-mirim
+MG,sardoá
 MG,sarzedo
 MG,sem-peixe
 MG,senador amaral
 MG,senador cortes
 MG,senador firmino
-MG,senador jose bento
-MG,senador modestino goncalves
+MG,senador josé bento
+MG,senador modestino gonçalves
 MG,senhora de oliveira
 MG,senhora do porto
-MG,senhora dos remedios
+MG,senhora dos remédios
 MG,sericita
 MG,seritinga
 MG,serra azul de minas
 MG,serra da saudade
 MG,serra do salitre
-MG,serra dos aimores
+MG,serra dos aimorés
 MG,serrania
 MG,serranos
-MG,serranopolis de minas
+MG,serranópolis de minas
 MG,serro
 MG,sete lagoas
 MG,setubinha
-MG,silveirania
-MG,silvianopolis
-MG,simonesia
-MG,simao pereira
-MG,sobralia
+MG,silveirânia
+MG,silvianópolis
+MG,simonésia
+MG,simão pereira
+MG,sobrália
 MG,soledade de minas
-MG,sao bento abade
-MG,sao bras do suacui
-MG,sao domingos das dores
-MG,sao domingos do prata
-MG,sao francisco
-MG,sao francisco de paula
-MG,sao francisco de sales
-MG,sao francisco do gloria
-MG,sao felix de minas
-MG,sao geraldo
-MG,sao geraldo da piedade
-MG,sao geraldo do baixio
-MG,sao goncalo do abaete
-MG,sao goncalo do para
-MG,sao goncalo do rio abaixo
-MG,sao goncalo do rio preto
-MG,sao goncalo do sapucai
-MG,sao gotardo
-MG,sao joaquim de bicas
-MG,sao jose da barra
-MG,sao jose da lapa
-MG,sao jose da safira
-MG,sao jose da varginha
-MG,sao jose do alegre
-MG,sao jose do divino
-MG,sao jose do goiabal
-MG,sao jose do jacuri
-MG,sao jose do mantimento
-MG,sao joao batista do gloria
-MG,sao joao evangelista
-MG,sao joao nepomuceno
-MG,sao joao da lagoa
-MG,sao joao da mata
-MG,sao joao da ponte
-MG,sao joao das missoes
-MG,sao joao del rei
-MG,sao joao do manhuacu
-MG,sao joao do manteninha
-MG,sao joao do oriente
-MG,sao joao do pacui
-MG,sao joao do paraiso
-MG,sao lourenco
-MG,sao miguel do anta
-MG,sao pedro da uniao
-MG,sao pedro do suacui
-MG,sao pedro dos ferros
-MG,sao romao
-MG,sao roque de minas
-MG,sao sebastiao da bela vista
-MG,sao sebastiao da vargem alegre
-MG,sao sebastiao do anta
-MG,sao sebastiao do maranhao
-MG,sao sebastiao do oeste
-MG,sao sebastiao do paraiso
-MG,sao sebastiao do rio preto
-MG,sao sebastiao do rio verde
-MG,sao tiago
-MG,sao tomas de aquino
-MG,sao tome das letras
-MG,sao vicente de minas
+MG,são bento abade
+MG,são brás do suaçuí
+MG,são domingos das dores
+MG,são domingos do prata
+MG,são francisco
+MG,são francisco de paula
+MG,são francisco de sales
+MG,são francisco do glória
+MG,são félix de minas
+MG,são geraldo
+MG,são geraldo da piedade
+MG,são geraldo do baixio
+MG,são gonçalo do abaeté
+MG,são gonçalo do pará
+MG,são gonçalo do rio abaixo
+MG,são gonçalo do rio preto
+MG,são gonçalo do sapucaí
+MG,são gotardo
+MG,são joaquim de bicas
+MG,são josé da barra
+MG,são josé da lapa
+MG,são josé da safira
+MG,são josé da varginha
+MG,são josé do alegre
+MG,são josé do divino
+MG,são josé do goiabal
+MG,são josé do jacuri
+MG,são josé do mantimento
+MG,são joão batista do glória
+MG,são joão evangelista
+MG,são joão nepomuceno
+MG,são joão da lagoa
+MG,são joão da mata
+MG,são joão da ponte
+MG,são joão das missões
+MG,são joão del rei
+MG,são joão do manhuaçu
+MG,são joão do manteninha
+MG,são joão do oriente
+MG,são joão do pacuí
+MG,são joão do paraíso
+MG,são lourenço
+MG,são miguel do anta
+MG,são pedro da união
+MG,são pedro do suaçuí
+MG,são pedro dos ferros
+MG,são romão
+MG,são roque de minas
+MG,são sebastião da bela vista
+MG,são sebastião da vargem alegre
+MG,são sebastião do anta
+MG,são sebastião do maranhão
+MG,são sebastião do oeste
+MG,são sebastião do paraíso
+MG,são sebastião do rio preto
+MG,são sebastião do rio verde
+MG,são tiago
+MG,são tomás de aquino
+MG,são tomé das letras
+MG,são vicente de minas
 MG,tabuleiro
 MG,taiobeiras
 MG,taparuba
 MG,tapira
-MG,tapirai
-MG,taquaracu de minas
+MG,tapiraí
+MG,taquaraçu de minas
 MG,tarumirim
 MG,teixeiras
-MG,teofilo otoni
-MG,timoteo
+MG,teófilo otoni
+MG,timóteo
 MG,tiradentes
 MG,tiros
 MG,tocantins
 MG,tocos do moji
 MG,toledo
 MG,tombos
-MG,tres coracoes
-MG,tres marias
-MG,tres pontas
+MG,três corações
+MG,três marias
+MG,três pontas
 MG,tumiritinga
 MG,tupaciguara
 MG,turmalina
-MG,turvolandia
+MG,turvolândia
 MG,ubaporanga
-MG,ubai
+MG,ubaí
 MG,uberaba
-MG,uberlandia
-MG,uba
+MG,uberlândia
+MG,ubá
 MG,umburatiba
-MG,unai
-MG,uniao de minas
+MG,unaí
+MG,união de minas
 MG,uruana de minas
 MG,urucuia
-MG,urucania
+MG,urucânia
 MG,vargem alegre
 MG,vargem bonita
 MG,vargem grande do rio pardo
 MG,varginha
-MG,varjao de minas
-MG,varzelandia
+MG,varjão de minas
+MG,varzelândia
 MG,vazante
-MG,verdelandia
+MG,verdelândia
 MG,veredinha
 MG,vermelho novo
-MG,verissimo
+MG,veríssimo
 MG,vespasiano
 MG,vieiras
 MG,virgem da lapa
-MG,virginopolis
-MG,virgolandia
-MG,virginia
+MG,virginópolis
+MG,virgolândia
+MG,virgínia
 MG,visconde do rio branco
-MG,vicosa
+MG,viçosa
 MG,volta grande
-MG,varzea da palma
+MG,várzea da palma
 MG,wenceslau braz
-MG,agua boa
-MG,agua comprida
-MG,aguas formosas
-MG,aguas vermelhas
-MS,alcinopolis
+MG,água boa
+MG,água comprida
+MG,águas formosas
+MG,águas vermelhas
+MS,alcinópolis
 MS,amambai
-MS,anastacio
-MS,anaurilandia
-MS,angelica
-MS,antonio joao
+MS,anastácio
+MS,anaurilândia
+MS,angélica
+MS,antônio joão
 MS,aparecida do taboado
 MS,aquidauana
 MS,aral moreira
 MS,bandeirantes
 MS,bataguassu
-MS,bataypora
+MS,batayporã
 MS,bela vista
 MS,bodoquena
 MS,bonito
-MS,brasilandia
-MS,caarapo
-MS,camapua
+MS,brasilândia
+MS,caarapó
+MS,camapuã
 MS,campo grande
 MS,caracol
-MS,cassilandia
-MS,chapadao do sul
+MS,cassilândia
+MS,chapadão do sul
 MS,corguinho
 MS,coronel sapucaia
-MS,corumba
+MS,corumbá
 MS,costa rica
 MS,coxim
-MS,deodapolis
-MS,dois irmaos do buriti
+MS,deodápolis
+MS,dois irmãos do buriti
 MS,douradina
 MS,dourados
 MS,eldorado
-MS,figueirao
-MS,fatima do sul
-MS,gloria de dourados
+MS,figueirão
+MS,fátima do sul
+MS,glória de dourados
 MS,guia lopes da laguna
 MS,iguatemi
-MS,inocencia
-MS,itapora
-MS,itaquirai
+MS,inocência
+MS,itaporã
+MS,itaquiraí
 MS,ivinhema
-MS,japora
+MS,japorã
 MS,jaraguari
 MS,jardim
-MS,jatei
+MS,jateí
 MS,juti
-MS,ladario
-MS,laguna carapa
+MS,ladário
+MS,laguna carapã
 MS,maracaju
 MS,miranda
 MS,mundo novo
-MS,navirai
+MS,naviraí
 MS,nioaque
 MS,nova alvorada do sul
 MS,nova andradina
 MS,novo horizonte do sul
-MS,paranaiba
+MS,paranaíba
 MS,paranhos
-MS,paraiso das aguas
+MS,paraíso das águas
 MS,pedro gomes
-MS,ponta pora
+MS,ponta porã
 MS,porto murtinho
 MS,ribas do rio pardo
 MS,rio brilhante
@@ -2265,70 +2265,70 @@ MS,rio negro
 MS,rio verde de mato grosso
 MS,rochedo
 MS,santa rita do pardo
-MS,selviria
+MS,selvíria
 MS,sete quedas
-MS,sidrolandia
+MS,sidrolândia
 MS,sonora
-MS,sao gabriel do oeste
+MS,são gabriel do oeste
 MS,tacuru
 MS,taquarussu
 MS,terenos
-MS,tres lagoas
+MS,três lagoas
 MS,vicentina
-MS,agua clara
+MS,água clara
 MT,acorizal
 MT,alta floresta
 MT,alto araguaia
 MT,alto boa vista
-MT,alto garcas
+MT,alto garças
 MT,alto paraguai
 MT,alto taquari
-MT,apiacas
+MT,apiacás
 MT,araguaiana
 MT,araguainha
 MT,araputanga
-MT,arenapolis
-MT,aripuana
+MT,arenápolis
+MT,aripuanã
 MT,barra do bugres
-MT,barra do garcas
-MT,barao de melgaco
-MT,boa esperanca do norte
+MT,barra do garças
+MT,barão de melgaço
+MT,boa esperança do norte
 MT,bom jesus do araguaia
 MT,brasnorte
-MT,campinapolis
+MT,campinápolis
 MT,campo novo do parecis
 MT,campo verde
-MT,campos de julio
+MT,campos de júlio
 MT,canabrava do norte
 MT,canarana
 MT,carlinda
 MT,castanheira
-MT,chapada dos guimaraes
-MT,claudia
+MT,chapada dos guimarães
+MT,cláudia
 MT,cocalinho
 MT,colniza
-MT,colider
+MT,colíder
 MT,comodoro
 MT,confresa
 MT,conquista d'oeste
-MT,cotriguacu
-MT,cuiaba
-MT,curvelandia
-MT,caceres
+MT,cotriguaçu
+MT,cuiabá
+MT,curvelândia
+MT,cáceres
 MT,denise
 MT,diamantino
 MT,dom aquino
 MT,feliz natal
-MT,figueiropolis d'oeste
-MT,gaucha do norte
+MT,figueirópolis d'oeste
+MT,gaúcha do norte
 MT,general carneiro
-MT,gloria d'oeste
-MT,guaranta do norte
+MT,glória d'oeste
+MT,guarantã do norte
 MT,guiratinga
-MT,indiavai
+MT,indiavaí
 MT,ipiranga do norte
-MT,itanhanga
-MT,itauba
+MT,itanhangá
+MT,itaúba
 MT,itiquira
 MT,jaciara
 MT,jangada
@@ -2336,179 +2336,179 @@ MT,jauru
 MT,juara
 MT,juruena
 MT,juscimeira
-MT,juina
+MT,juína
 MT,lambari d'oeste
 MT,lucas do rio verde
 MT,luciara
-MT,marcelandia
-MT,matupa
+MT,marcelândia
+MT,matupá
 MT,mirassol d'oeste
 MT,nobres
-MT,nortelandia
+MT,nortelândia
 MT,nossa senhora do livramento
 MT,nova bandeirantes
-MT,nova brasilandia
-MT,nova canaa do norte
+MT,nova brasilândia
+MT,nova canaã do norte
 MT,nova guarita
 MT,nova lacerda
-MT,nova marilandia
-MT,nova maringa
+MT,nova marilândia
+MT,nova maringá
 MT,nova monte verde
 MT,nova mutum
-MT,nova nazare
-MT,nova olimpia
+MT,nova nazaré
+MT,nova olímpia
 MT,nova santa helena
-MT,nova ubirata
+MT,nova ubiratã
 MT,nova xavantina
 MT,novo horizonte do norte
 MT,novo mundo
-MT,novo santo antonio
-MT,novo sao joaquim
+MT,novo santo antônio
+MT,novo são joaquim
 MT,paranatinga
-MT,paranaita
+MT,paranaíta
 MT,pedra preta
 MT,peixoto de azevedo
 MT,planalto da serra
-MT,pocone
+MT,poconé
 MT,pontal do araguaia
 MT,ponte branca
 MT,pontes e lacerda
 MT,porto alegre do norte
-MT,porto esperidiao
+MT,porto esperidião
 MT,porto estrela
-MT,porto dos gauchos
-MT,poxoreu
+MT,porto dos gaúchos
+MT,poxoréu
 MT,primavera do leste
-MT,querencia
-MT,reserva do cabacal
-MT,ribeirao cascalheira
-MT,ribeiraozinho
+MT,querência
+MT,reserva do cabaçal
+MT,ribeirão cascalheira
+MT,ribeirãozinho
 MT,rio branco
-MT,rondolandia
-MT,rondonopolis
-MT,rosario oeste
-MT,salto do ceu
+MT,rondolândia
+MT,rondonópolis
+MT,rosário oeste
+MT,salto do céu
 MT,santa carmem
 MT,santa cruz do xingu
 MT,santa rita do trivelato
 MT,santa terezinha
 MT,santo afonso
-MT,santo antonio de leverger
-MT,santo antonio do leste
+MT,santo antônio de leverger
+MT,santo antônio do leste
 MT,sapezal
 MT,serra nova dourada
 MT,sinop
 MT,sorriso
-MT,sao felix do araguaia
-MT,sao jose do povo
-MT,sao jose do rio claro
-MT,sao jose do xingu
-MT,sao jose dos quatro marcos
-MT,sao pedro da cipa
-MT,tabapora
-MT,tangara da serra
+MT,são félix do araguaia
+MT,são josé do povo
+MT,são josé do rio claro
+MT,são josé do xingu
+MT,são josé dos quatro marcos
+MT,são pedro da cipa
+MT,tabaporã
+MT,tangará da serra
 MT,tapurah
 MT,terra nova do norte
 MT,tesouro
-MT,torixoreu
-MT,uniao do sul
-MT,vale de sao domingos
+MT,torixoréu
+MT,união do sul
+MT,vale de são domingos
 MT,vera
-MT,vila bela da santissima trindade
+MT,vila bela da santíssima trindade
 MT,vila rica
-MT,varzea grande
-MT,agua boa
+MT,várzea grande
+MT,água boa
 PA,abaetetuba
 PA,abel figueiredo
-PA,acara
-PA,afua
+PA,acará
+PA,afuá
 PA,alenquer
 PA,almeirim
 PA,altamira
-PA,anajas
+PA,anajás
 PA,ananindeua
 PA,anapu
-PA,augusto correa
-PA,aurora do para
+PA,augusto corrêa
+PA,aurora do pará
 PA,aveiro
 PA,bagre
-PA,baiao
+PA,baião
 PA,bannach
 PA,barcarena
 PA,belterra
-PA,belem
+PA,belém
 PA,benevides
 PA,bom jesus do tocantins
 PA,bonito
-PA,braganca
+PA,bragança
 PA,brasil novo
 PA,brejo grande do araguaia
 PA,breu branco
 PA,breves
 PA,bujaru
 PA,cachoeira do arari
-PA,cachoeira do piria
-PA,cameta
-PA,canaa dos carajas
+PA,cachoeira do piriá
+PA,cametá
+PA,canaã dos carajás
 PA,capanema
-PA,capitao poco
+PA,capitão poço
 PA,castanhal
 PA,chaves
 PA,colares
-PA,conceicao do araguaia
-PA,concordia do para
+PA,conceição do araguaia
+PA,concórdia do pará
 PA,cumaru do norte
-PA,curionopolis
+PA,curionópolis
 PA,curralinho
-PA,curua
-PA,curuca
+PA,curuá
+PA,curuçá
 PA,dom eliseu
-PA,eldorado do carajas
+PA,eldorado do carajás
 PA,faro
 PA,floresta do araguaia
-PA,garrafao do norte
-PA,goianesia do para
-PA,gurupa
-PA,igarape-acu
-PA,igarape-miri
+PA,garrafão do norte
+PA,goianésia do pará
+PA,gurupá
+PA,igarapé-açu
+PA,igarapé-miri
 PA,inhangapi
-PA,ipixuna do para
+PA,ipixuna do pará
 PA,irituia
 PA,itaituba
 PA,itupiranga
 PA,jacareacanga
-PA,jacunda
+PA,jacundá
 PA,juruti
 PA,limoeiro do ajuru
-PA,magalhaes barata
-PA,maraba
-PA,maracana
+PA,magalhães barata
+PA,marabá
+PA,maracanã
 PA,marapanim
 PA,marituba
-PA,medicilandia
-PA,melgaco
+PA,medicilândia
+PA,melgaço
 PA,mocajuba
 PA,moju
-PA,mojui dos campos
+PA,mojuí dos campos
 PA,monte alegre
-PA,muana
-PA,mae do rio
-PA,nova esperanca do piria
+PA,muaná
+PA,mãe do rio
+PA,nova esperança do piriá
 PA,nova ipixuna
 PA,nova timboteua
 PA,novo progresso
 PA,novo repartimento
-PA,oeiras do para
-PA,oriximina
-PA,ourilandia do norte
-PA,ourem
-PA,pacaja
-PA,palestina do para
+PA,oeiras do pará
+PA,oriximiná
+PA,ourilândia do norte
+PA,ourém
+PA,pacajá
+PA,palestina do pará
 PA,paragominas
 PA,parauapebas
 PA,pau d'arco
 PA,peixe-boi
-PA,picarra
+PA,piçarra
 PA,placas
 PA,ponta de pedras
 PA,portel
@@ -2516,149 +2516,149 @@ PA,porto de moz
 PA,prainha
 PA,primavera
 PA,quatipuru
-PA,redencao
+PA,redenção
 PA,rio maria
-PA,rondon do para
-PA,ruropolis
-PA,salinopolis
+PA,rondon do pará
+PA,rurópolis
+PA,salinópolis
 PA,salvaterra
-PA,santa barbara do para
+PA,santa bárbara do pará
 PA,santa cruz do arari
-PA,santa izabel do para
-PA,santa luzia do para
+PA,santa izabel do pará
+PA,santa luzia do pará
 PA,santa maria das barreiras
-PA,santa maria do para
+PA,santa maria do pará
 PA,santana do araguaia
-PA,santarem
-PA,santarem novo
-PA,santo antonio do taua
+PA,santarém
+PA,santarém novo
+PA,santo antônio do tauá
 PA,sapucaia
-PA,senador jose porfirio
+PA,senador josé porfírio
 PA,soure
-PA,sao caetano de odivelas
-PA,sao domingos do araguaia
-PA,sao domingos do capim
-PA,sao francisco do para
-PA,sao felix do xingu
-PA,sao geraldo do araguaia
-PA,sao joao da ponta
-PA,sao joao de pirabas
-PA,sao joao do araguaia
-PA,sao miguel do guama
-PA,sao sebastiao da boa vista
-PA,tailandia
+PA,são caetano de odivelas
+PA,são domingos do araguaia
+PA,são domingos do capim
+PA,são francisco do pará
+PA,são félix do xingu
+PA,são geraldo do araguaia
+PA,são joão da ponta
+PA,são joão de pirabas
+PA,são joão do araguaia
+PA,são miguel do guamá
+PA,são sebastião da boa vista
+PA,tailândia
 PA,terra alta
 PA,terra santa
-PA,tome-acu
+PA,tomé-açu
 PA,tracuateua
-PA,trairao
-PA,tucuma
-PA,tucurui
-PA,ulianopolis
-PA,uruara
+PA,trairão
+PA,tucumã
+PA,tucuruí
+PA,ulianópolis
+PA,uruará
 PA,vigia
 PA,viseu
-PA,vitoria do xingu
+PA,vitória do xingu
 PA,xinguara
-PA,agua azul do norte
-PA,obidos
+PA,água azul do norte
+PA,óbidos
 PB,aguiar
 PB,alagoa grande
 PB,alagoa nova
 PB,alagoinha
 PB,alcantil
-PB,algodao de jandaira
+PB,algodão de jandaíra
 PB,alhandra
 PB,amparo
 PB,aparecida
 PB,arara
 PB,araruna
-PB,aracagi
+PB,araçagi
 PB,areia
-PB,areia de baraunas
+PB,areia de baraúnas
 PB,areial
 PB,aroeiras
-PB,assuncao
+PB,assunção
 PB,bananeiras
-PB,barauna
+PB,baraúna
 PB,barra de santa rosa
 PB,barra de santana
-PB,barra de sao miguel
+PB,barra de são miguel
 PB,bayeux
-PB,baia da traicao
-PB,belem
-PB,belem do brejo do cruz
+PB,baía da traição
+PB,belém
+PB,belém do brejo do cruz
 PB,bernardino batista
 PB,boa ventura
 PB,boa vista
 PB,bom jesus
 PB,bom sucesso
-PB,bonito de santa fe
-PB,boqueirao
+PB,bonito de santa fé
+PB,boqueirão
 PB,borborema
 PB,brejo do cruz
 PB,brejo dos santos
-PB,caapora
+PB,caaporã
 PB,cabaceiras
 PB,cabedelo
-PB,cachoeira dos indios
+PB,cachoeira dos índios
 PB,cacimba de areia
 PB,cacimba de dentro
 PB,cacimbas
-PB,caicara
+PB,caiçara
 PB,cajazeiras
 PB,cajazeirinhas
-PB,caldas brandao
-PB,camalau
+PB,caldas brandão
+PB,camalaú
 PB,campina grande
 PB,capim
-PB,caraubas
+PB,caraúbas
 PB,carrapateira
 PB,casserengue
 PB,catingueira
-PB,catole do rocha
-PB,caturite
-PB,conceicao
+PB,catolé do rocha
+PB,caturité
+PB,conceição
 PB,condado
 PB,conde
 PB,congo
 PB,coremas
 PB,coxixola
-PB,cruz do espirito santo
+PB,cruz do espírito santo
 PB,cubati
 PB,cuitegi
-PB,cuite
-PB,cuite de mamanguape
+PB,cuité
+PB,cuité de mamanguape
 PB,curral velho
 PB,curral de cima
-PB,damiao
+PB,damião
 PB,desterro
 PB,diamante
-PB,dona ines
+PB,dona inês
 PB,duas estradas
 PB,emas
-PB,esperanca
+PB,esperança
 PB,fagundes
 PB,frei martinho
 PB,gado bravo
 PB,guarabira
-PB,gurinhem
-PB,gurjao
+PB,gurinhém
+PB,gurjão
 PB,ibiara
 PB,igaracy
 PB,imaculada
-PB,inga
+PB,ingá
 PB,itabaiana
 PB,itaporanga
 PB,itapororoca
 PB,itatuba
-PB,jacarau
-PB,jerico
+PB,jacaraú
+PB,jericó
 PB,joca claudino
-PB,joao pessoa
-PB,juarez tavora
+PB,joão pessoa
+PB,juarez távora
 PB,juazeirinho
-PB,junco do serido
+PB,junco do seridó
 PB,juripiranga
 PB,juru
 PB,lagoa
@@ -2670,27 +2670,27 @@ PB,logradouro
 PB,lucena
 PB,malta
 PB,mamanguape
-PB,manaira
-PB,marcacao
+PB,manaíra
+PB,marcação
 PB,mari
-PB,marizopolis
+PB,marizópolis
 PB,massaranduba
 PB,mataraca
 PB,matinhas
 PB,mato grosso
-PB,matureia
+PB,maturéia
 PB,mogeiro
 PB,montadas
 PB,monte horebe
 PB,monteiro
 PB,mulungu
-PB,mae d'agua
+PB,mãe d'água
 PB,natuba
 PB,nazarezinho
 PB,nova floresta
 PB,nova olinda
 PB,nova palmeira
-PB,olho d'agua
+PB,olho d'água
 PB,olivedos
 PB,ouro velho
 PB,parari
@@ -2700,145 +2700,145 @@ PB,paulista
 PB,pedra branca
 PB,pedra lavrada
 PB,pedras de fogo
-PB,pedro regis
-PB,pianco
-PB,picui
+PB,pedro régis
+PB,piancó
+PB,picuí
 PB,pilar
-PB,piloes
-PB,piloezinhos
+PB,pilões
+PB,pilõezinhos
 PB,pirpirituba
 PB,pitimbu
 PB,pocinhos
 PB,pombal
-PB,poco dantas
-PB,poco de jose de moura
+PB,poço dantas
+PB,poço de josé de moura
 PB,prata
 PB,princesa isabel
-PB,puxinana
+PB,puxinanã
 PB,queimadas
 PB,quixaba
-PB,remigio
-PB,riacho de santo antonio
+PB,remígio
+PB,riacho de santo antônio
 PB,riacho dos cavalos
-PB,riachao
-PB,riachao do bacamarte
-PB,riachao do poco
+PB,riachão
+PB,riachão do bacamarte
+PB,riachão do poço
 PB,rio tinto
 PB,salgadinho
-PB,salgado de sao felix
-PB,santa cecilia
+PB,salgado de são félix
+PB,santa cecília
 PB,santa cruz
 PB,santa helena
-PB,santa ines
+PB,santa inês
 PB,santa luzia
 PB,santa rita
 PB,santa teresinha
 PB,santana de mangueira
 PB,santana dos garrotes
-PB,santo andre
-PB,sape
+PB,santo andré
+PB,sapé
 PB,serra branca
 PB,serra grande
 PB,serra redonda
 PB,serra da raiz
 PB,serraria
-PB,sertaozinho
+PB,sertãozinho
 PB,sobrado
 PB,soledade
-PB,solanea
-PB,sossego
+PB,solânea
+PB,sossêgo
 PB,sousa
-PB,sume
-PB,sao bentinho
-PB,sao bento
-PB,sao domingos
-PB,sao domingos do cariri
-PB,sao francisco
-PB,sao jose da lagoa tapada
-PB,sao jose de caiana
-PB,sao jose de espinharas
-PB,sao jose de piranhas
-PB,sao jose de princesa
-PB,sao jose do bonfim
-PB,sao jose do brejo do cruz
-PB,sao jose do sabugi
-PB,sao jose dos cordeiros
-PB,sao jose dos ramos
-PB,sao joao do cariri
-PB,sao joao do rio do peixe
-PB,sao joao do tigre
-PB,sao mamede
-PB,sao miguel de taipu
-PB,sao sebastiao de lagoa de roca
-PB,sao sebastiao do umbuzeiro
-PB,sao vicente do serido
+PB,sumé
+PB,são bentinho
+PB,são bento
+PB,são domingos
+PB,são domingos do cariri
+PB,são francisco
+PB,são josé da lagoa tapada
+PB,são josé de caiana
+PB,são josé de espinharas
+PB,são josé de piranhas
+PB,são josé de princesa
+PB,são josé do bonfim
+PB,são josé do brejo do cruz
+PB,são josé do sabugi
+PB,são josé dos cordeiros
+PB,são josé dos ramos
+PB,são joão do cariri
+PB,são joão do rio do peixe
+PB,são joão do tigre
+PB,são mamede
+PB,são miguel de taipu
+PB,são sebastião de lagoa de roça
+PB,são sebastião do umbuzeiro
+PB,são vicente do seridó
 PB,tacima
-PB,taperoa
+PB,taperoá
 PB,tavares
 PB,teixeira
-PB,tenorio
+PB,tenório
 PB,triunfo
-PB,uirauna
+PB,uiraúna
 PB,umbuzeiro
-PB,vieiropolis
+PB,vieirópolis
 PB,vista serrana
-PB,varzea
-PB,zabele
-PB,agua branca
+PB,várzea
+PB,zabelê
+PB,água branca
 PE,abreu e lima
 PE,afogados da ingazeira
-PE,afranio
+PE,afrânio
 PE,agrestina
 PE,alagoinha
-PE,alianca
+PE,aliança
 PE,altinho
 PE,amaraji
 PE,angelim
 PE,araripina
-PE,aracoiaba
+PE,araçoiaba
 PE,arcoverde
 PE,barra de guabiraba
 PE,barreiros
 PE,belo jardim
-PE,belem de maria
-PE,belem do sao francisco
-PE,betania
+PE,belém de maria
+PE,belém do são francisco
+PE,betânia
 PE,bezerros
-PE,bodoco
+PE,bodocó
 PE,bom conselho
 PE,bom jardim
 PE,bonito
 PE,brejinho
 PE,brejo da madre de deus
-PE,brejao
+PE,brejão
 PE,buenos aires
-PE,buique
+PE,buíque
 PE,cabo de santo agostinho
-PE,cabrobo
+PE,cabrobó
 PE,cachoeirinha
-PE,caetes
+PE,caetés
 PE,calumbi
-PE,calcado
+PE,calçado
 PE,camaragibe
-PE,camocim de sao felix
+PE,camocim de são félix
 PE,camutanga
 PE,canhotinho
 PE,capoeiras
 PE,carnaubeira da penha
-PE,carnaiba
+PE,carnaíba
 PE,carpina
 PE,caruaru
 PE,casinhas
 PE,catende
 PE,cedro
-PE,cha grande
-PE,cha de alegria
+PE,chã grande
+PE,chã de alegria
 PE,condado
 PE,correntes
-PE,cortes
+PE,cortês
 PE,cumaru
 PE,cupira
-PE,custodia
+PE,custódia
 PE,dormentes
 PE,escada
 PE,exu
@@ -2850,32 +2850,32 @@ PE,floresta
 PE,frei miguelinho
 PE,gameleira
 PE,garanhuns
-PE,gloria do goita
+PE,glória do goitá
 PE,goiana
 PE,granito
-PE,gravata
+PE,gravatá
 PE,iati
 PE,ibimirim
 PE,ibirajuba
 PE,igarassu
 PE,iguaracy
-PE,ilha de itamaraca
-PE,inaja
+PE,ilha de itamaracá
+PE,inajá
 PE,ingazeira
 PE,ipojuca
 PE,ipubi
 PE,itacuruba
-PE,itambe
+PE,itambé
 PE,itapetim
 PE,itapissuma
 PE,itaquitinga
-PE,itaiba
-PE,jaboatao dos guararapes
+PE,itaíba
+PE,jaboatão dos guararapes
 PE,jaqueira
-PE,jatauba
-PE,jatoba
+PE,jataúba
+PE,jatobá
 PE,joaquim nabuco
-PE,joao alfredo
+PE,joão alfredo
 PE,jucati
 PE,jupi
 PE,jurema
@@ -2891,12 +2891,12 @@ PE,machados
 PE,manari
 PE,maraial
 PE,mirandiba
-PE,moreilandia
+PE,moreilândia
 PE,moreno
-PE,nazare da mata
+PE,nazaré da mata
 PE,olinda
-PE,orobo
-PE,oroco
+PE,orobó
+PE,orocó
 PE,ouricuri
 PE,palmares
 PE,palmeirina
@@ -2909,221 +2909,221 @@ PE,paulista
 PE,pedra
 PE,pesqueira
 PE,petrolina
-PE,petrolandia
+PE,petrolândia
 PE,pombos
-PE,pocao
+PE,poção
 PE,primavera
-PE,quipapa
+PE,quipapá
 PE,quixaba
 PE,recife
 PE,riacho das almas
-PE,ribeirao
+PE,ribeirão
 PE,rio formoso
-PE,saire
+PE,sairé
 PE,salgadinho
 PE,salgueiro
-PE,saloa
-PE,sanharo
+PE,saloá
+PE,sanharó
 PE,santa cruz
 PE,santa cruz da baixa verde
 PE,santa cruz do capibaribe
 PE,santa filomena
 PE,santa maria da boa vista
-PE,santa maria do cambuca
+PE,santa maria do cambucá
 PE,santa terezinha
 PE,serra talhada
 PE,serrita
-PE,sertania
-PE,sirinhaem
-PE,solidao
+PE,sertânia
+PE,sirinhaém
+PE,solidão
 PE,surubim
-PE,sao benedito do sul
-PE,sao bento do una
-PE,sao caitano
-PE,sao joaquim do monte
-PE,sao jose da coroa grande
-PE,sao jose do belmonte
-PE,sao jose do egito
-PE,sao joao
-PE,sao lourenco da mata
-PE,sao vicente ferrer
+PE,são benedito do sul
+PE,são bento do una
+PE,são caitano
+PE,são joaquim do monte
+PE,são josé da coroa grande
+PE,são josé do belmonte
+PE,são josé do egito
+PE,são joão
+PE,são lourenço da mata
+PE,são vicente férrer
 PE,tabira
-PE,tacaimbo
+PE,tacaimbó
 PE,tacaratu
-PE,tamandare
+PE,tamandaré
 PE,taquaritinga do norte
 PE,terezinha
 PE,terra nova
-PE,timbauba
+PE,timbaúba
 PE,toritama
-PE,tracunhaem
+PE,tracunhaém
 PE,trindade
 PE,triunfo
 PE,tupanatinga
 PE,tuparetama
 PE,venturosa
 PE,verdejante
-PE,vertente do lerio
+PE,vertente do lério
 PE,vertentes
-PE,vicencia
-PE,vitoria de santo antao
-PE,xexeu
-PE,agua preta
-PE,aguas belas
-PI,acaua
-PI,agricolandia
-PI,alagoinha do piaui
-PI,alegrete do piaui
-PI,alto longa
+PE,vicência
+PE,vitória de santo antão
+PE,xexéu
+PE,água preta
+PE,águas belas
+PI,acauã
+PI,agricolândia
+PI,alagoinha do piauí
+PI,alegrete do piauí
+PI,alto longá
 PI,altos
-PI,alvorada do gurgueia
+PI,alvorada do gurguéia
 PI,amarante
-PI,angical do piaui
-PI,antonio almeida
-PI,anisio de abreu
+PI,angical do piauí
+PI,antônio almeida
+PI,anísio de abreu
 PI,aroazes
 PI,aroeiras do itaim
 PI,arraial
-PI,assuncao do piaui
+PI,assunção do piauí
 PI,avelino lopes
 PI,baixa grande do ribeiro
-PI,barra d'alcantara
+PI,barra d'alcântara
 PI,barras
-PI,barreiras do piaui
+PI,barreiras do piauí
 PI,barro duro
 PI,batalha
-PI,bela vista do piaui
-PI,belem do piaui
+PI,bela vista do piauí
+PI,belém do piauí
 PI,beneditinos
-PI,bertolinia
-PI,betania do piaui
+PI,bertolínia
+PI,betânia do piauí
 PI,boa hora
 PI,bocaina
 PI,bom jesus
-PI,bom principio do piaui
-PI,bonfim do piaui
-PI,boqueirao do piaui
+PI,bom princípio do piauí
+PI,bonfim do piauí
+PI,boqueirão do piauí
 PI,brasileira
-PI,brejo do piaui
+PI,brejo do piauí
 PI,buriti dos lopes
 PI,buriti dos montes
-PI,cabeceiras do piaui
-PI,cajazeiras do piaui
+PI,cabeceiras do piauí
+PI,cajazeiras do piauí
 PI,cajueiro da praia
-PI,caldeirao grande do piaui
-PI,campinas do piaui
+PI,caldeirão grande do piauí
+PI,campinas do piauí
 PI,campo alegre do fidalgo
-PI,campo grande do piaui
-PI,campo largo do piaui
+PI,campo grande do piauí
+PI,campo largo do piauí
 PI,campo maior
 PI,canavieira
 PI,canto do buriti
-PI,capitao gervasio oliveira
-PI,capitao de campos
+PI,capitão gervásio oliveira
+PI,capitão de campos
 PI,caracol
-PI,caraubas do piaui
-PI,caridade do piaui
-PI,castelo do piaui
-PI,caxingo
+PI,caraúbas do piauí
+PI,caridade do piauí
+PI,castelo do piauí
+PI,caxingó
 PI,cocal
 PI,cocal de telha
 PI,cocal dos alves
 PI,coivaras
-PI,colonia do gurgueia
-PI,colonia do piaui
-PI,conceicao do caninde
-PI,coronel jose dias
+PI,colônia do gurguéia
+PI,colônia do piauí
+PI,conceição do canindé
+PI,coronel josé dias
 PI,corrente
-PI,cristalandia do piaui
+PI,cristalândia do piauí
 PI,cristino castro
-PI,curimata
+PI,curimatá
 PI,currais
-PI,curral novo do piaui
+PI,curral novo do piauí
 PI,curralinhos
-PI,demerval lobao
+PI,demerval lobão
 PI,dirceu arcoverde
 PI,dom expedito lopes
-PI,dom inocencio
-PI,domingos mourao
-PI,elesbao veloso
+PI,dom inocêncio
+PI,domingos mourão
+PI,elesbão veloso
 PI,eliseu martins
 PI,esperantina
-PI,fartura do piaui
-PI,flores do piaui
-PI,floresta do piaui
+PI,fartura do piauí
+PI,flores do piauí
+PI,floresta do piauí
 PI,floriano
-PI,francinopolis
+PI,francinópolis
 PI,francisco ayres
 PI,francisco macedo
 PI,francisco santos
 PI,fronteiras
 PI,geminiano
-PI,gilbues
+PI,gilbués
 PI,guadalupe
 PI,guaribas
-PI,hugo napoleao
+PI,hugo napoleão
 PI,ilha grande
 PI,inhuma
-PI,ipiranga do piaui
-PI,isaias coelho
-PI,itainopolis
+PI,ipiranga do piauí
+PI,isaías coelho
+PI,itainópolis
 PI,itaueira
-PI,jacobina do piaui
-PI,jaicos
+PI,jacobina do piauí
+PI,jaicós
 PI,jardim do mulato
-PI,jatoba do piaui
+PI,jatobá do piauí
 PI,jerumenha
 PI,joaquim pires
 PI,joca marques
-PI,jose de freitas
-PI,joao costa
-PI,juazeiro do piaui
+PI,josé de freitas
+PI,joão costa
+PI,juazeiro do piauí
 PI,jurema
-PI,julio borges
+PI,júlio borges
 PI,lagoa alegre
-PI,lagoa de sao francisco
-PI,lagoa do barro do piaui
-PI,lagoa do piaui
-PI,lagoa do sitio
-PI,lagoinha do piaui
+PI,lagoa de são francisco
+PI,lagoa do barro do piauí
+PI,lagoa do piauí
+PI,lagoa do sítio
+PI,lagoinha do piauí
 PI,landri sales
-PI,luzilandia
-PI,luis correia
+PI,luzilândia
+PI,luís correia
 PI,madeiro
-PI,manoel emidio
-PI,marcolandia
+PI,manoel emídio
+PI,marcolândia
 PI,marcos parente
-PI,massape do piaui
-PI,matias olimpio
+PI,massapê do piauí
+PI,matias olímpio
 PI,miguel alves
-PI,miguel leao
-PI,milton brandao
+PI,miguel leão
+PI,milton brandão
 PI,monsenhor gil
-PI,monsenhor hipolito
-PI,monte alegre do piaui
-PI,morro cabeca no tempo
-PI,morro do chapeu do piaui
+PI,monsenhor hipólito
+PI,monte alegre do piauí
+PI,morro cabeça no tempo
+PI,morro do chapéu do piauí
 PI,murici dos portelas
-PI,nazare do piaui
-PI,nazaria
-PI,nossa senhora de nazare
-PI,nossa senhora dos remedios
+PI,nazaré do piauí
+PI,nazária
+PI,nossa senhora de nazaré
+PI,nossa senhora dos remédios
 PI,nova santa rita
-PI,novo oriente do piaui
-PI,novo santo antonio
+PI,novo oriente do piauí
+PI,novo santo antônio
 PI,oeiras
-PI,olho d'agua do piaui
+PI,olho d'água do piauí
 PI,padre marcos
 PI,paes landim
-PI,pajeu do piaui
-PI,palmeira do piaui
+PI,pajeú do piauí
+PI,palmeira do piauí
 PI,palmeirais
-PI,paqueta
-PI,parnagua
-PI,parnaiba
-PI,passagem franca do piaui
-PI,patos do piaui
-PI,pau d'arco do piaui
+PI,paquetá
+PI,parnaguá
+PI,parnaíba
+PI,passagem franca do piauí
+PI,patos do piauí
+PI,pau d'arco do piauí
 PI,paulistana
 PI,pavussu
 PI,pedro ii
@@ -3134,161 +3134,161 @@ PI,pio ix
 PI,piracuruca
 PI,piripiri
 PI,porto
-PI,porto alegre do piaui
-PI,prata do piaui
+PI,porto alegre do piauí
+PI,prata do piauí
 PI,queimada nova
-PI,redencao do gurgueia
-PI,regeneracao
+PI,redenção do gurguéia
+PI,regeneração
 PI,riacho frio
-PI,ribeira do piaui
-PI,ribeiro goncalves
-PI,rio grande do piaui
-PI,santa cruz do piaui
+PI,ribeira do piauí
+PI,ribeiro gonçalves
+PI,rio grande do piauí
+PI,santa cruz do piauí
 PI,santa cruz dos milagres
 PI,santa filomena
 PI,santa luz
-PI,santa rosa do piaui
-PI,santana do piaui
-PI,santo antonio de lisboa
-PI,santo antonio dos milagres
-PI,santo inacio do piaui
-PI,sebastiao barros
-PI,sebastiao leal
+PI,santa rosa do piauí
+PI,santana do piauí
+PI,santo antônio de lisboa
+PI,santo antônio dos milagres
+PI,santo inácio do piauí
+PI,sebastião barros
+PI,sebastião leal
 PI,sigefredo pacheco
-PI,simplicio mendes
-PI,simoes
-PI,socorro do piaui
+PI,simplício mendes
+PI,simões
+PI,socorro do piauí
 PI,sussuapara
-PI,sao braz do piaui
-PI,sao francisco de assis do piaui
-PI,sao francisco do piaui
-PI,sao felix do piaui
-PI,sao goncalo do gurgueia
-PI,sao goncalo do piaui
-PI,sao jose do divino
-PI,sao jose do peixe
-PI,sao jose do piaui
-PI,sao joao da canabrava
-PI,sao joao da fronteira
-PI,sao joao da serra
-PI,sao joao da varjota
-PI,sao joao do arraial
-PI,sao joao do piaui
-PI,sao juliao
-PI,sao lourenco do piaui
-PI,sao luis do piaui
-PI,sao miguel da baixa grande
-PI,sao miguel do fidalgo
-PI,sao miguel do tapuio
-PI,sao pedro do piaui
-PI,sao raimundo nonato
-PI,tamboril do piaui
-PI,tanque do piaui
+PI,são braz do piauí
+PI,são francisco de assis do piauí
+PI,são francisco do piauí
+PI,são félix do piauí
+PI,são gonçalo do gurguéia
+PI,são gonçalo do piauí
+PI,são josé do divino
+PI,são josé do peixe
+PI,são josé do piauí
+PI,são joão da canabrava
+PI,são joão da fronteira
+PI,são joão da serra
+PI,são joão da varjota
+PI,são joão do arraial
+PI,são joão do piauí
+PI,são julião
+PI,são lourenço do piauí
+PI,são luis do piauí
+PI,são miguel da baixa grande
+PI,são miguel do fidalgo
+PI,são miguel do tapuio
+PI,são pedro do piauí
+PI,são raimundo nonato
+PI,tamboril do piauí
+PI,tanque do piauí
 PI,teresina
-PI,uniao
-PI,urucui
-PI,valenca do piaui
+PI,união
+PI,uruçuí
+PI,valença do piauí
 PI,vera mendes
-PI,vila nova do piaui
-PI,varzea branca
-PI,varzea grande
+PI,vila nova do piauí
+PI,várzea branca
+PI,várzea grande
 PI,wall ferraz
-PI,agua branca
-PR,abatia
-PR,adrianopolis
+PI,água branca
+PR,abatiá
+PR,adrianópolis
 PR,agudos do sul
-PR,almirante tamandare
-PR,altamira do parana
-PR,alto parana
-PR,alto paraiso
+PR,almirante tamandaré
+PR,altamira do paraná
+PR,alto paraná
+PR,alto paraíso
 PR,alto piquiri
-PR,altonia
+PR,altônia
 PR,alvorada do sul
-PR,amapora
-PR,ampere
+PR,amaporã
+PR,ampére
 PR,anahy
-PR,andira
+PR,andirá
 PR,antonina
-PR,antonio olinto
+PR,antônio olinto
 PR,apucarana
 PR,arapongas
 PR,arapoti
-PR,arapua
+PR,arapuã
 PR,araruna
-PR,araucaria
-PR,ariranha do ivai
-PR,assai
+PR,araucária
+PR,ariranha do ivaí
+PR,assaí
 PR,assis chateaubriand
 PR,astorga
 PR,atalaia
 PR,balsa nova
 PR,bandeirantes
 PR,barbosa ferraz
-PR,barra do jacare
-PR,barracao
+PR,barra do jacaré
+PR,barracão
 PR,bela vista da caroba
-PR,bela vista do paraiso
+PR,bela vista do paraíso
 PR,bituruna
-PR,boa esperanca
-PR,boa esperanca do iguacu
-PR,boa ventura de sao roque
+PR,boa esperança
+PR,boa esperança do iguaçu
+PR,boa ventura de são roque
 PR,boa vista da aparecida
-PR,bocaiuva do sul
+PR,bocaiúva do sul
 PR,bom jesus do sul
 PR,bom sucesso
 PR,bom sucesso do sul
-PR,borrazopolis
+PR,borrazópolis
 PR,braganey
-PR,brasilandia do sul
+PR,brasilândia do sul
 PR,cafeara
-PR,cafelandia
+PR,cafelândia
 PR,cafezal do sul
-PR,california
-PR,cambara
+PR,califórnia
+PR,cambará
 PR,cambira
-PR,cambe
+PR,cambé
 PR,campina grande do sul
 PR,campina da lagoa
-PR,campina do simao
+PR,campina do simão
 PR,campo bonito
 PR,campo largo
 PR,campo magro
-PR,campo mourao
+PR,campo mourão
 PR,campo do tenente
-PR,candoi
+PR,candói
 PR,cantagalo
 PR,capanema
-PR,capitao leonidas marques
-PR,carambei
-PR,carlopolis
+PR,capitão leônidas marques
+PR,carambeí
+PR,carlópolis
 PR,cascavel
 PR,castro
 PR,catanduvas
-PR,centenario do sul
+PR,centenário do sul
 PR,cerro azul
 PR,chopinzinho
 PR,cianorte
-PR,cidade gaucha
-PR,clevelandia
+PR,cidade gaúcha
+PR,clevelândia
 PR,colombo
 PR,colorado
 PR,congonhinhas
 PR,conselheiro mairinck
 PR,contenda
-PR,corbelia
-PR,cornelio procopio
+PR,corbélia
+PR,cornélio procópio
 PR,coronel domingos soares
 PR,coronel vivida
-PR,corumbatai do sul
+PR,corumbataí do sul
 PR,cruz machado
-PR,cruzeiro do iguacu
+PR,cruzeiro do iguaçu
 PR,cruzeiro do oeste
 PR,cruzeiro do sul
 PR,cruzmaltina
 PR,curitiba
-PR,curiuva
-PR,candido de abreu
-PR,ceu azul
+PR,curiúva
+PR,cândido de abreu
+PR,céu azul
 PR,diamante d'oeste
 PR,diamante do norte
 PR,diamante do sul
@@ -3296,123 +3296,123 @@ PR,dois vizinhos
 PR,douradina
 PR,doutor camargo
 PR,doutor ulysses
-PR,engenheiro beltrao
+PR,engenheiro beltrão
 PR,entre rios do oeste
-PR,eneas marques
-PR,esperanca nova
-PR,espigao alto do iguacu
+PR,enéas marques
+PR,esperança nova
+PR,espigão alto do iguaçu
 PR,farol
 PR,faxinal
 PR,fazenda rio grande
 PR,fernandes pinheiro
 PR,figueira
 PR,flor da serra do sul
-PR,florai
+PR,floraí
 PR,floresta
-PR,florestopolis
-PR,florida
+PR,florestópolis
+PR,flórida
 PR,formosa do oeste
-PR,foz do iguacu
-PR,foz do jordao
+PR,foz do iguaçu
+PR,foz do jordão
 PR,francisco alves
-PR,francisco beltrao
-PR,fenix
+PR,francisco beltrão
+PR,fênix
 PR,general carneiro
 PR,godoy moreira
-PR,goioere
+PR,goioerê
 PR,goioxim
 PR,grandes rios
-PR,guairaca
+PR,guairaçá
 PR,guamiranga
 PR,guapirama
 PR,guaporema
 PR,guaraci
-PR,guaraniacu
+PR,guaraniaçu
 PR,guarapuava
-PR,guaraquecaba
+PR,guaraqueçaba
 PR,guaratuba
-PR,guaira
-PR,honorio serpa
+PR,guaíra
+PR,honório serpa
 PR,ibaiti
 PR,ibema
-PR,ibipora
-PR,icaraima
-PR,iguaracu
+PR,ibiporã
+PR,icaraíma
+PR,iguaraçu
 PR,iguatu
-PR,imbau
+PR,imbaú
 PR,imbituva
-PR,inaja
-PR,indianopolis
-PR,inacio martins
+PR,inajá
+PR,indianópolis
+PR,inácio martins
 PR,ipiranga
-PR,ipora
+PR,iporã
 PR,iracema do oeste
 PR,irati
 PR,iretama
-PR,itaguaje
-PR,itaipulandia
-PR,itambaraca
-PR,itambe
+PR,itaguajé
+PR,itaipulândia
+PR,itambaracá
+PR,itambé
 PR,itapejara d'oeste
-PR,itaperucu
-PR,itauna do sul
-PR,ivaipora
+PR,itaperuçu
+PR,itaúna do sul
+PR,ivaiporã
 PR,ivatuba
-PR,ivate
-PR,ivai
+PR,ivaté
+PR,ivaí
 PR,jaboti
 PR,jacarezinho
-PR,jaguapita
-PR,jaguariaiva
+PR,jaguapitã
+PR,jaguariaíva
 PR,jandaia do sul
-PR,janiopolis
+PR,janiópolis
 PR,japira
-PR,japura
+PR,japurá
 PR,jardim alegre
 PR,jardim olinda
 PR,jataizinho
-PR,jesuitas
-PR,joaquim tavora
-PR,jundiai do sul
+PR,jesuítas
+PR,joaquim távora
+PR,jundiaí do sul
 PR,juranda
 PR,jussara
-PR,kalore
+PR,kaloré
 PR,lapa
 PR,laranjal
 PR,laranjeiras do sul
-PR,leopolis
-PR,lidianopolis
+PR,leópolis
+PR,lidianópolis
 PR,lindoeste
 PR,loanda
 PR,lobato
 PR,londrina
 PR,luiziana
 PR,lunardelli
-PR,lupionopolis
+PR,lupionópolis
 PR,mallet
-PR,mambore
+PR,mamborê
 PR,mandaguari
-PR,mandaguacu
+PR,mandaguaçu
 PR,mandirituba
-PR,manfrinopolis
+PR,manfrinópolis
 PR,mangueirinha
 PR,manoel ribas
-PR,marechal candido rondon
+PR,marechal cândido rondon
 PR,maria helena
 PR,marialva
 PR,marilena
 PR,mariluz
-PR,marilandia do sul
-PR,maringa
-PR,maripa
-PR,mariopolis
+PR,marilândia do sul
+PR,maringá
+PR,maripá
+PR,mariópolis
 PR,marmeleiro
 PR,marquinho
 PR,marumbi
-PR,matelandia
+PR,matelândia
 PR,matinhos
 PR,mato rico
-PR,maua da serra
+PR,mauá da serra
 PR,medianeira
 PR,mercedes
 PR,mirador
@@ -3421,35 +3421,35 @@ PR,missal
 PR,moreira sales
 PR,morretes
 PR,munhoz de melo
-PR,nossa senhora das gracas
-PR,nova alianca do ivai
-PR,nova america da colina
+PR,nossa senhora das graças
+PR,nova aliança do ivaí
+PR,nova américa da colina
 PR,nova aurora
 PR,nova cantu
-PR,nova esperanca
-PR,nova esperanca do sudoeste
-PR,nova fatima
+PR,nova esperança
+PR,nova esperança do sudoeste
+PR,nova fátima
 PR,nova laranjeiras
 PR,nova londrina
-PR,nova olimpia
-PR,nova prata do iguacu
-PR,nova santa barbara
+PR,nova olímpia
+PR,nova prata do iguaçu
+PR,nova santa bárbara
 PR,nova santa rosa
 PR,nova tebas
 PR,novo itacolomi
 PR,ortigueira
 PR,ourizona
 PR,ouro verde do oeste
-PR,paicandu
+PR,paiçandu
 PR,palmas
 PR,palmeira
 PR,palmital
 PR,palotina
 PR,paranacity
-PR,paranagua
+PR,paranaguá
 PR,paranapoema
-PR,paranavai
-PR,paraiso do norte
+PR,paranavaí
+PR,paraíso do norte
 PR,pato bragado
 PR,pato branco
 PR,paula freitas
@@ -3457,117 +3457,117 @@ PR,paulo frontin
 PR,peabiru
 PR,perobal
 PR,pinhais
-PR,pinhal de sao bento
-PR,pinhalao
-PR,pinhao
+PR,pinhal de são bento
+PR,pinhalão
+PR,pinhão
 PR,piraquara
-PR,pirai do sul
+PR,piraí do sul
 PR,pitanga
 PR,pitangueiras
-PR,pien
-PR,planaltina do parana
+PR,piên
+PR,planaltina do paraná
 PR,planalto
 PR,ponta grossa
-PR,pontal do parana
+PR,pontal do paraná
 PR,porecatu
 PR,porto amazonas
 PR,porto barreiro
 PR,porto rico
-PR,porto vitoria
+PR,porto vitória
 PR,prado ferreira
 PR,pranchita
 PR,presidente castelo branco
 PR,primeiro de maio
-PR,prudentopolis
-PR,perola
-PR,perola d'oeste
-PR,quarto centenario
-PR,quatigua
+PR,prudentópolis
+PR,pérola
+PR,pérola d'oeste
+PR,quarto centenário
+PR,quatiguá
 PR,quatro barras
 PR,quatro pontes
-PR,quedas do iguacu
-PR,querencia do norte
+PR,quedas do iguaçu
+PR,querência do norte
 PR,quinta do sol
 PR,quitandinha
-PR,ramilandia
+PR,ramilândia
 PR,rancho alegre
 PR,rancho alegre d'oeste
 PR,realeza
-PR,reboucas
-PR,renascenca
+PR,rebouças
+PR,renascença
 PR,reserva
-PR,reserva do iguacu
-PR,ribeirao claro
-PR,ribeirao do pinhal
+PR,reserva do iguaçu
+PR,ribeirão claro
+PR,ribeirão do pinhal
 PR,rio azul
 PR,rio bom
-PR,rio bonito do iguacu
-PR,rio branco do ivai
+PR,rio bonito do iguaçu
+PR,rio branco do ivaí
 PR,rio branco do sul
 PR,rio negro
-PR,rolandia
+PR,rolândia
 PR,roncador
 PR,rondon
-PR,rosario do ivai
-PR,sabaudia
+PR,rosário do ivaí
+PR,sabáudia
 PR,salgado filho
-PR,salto do itarare
+PR,salto do itararé
 PR,salto do lontra
-PR,santa amelia
-PR,santa cecilia do pavao
+PR,santa amélia
+PR,santa cecília do pavão
 PR,santa cruz de monte castelo
-PR,santa fe
+PR,santa fé
 PR,santa helena
-PR,santa ines
-PR,santa isabel do ivai
+PR,santa inês
+PR,santa isabel do ivaí
 PR,santa izabel do oeste
-PR,santa lucia
+PR,santa lúcia
 PR,santa maria do oeste
 PR,santa mariana
-PR,santa monica
+PR,santa mônica
 PR,santa tereza do oeste
 PR,santa terezinha de itaipu
-PR,santana do itarare
-PR,santo antonio da platina
-PR,santo antonio do caiua
-PR,santo antonio do paraiso
-PR,santo antonio do sudoeste
-PR,santo inacio
+PR,santana do itararé
+PR,santo antônio da platina
+PR,santo antônio do caiuá
+PR,santo antônio do paraíso
+PR,santo antônio do sudoeste
+PR,santo inácio
 PR,sapopema
 PR,sarandi
-PR,saudade do iguacu
-PR,senges
-PR,serranopolis do iguacu
+PR,saudade do iguaçu
+PR,sengés
+PR,serranópolis do iguaçu
 PR,sertaneja
-PR,sertanopolis
+PR,sertanópolis
 PR,siqueira campos
 PR,sulina
-PR,sao carlos do ivai
-PR,sao jeronimo da serra
-PR,sao jorge d'oeste
-PR,sao jorge do ivai
-PR,sao jorge do patrocinio
-PR,sao jose da boa vista
-PR,sao jose das palmeiras
-PR,sao jose dos pinhais
-PR,sao joao
-PR,sao joao do caiua
-PR,sao joao do ivai
-PR,sao joao do triunfo
-PR,sao manoel do parana
-PR,sao mateus do sul
-PR,sao miguel do iguacu
-PR,sao pedro do iguacu
-PR,sao pedro do ivai
-PR,sao pedro do parana
-PR,sao sebastiao da amoreira
-PR,sao tome
+PR,são carlos do ivaí
+PR,são jerônimo da serra
+PR,são jorge d'oeste
+PR,são jorge do ivaí
+PR,são jorge do patrocínio
+PR,são josé da boa vista
+PR,são josé das palmeiras
+PR,são josé dos pinhais
+PR,são joão
+PR,são joão do caiuá
+PR,são joão do ivaí
+PR,são joão do triunfo
+PR,são manoel do paraná
+PR,são mateus do sul
+PR,são miguel do iguaçu
+PR,são pedro do iguaçu
+PR,são pedro do ivaí
+PR,são pedro do paraná
+PR,são sebastião da amoreira
+PR,são tomé
 PR,tamarana
 PR,tamboara
 PR,tapejara
 PR,tapira
 PR,teixeira soares
-PR,telemaco borba
+PR,telêmaco borba
 PR,terra boa
 PR,terra rica
 PR,terra roxa
@@ -3575,32 +3575,32 @@ PR,tibagi
 PR,tijucas do sul
 PR,toledo
 PR,tomazina
-PR,tres barras do parana
-PR,tunas do parana
+PR,três barras do paraná
+PR,tunas do paraná
 PR,tuneiras do oeste
-PR,tupassi
+PR,tupãssi
 PR,turvo
-PR,ubirata
+PR,ubiratã
 PR,umuarama
 PR,uniflor
-PR,uniao da vitoria
-PR,urai
+PR,união da vitória
+PR,uraí
 PR,ventania
 PR,vera cruz do oeste
-PR,vere
+PR,verê
 PR,virmond
 PR,vitorino
 PR,wenceslau braz
-PR,xambre
-PR,angulo
+PR,xambrê
+PR,ângulo
 RJ,angra dos reis
-RJ,aperibe
+RJ,aperibé
 RJ,araruama
 RJ,areal
-RJ,armacao dos buzios
+RJ,armação dos búzios
 RJ,arraial do cabo
 RJ,barra mansa
-RJ,barra do pirai
+RJ,barra do piraí
 RJ,belford roxo
 RJ,bom jardim
 RJ,bom jesus do itabapoana
@@ -3614,47 +3614,47 @@ RJ,cardoso moreira
 RJ,carmo
 RJ,casimiro de abreu
 RJ,comendador levy gasparian
-RJ,conceicao de macabu
+RJ,conceição de macabu
 RJ,cordeiro
 RJ,duas barras
 RJ,duque de caxias
 RJ,engenheiro paulo de frontin
 RJ,guapimirim
 RJ,iguaba grande
-RJ,itaborai
-RJ,itaguai
+RJ,itaboraí
+RJ,itaguaí
 RJ,italva
 RJ,itaocara
 RJ,itaperuna
 RJ,itatiaia
 RJ,japeri
-RJ,laje do muriae
-RJ,macae
+RJ,laje do muriaé
+RJ,macaé
 RJ,macuco
-RJ,mage
+RJ,magé
 RJ,mangaratiba
-RJ,marica
+RJ,maricá
 RJ,mendes
 RJ,mesquita
 RJ,miguel pereira
 RJ,miracema
 RJ,natividade
-RJ,nilopolis
-RJ,niteroi
+RJ,nilópolis
+RJ,niterói
 RJ,nova friburgo
-RJ,nova iguacu
+RJ,nova iguaçu
 RJ,paracambi
 RJ,paraty
-RJ,paraiba do sul
+RJ,paraíba do sul
 RJ,paty do alferes
-RJ,petropolis
+RJ,petrópolis
 RJ,pinheiral
-RJ,pirai
-RJ,porciuncula
+RJ,piraí
+RJ,porciúncula
 RJ,porto real
 RJ,quatis
 RJ,queimados
-RJ,quissama
+RJ,quissamã
 RJ,resende
 RJ,rio bonito
 RJ,rio claro
@@ -3662,26 +3662,26 @@ RJ,rio das flores
 RJ,rio das ostras
 RJ,rio de janeiro
 RJ,santa maria madalena
-RJ,santo antonio de padua
+RJ,santo antônio de pádua
 RJ,sapucaia
 RJ,saquarema
-RJ,seropedica
+RJ,seropédica
 RJ,silva jardim
 RJ,sumidouro
-RJ,sao fidelis
-RJ,sao francisco de itabapoana
-RJ,sao goncalo
-RJ,sao jose de uba
-RJ,sao jose do vale do rio preto
-RJ,sao joao da barra
-RJ,sao joao de meriti
-RJ,sao pedro da aldeia
-RJ,sao sebastiao do alto
-RJ,tangua
-RJ,teresopolis
+RJ,são fidélis
+RJ,são francisco de itabapoana
+RJ,são gonçalo
+RJ,são josé de ubá
+RJ,são josé do vale do rio preto
+RJ,são joão da barra
+RJ,são joão de meriti
+RJ,são pedro da aldeia
+RJ,são sebastião do alto
+RJ,tanguá
+RJ,teresópolis
 RJ,trajano de moraes
-RJ,tres rios
-RJ,valenca
+RJ,três rios
+RJ,valença
 RJ,varre-sai
 RJ,vassouras
 RJ,volta redonda
@@ -3691,66 +3691,66 @@ RN,alexandria
 RN,almino afonso
 RN,alto do rodrigues
 RN,angicos
-RN,antonio martins
+RN,antônio martins
 RN,apodi
 RN,areia branca
 RN,arez
-RN,assu
-RN,barauna
+RN,assú
+RN,baraúna
 RN,barcelona
-RN,baia formosa
+RN,baía formosa
 RN,bento fernandes
-RN,bodo
+RN,bodó
 RN,bom jesus
 RN,brejinho
-RN,caico
-RN,caicara do norte
-RN,caicara do rio do vento
+RN,caicó
+RN,caiçara do norte
+RN,caiçara do rio do vento
 RN,campo grande
 RN,campo redondo
 RN,canguaretama
-RN,caraubas
+RN,caraúbas
 RN,carnaubais
-RN,carnauba dos dantas
-RN,ceara-mirim
-RN,cerro cora
+RN,carnaúba dos dantas
+RN,ceará-mirim
+RN,cerro corá
 RN,coronel ezequiel
-RN,coronel joao pessoa
+RN,coronel joão pessoa
 RN,cruzeta
 RN,currais novos
 RN,doutor severiano
 RN,encanto
 RN,equador
-RN,espirito santo
+RN,espírito santo
 RN,extremoz
 RN,felipe guerra
 RN,fernando pedroza
-RN,florania
+RN,florânia
 RN,francisco dantas
 RN,frutuoso gomes
 RN,galinhos
 RN,goianinha
 RN,governador dix-sept rosado
 RN,grossos
-RN,guamare
+RN,guamaré
 RN,ielmo marinho
-RN,ipanguacu
+RN,ipanguaçu
 RN,ipueira
-RN,itaja
-RN,itau
-RN,jandaira
-RN,janduis
-RN,januario cicco
+RN,itajá
+RN,itaú
+RN,jandaíra
+RN,janduís
+RN,januário cicco
 RN,japi
 RN,jardim de angicos
 RN,jardim de piranhas
-RN,jardim do serido
-RN,jacana
-RN,jose da penha
-RN,joao camara
-RN,joao dias
+RN,jardim do seridó
+RN,jaçanã
+RN,josé da penha
+RN,joão câmara
+RN,joão dias
 RN,jucurutu
-RN,jundia
+RN,jundiá
 RN,lagoa nova
 RN,lagoa salgada
 RN,lagoa d'anta
@@ -3758,10 +3758,10 @@ RN,lagoa de pedras
 RN,lagoa de velhos
 RN,lajes
 RN,lajes pintadas
-RN,lucrecia
-RN,luis gomes
+RN,lucrécia
+RN,luís gomes
 RN,macau
-RN,macaiba
+RN,macaíba
 RN,major sales
 RN,marcelino vieira
 RN,martins
@@ -3770,15 +3770,15 @@ RN,messias targino
 RN,montanhas
 RN,monte alegre
 RN,monte das gameleiras
-RN,mossoro
+RN,mossoró
 RN,natal
 RN,nova cruz
-RN,nisia floresta
-RN,olho d'agua do borges
+RN,nísia floresta
+RN,olho d'água do borges
 RN,ouro branco
-RN,parana
+RN,paraná
 RN,parazinho
-RN,parau
+RN,paraú
 RN,parelhas
 RN,parnamirim
 RN,passa e fica
@@ -3789,11 +3789,11 @@ RN,pedra grande
 RN,pedra preta
 RN,pedro avelino
 RN,pedro velho
-RN,pendencias
-RN,piloes
+RN,pendências
+RN,pilões
 RN,portalegre
 RN,porto do mangue
-RN,poco branco
+RN,poço branco
 RN,pureza
 RN,rafael fernandes
 RN,rafael godeiro
@@ -3806,42 +3806,42 @@ RN,ruy barbosa
 RN,santa cruz
 RN,santa maria
 RN,santana do matos
-RN,santana do serido
-RN,santo antonio
-RN,senador eloi de souza
+RN,santana do seridó
+RN,santo antônio
+RN,senador elói de souza
 RN,senador georgino avelino
 RN,serra caiada
 RN,serra negra do norte
-RN,serra de sao bento
+RN,serra de são bento
 RN,serra do mel
 RN,serrinha
 RN,serrinha dos pintos
 RN,severiano melo
-RN,sao bento do norte
-RN,sao bento do trairi
-RN,sao fernando
-RN,sao francisco do oeste
-RN,sao goncalo do amarante
-RN,sao jose de mipibu
-RN,sao jose do campestre
-RN,sao jose do serido
-RN,sao joao do sabugi
-RN,sao miguel
-RN,sao miguel do gostoso
-RN,sao paulo do potengi
-RN,sao pedro
-RN,sao rafael
-RN,sao tome
-RN,sao vicente
-RN,sitio novo
+RN,são bento do norte
+RN,são bento do trairí
+RN,são fernando
+RN,são francisco do oeste
+RN,são gonçalo do amarante
+RN,são josé de mipibu
+RN,são josé do campestre
+RN,são josé do seridó
+RN,são joão do sabugi
+RN,são miguel
+RN,são miguel do gostoso
+RN,são paulo do potengi
+RN,são pedro
+RN,são rafael
+RN,são tomé
+RN,são vicente
+RN,sítio novo
 RN,taboleiro grande
 RN,taipu
-RN,tangara
+RN,tangará
 RN,tenente ananias
 RN,tenente laurentino cruz
 RN,tibau
 RN,tibau do sul
-RN,timbauba dos batistas
+RN,timbaúba dos batistas
 RN,touros
 RN,triunfo potiguar
 RN,umarizal
@@ -3849,19 +3849,19 @@ RN,upanema
 RN,venha-ver
 RN,vera cruz
 RN,vila flor
-RN,vicosa
-RN,varzea
-RN,agua nova
+RN,viçosa
+RN,várzea
+RN,água nova
 RO,alta floresta d'oeste
 RO,alto alegre dos parecis
-RO,alto paraiso
+RO,alto paraíso
 RO,alvorada d'oeste
 RO,ariquemes
 RO,buritis
 RO,cabixi
-RO,cacaulandia
+RO,cacaulândia
 RO,cacoal
-RO,campo novo de rondonia
+RO,campo novo de rondônia
 RO,candeias do jamari
 RO,castanheiras
 RO,cerejeiras
@@ -3870,73 +3870,73 @@ RO,colorado do oeste
 RO,corumbiara
 RO,costa marques
 RO,cujubim
-RO,espigao d'oeste
+RO,espigão d'oeste
 RO,governador jorge teixeira
-RO,guajara-mirim
-RO,itapua do oeste
+RO,guajará-mirim
+RO,itapuã do oeste
 RO,jaru
-RO,ji-parana
+RO,ji-paraná
 RO,machadinho d'oeste
 RO,ministro andreazza
 RO,mirante da serra
 RO,monte negro
-RO,nova brasilandia d'oeste
-RO,nova mamore
-RO,nova uniao
+RO,nova brasilândia d'oeste
+RO,nova mamoré
+RO,nova união
 RO,novo horizonte do oeste
 RO,ouro preto do oeste
 RO,parecis
 RO,pimenta bueno
 RO,pimenteiras do oeste
 RO,porto velho
-RO,presidente medici
-RO,primavera de rondonia
+RO,presidente médici
+RO,primavera de rondônia
 RO,rio crespo
 RO,rolim de moura
 RO,santa luzia d'oeste
 RO,seringueiras
-RO,sao felipe d'oeste
-RO,sao francisco do guapore
-RO,sao miguel do guapore
-RO,teixeiropolis
+RO,são felipe d'oeste
+RO,são francisco do guaporé
+RO,são miguel do guaporé
+RO,teixeirópolis
 RO,theobroma
-RO,urupa
+RO,urupá
 RO,vale do anari
-RO,vale do paraiso
+RO,vale do paraíso
 RO,vilhena
 RR,alto alegre
 RR,amajari
 RR,boa vista
 RR,bonfim
-RR,canta
-RR,caracarai
+RR,cantá
+RR,caracaraí
 RR,caroebe
 RR,iracema
-RR,mucajai
+RR,mucajaí
 RR,normandia
 RR,pacaraima
-RR,rorainopolis
-RR,sao joao da baliza
-RR,sao luiz do anaua
-RR,uiramuta
-RS,acegua
+RR,rorainópolis
+RR,são joão da baliza
+RR,são luiz do anauá
+RR,uiramutã
+RS,aceguá
 RS,agudo
 RS,ajuricaba
 RS,alecrim
 RS,alegrete
 RS,alegria
-RS,almirante tamandare do sul
+RS,almirante tamandaré do sul
 RS,alpestre
 RS,alto alegre
 RS,alto feliz
 RS,alvorada
 RS,amaral ferrador
 RS,ametista do sul
-RS,andre da rocha
+RS,andré da rocha
 RS,anta gorda
-RS,antonio prado
-RS,arambare
-RS,ararica
+RS,antônio prado
+RS,arambaré
+RS,araricá
 RS,aratiba
 RS,arroio grande
 RS,arroio do meio
@@ -3946,73 +3946,73 @@ RS,arroio do tigre
 RS,arroio dos ratos
 RS,arvorezinha
 RS,augusto pestana
-RS,bage
-RS,balneario pinhal
+RS,bagé
+RS,balneário pinhal
 RS,barra funda
 RS,barra do guarita
-RS,barra do quarai
+RS,barra do quaraí
 RS,barra do ribeiro
 RS,barra do rio azul
-RS,barracao
+RS,barracão
 RS,barros cassal
-RS,barao
-RS,barao de cotegipe
-RS,barao do triunfo
+RS,barão
+RS,barão de cotegipe
+RS,barão do triunfo
 RS,benjamin constant do sul
-RS,bento goncalves
-RS,boa vista das missoes
-RS,boa vista do burica
+RS,bento gonçalves
+RS,boa vista das missões
+RS,boa vista do buricá
 RS,boa vista do cadeado
 RS,boa vista do incra
 RS,boa vista do sul
 RS,bom jesus
-RS,bom principio
+RS,bom princípio
 RS,bom progresso
 RS,bom retiro do sul
-RS,boqueirao do leao
+RS,boqueirão do leão
 RS,bossoroca
 RS,bozano
 RS,braga
 RS,brochier
-RS,butia
+RS,butiá
 RS,cacequi
 RS,cachoeira do sul
 RS,cachoeirinha
 RS,cacique doble
-RS,caibate
-RS,caicara
-RS,camaqua
+RS,caibaté
+RS,caiçara
+RS,camaquã
 RS,camargo
-RS,cambara do sul
+RS,cambará do sul
 RS,campestre da serra
-RS,campina das missoes
+RS,campina das missões
 RS,campinas do sul
 RS,campo bom
 RS,campo novo
 RS,campos borges
-RS,candelaria
+RS,candelária
 RS,candiota
 RS,canela
-RS,cangucu
+RS,canguçu
 RS,canoas
 RS,canudos do vale
 RS,capela de santana
-RS,capitao
+RS,capitão
 RS,capivari do sul
-RS,capao bonito do sul
-RS,capao da canoa
-RS,capao do cipo
-RS,capao do leao
+RS,capão bonito do sul
+RS,capão da canoa
+RS,capão do cipó
+RS,capão do leão
 RS,carazinho
-RS,caraa
+RS,caraá
 RS,carlos barbosa
 RS,carlos gomes
 RS,casca
 RS,caseiros
-RS,catuipe
+RS,catuípe
 RS,caxias do sul
-RS,cacapava do sul
-RS,centenario
+RS,caçapava do sul
+RS,centenário
 RS,cerrito
 RS,cerro branco
 RS,cerro grande
@@ -4023,9 +4023,9 @@ RS,charqueadas
 RS,charrua
 RS,chiapetta
 RS,chuvisca
-RS,chui
+RS,chuí
 RS,cidreira
-RS,ciriaco
+RS,ciríaco
 RS,colinas
 RS,colorado
 RS,condor
@@ -4035,7 +4035,7 @@ RS,coqueiros do sul
 RS,coronel barros
 RS,coronel bicaco
 RS,coronel pilar
-RS,cotipora
+RS,cotiporã
 RS,coxilha
 RS,crissiumal
 RS,cristal
@@ -4043,40 +4043,40 @@ RS,cristal do sul
 RS,cruz alta
 RS,cruzaltense
 RS,cruzeiro do sul
-RS,candido godoi
+RS,cândido godói
 RS,david canabarro
 RS,derrubadas
 RS,dezesseis de novembro
 RS,dilermando de aguiar
-RS,dois irmaos
-RS,dois irmaos das missoes
+RS,dois irmãos
+RS,dois irmãos das missões
 RS,dois lajeados
 RS,dom feliciano
 RS,dom pedrito
-RS,dom pedro de alcantara
+RS,dom pedro de alcântara
 RS,dona francisca
-RS,doutor mauricio cardoso
+RS,doutor maurício cardoso
 RS,doutor ricardo
 RS,eldorado do sul
 RS,encantado
 RS,encruzilhada do sul
 RS,engenho velho
 RS,entre rios do sul
-RS,entre-ijuis
+RS,entre-ijuís
 RS,erebango
 RS,erechim
 RS,ernestina
 RS,erval grande
 RS,erval seco
 RS,esmeralda
-RS,esperanca do sul
+RS,esperança do sul
 RS,espumoso
-RS,estacao
+RS,estação
 RS,esteio
 RS,estrela
 RS,estrela velha
-RS,estancia velha
-RS,eugenio de castro
+RS,estância velha
+RS,eugênio de castro
 RS,fagundes varela
 RS,farroupilha
 RS,faxinal do soturno
@@ -4093,61 +4093,61 @@ RS,frederico westphalen
 RS,garibaldi
 RS,garruchos
 RS,gaurama
-RS,general camara
+RS,general câmara
 RS,gentil
-RS,getulio vargas
-RS,girua
+RS,getúlio vargas
+RS,giruá
 RS,glorinha
 RS,gramado
 RS,gramado xavier
 RS,gramado dos loureiros
-RS,gravatai
+RS,gravataí
 RS,guabiju
-RS,guapore
-RS,guarani das missoes
-RS,guaiba
+RS,guaporé
+RS,guarani das missões
+RS,guaíba
 RS,harmonia
 RS,herval
 RS,herveiras
 RS,horizontina
 RS,hulha negra
-RS,humaita
+RS,humaitá
 RS,ibarama
-RS,ibiaca
+RS,ibiaçá
 RS,ibiraiaras
-RS,ibirapuita
-RS,ibiruba
+RS,ibirapuitã
+RS,ibirubá
 RS,igrejinha
-RS,ijui
-RS,ilopolis
-RS,imbe
+RS,ijuí
+RS,ilópolis
+RS,imbé
 RS,imigrante
-RS,independencia
-RS,inhacora
+RS,independência
+RS,inhacorá
 RS,ipiranga do sul
-RS,ipe
-RS,irai
+RS,ipê
+RS,iraí
 RS,itaara
 RS,itacurubi
 RS,itapuca
 RS,itaqui
 RS,itati
 RS,itatiba do sul
-RS,ivora
+RS,ivorá
 RS,ivoti
 RS,jaboticaba
 RS,jacuizinho
 RS,jacutinga
 RS,jaguari
-RS,jaguarao
+RS,jaguarão
 RS,jaquirana
 RS,jari
-RS,joia
-RS,julio de castilhos
+RS,jóia
+RS,júlio de castilhos
 RS,lagoa bonita do sul
 RS,lagoa vermelha
-RS,lagoa dos tres cantos
-RS,lagoao
+RS,lagoa dos três cantos
+RS,lagoão
 RS,lajeado
 RS,lajeado do bugre
 RS,lavras do sul
@@ -4157,8 +4157,8 @@ RS,linha nova
 RS,machadinho
 RS,mampituba
 RS,manoel viana
-RS,maquine
-RS,marata
+RS,maquiné
+RS,maratá
 RS,marau
 RS,marcelino ramos
 RS,mariana pimentel
@@ -4166,38 +4166,38 @@ RS,mariano moro
 RS,marques de souza
 RS,mata
 RS,mato castelhano
-RS,mato leitao
+RS,mato leitão
 RS,mato queimado
 RS,maximiliano de almeida
-RS,macambara
-RS,minas do leao
-RS,miraguai
+RS,maçambará
+RS,minas do leão
+RS,miraguaí
 RS,montauri
 RS,monte alegre dos campos
 RS,monte belo do sul
 RS,montenegro
-RS,mormaco
+RS,mormaço
 RS,morrinhos do sul
 RS,morro redondo
 RS,morro reuter
 RS,mostardas
-RS,muitos capoes
+RS,muitos capões
 RS,muliterno
-RS,mucum
+RS,muçum
 RS,nicolau vergueiro
 RS,nonoai
 RS,nova alvorada
-RS,nova araca
+RS,nova araçá
 RS,nova bassano
 RS,nova boa vista
-RS,nova brescia
-RS,nova candelaria
-RS,nova esperanca do sul
+RS,nova bréscia
+RS,nova candelária
+RS,nova esperança do sul
 RS,nova hartz
 RS,nova palma
-RS,nova petropolis
+RS,nova petrópolis
 RS,nova prata
-RS,nova padua
+RS,nova pádua
 RS,nova ramada
 RS,nova roma do sul
 RS,nova santa rita
@@ -4207,61 +4207,61 @@ RS,novo hamburgo
 RS,novo machado
 RS,novo tiradentes
 RS,novo xingu
-RS,nao-me-toque
-RS,osorio
+RS,não-me-toque
+RS,osório
 RS,paim filho
 RS,palmares do sul
-RS,palmeira das missoes
+RS,palmeira das missões
 RS,palmitinho
 RS,panambi
 RS,pantano grande
-RS,parai
-RS,paraiso do sul
+RS,paraí
+RS,paraíso do sul
 RS,pareci novo
-RS,parobe
+RS,parobé
 RS,passa sete
 RS,passo fundo
 RS,passo do sobrado
 RS,paulo bento
 RS,paverama
 RS,pedras altas
-RS,pedro osorio
-RS,pejucara
+RS,pedro osório
+RS,pejuçara
 RS,pelotas
-RS,picada cafe
+RS,picada café
 RS,pinhal
 RS,pinhal grande
 RS,pinhal da serra
 RS,pinheirinho do vale
 RS,pinheiro machado
 RS,pinto bandeira
-RS,pirapo
+RS,pirapó
 RS,piratini
 RS,planalto
 RS,ponte preta
-RS,pontao
+RS,pontão
 RS,porto alegre
 RS,porto lucena
-RS,porto maua
+RS,porto mauá
 RS,porto vera cruz
 RS,porto xavier
-RS,portao
+RS,portão
 RS,pouso novo
-RS,poco das antas
+RS,poço das antas
 RS,presidente lucena
 RS,progresso
-RS,protasio alves
+RS,protásio alves
 RS,putinga
-RS,quarai
-RS,quatro irmaos
+RS,quaraí
+RS,quatro irmãos
 RS,quevedos
 RS,quinze de novembro
 RS,redentora
 RS,relvado
-RS,restinga seca
+RS,restinga sêca
 RS,rio grande
 RS,rio pardo
-RS,rio dos indios
+RS,rio dos índios
 RS,riozinho
 RS,roca sales
 RS,rodeio bonito
@@ -4270,16 +4270,16 @@ RS,rolante
 RS,ronda alta
 RS,rondinha
 RS,roque gonzales
-RS,rosario do sul
-RS,sagrada familia
+RS,rosário do sul
+RS,sagrada família
 RS,saldanha marinho
-RS,salto do jacui
-RS,salvador das missoes
+RS,salto do jacuí
+RS,salvador das missões
 RS,salvador do sul
 RS,sananduva
 RS,sant'ana do livramento
-RS,santa barbara do sul
-RS,santa cecilia do sul
+RS,santa bárbara do sul
+RS,santa cecília do sul
 RS,santa clara do sul
 RS,santa cruz do sul
 RS,santa margarida do sul
@@ -4287,17 +4287,17 @@ RS,santa maria
 RS,santa maria do herval
 RS,santa rosa
 RS,santa tereza
-RS,santa vitoria do palmar
+RS,santa vitória do palmar
 RS,santana da boa vista
 RS,santiago
-RS,santo antonio da patrulha
-RS,santo antonio das missoes
-RS,santo antonio do palma
-RS,santo antonio do planalto
+RS,santo antônio da patrulha
+RS,santo antônio das missões
+RS,santo antônio do palma
+RS,santo antônio do planalto
 RS,santo augusto
 RS,santo cristo
 RS,santo expedito do sul
-RS,santo angelo
+RS,santo ângelo
 RS,sapiranga
 RS,sapucaia do sul
 RS,sarandi
@@ -4307,149 +4307,149 @@ RS,segredo
 RS,selbach
 RS,senador salgado filho
 RS,sentinela do sul
-RS,serafina correa
-RS,sertao
-RS,sertao santana
+RS,serafina corrêa
+RS,sertão
+RS,sertão santana
 RS,sete de setembro
 RS,severiano de almeida
 RS,silveira martins
 RS,sinimbu
 RS,sobradinho
 RS,soledade
-RS,sao borja
-RS,sao domingos do sul
-RS,sao francisco de assis
-RS,sao francisco de paula
-RS,sao gabriel
-RS,sao jeronimo
-RS,sao jorge
-RS,sao jose das missoes
-RS,sao jose do herval
-RS,sao jose do hortencio
-RS,sao jose do inhacora
-RS,sao jose do norte
-RS,sao jose do ouro
-RS,sao jose do sul
-RS,sao jose dos ausentes
-RS,sao joao da urtiga
-RS,sao joao do polesine
-RS,sao leopoldo
-RS,sao lourenco do sul
-RS,sao luiz gonzaga
-RS,sao marcos
-RS,sao martinho
-RS,sao martinho da serra
-RS,sao miguel das missoes
-RS,sao nicolau
-RS,sao paulo das missoes
-RS,sao pedro da serra
-RS,sao pedro das missoes
-RS,sao pedro do butia
-RS,sao pedro do sul
-RS,sao sebastiao do cai
-RS,sao sepe
-RS,sao valentim
-RS,sao valentim do sul
-RS,sao valerio do sul
-RS,sao vendelino
-RS,sao vicente do sul
-RS,serio
-RS,tabai
+RS,são borja
+RS,são domingos do sul
+RS,são francisco de assis
+RS,são francisco de paula
+RS,são gabriel
+RS,são jerônimo
+RS,são jorge
+RS,são josé das missões
+RS,são josé do herval
+RS,são josé do hortêncio
+RS,são josé do inhacorá
+RS,são josé do norte
+RS,são josé do ouro
+RS,são josé do sul
+RS,são josé dos ausentes
+RS,são joão da urtiga
+RS,são joão do polêsine
+RS,são leopoldo
+RS,são lourenço do sul
+RS,são luiz gonzaga
+RS,são marcos
+RS,são martinho
+RS,são martinho da serra
+RS,são miguel das missões
+RS,são nicolau
+RS,são paulo das missões
+RS,são pedro da serra
+RS,são pedro das missões
+RS,são pedro do butiá
+RS,são pedro do sul
+RS,são sebastião do caí
+RS,são sepé
+RS,são valentim
+RS,são valentim do sul
+RS,são valério do sul
+RS,são vendelino
+RS,são vicente do sul
+RS,sério
+RS,tabaí
 RS,tapejara
 RS,tapera
 RS,tapes
 RS,taquara
 RS,taquari
-RS,taquarucu do sul
+RS,taquaruçu do sul
 RS,tavares
 RS,tenente portela
 RS,terra de areia
-RS,teutonia
+RS,teutônia
 RS,tio hugo
 RS,tiradentes do sul
 RS,toropi
 RS,torres
-RS,tramandai
+RS,tramandaí
 RS,travesseiro
 RS,trindade do sul
 RS,triunfo
-RS,tres arroios
-RS,tres cachoeiras
-RS,tres coroas
-RS,tres forquilhas
-RS,tres palmeiras
-RS,tres passos
-RS,tres de maio
+RS,três arroios
+RS,três cachoeiras
+RS,três coroas
+RS,três forquilhas
+RS,três palmeiras
+RS,três passos
+RS,três de maio
 RS,tucunduva
 RS,tunas
 RS,tupanci do sul
-RS,tupancireta
+RS,tupanciretã
 RS,tupandi
 RS,tuparendi
-RS,turucu
+RS,turuçu
 RS,ubiretama
 RS,unistalda
-RS,uniao da serra
+RS,união da serra
 RS,uruguaiana
 RS,vacaria
 RS,vale real
 RS,vale verde
 RS,vale do sol
 RS,vanini
-RS,venancio aires
+RS,venâncio aires
 RS,vera cruz
-RS,veranopolis
-RS,vespasiano correa
+RS,veranópolis
+RS,vespasiano corrêa
 RS,viadutos
-RS,viamao
+RS,viamão
 RS,vicente dutra
 RS,victor graeff
 RS,vila flores
-RS,vila langaro
+RS,vila lângaro
 RS,vila maria
 RS,vila nova do sul
 RS,vista alegre
 RS,vista alegre do prata
-RS,vista gaucha
-RS,vitoria das missoes
-RS,westfalia
-RS,xangri-la
-RS,agua santa
-RS,aurea
+RS,vista gaúcha
+RS,vitória das missões
+RS,westfália
+RS,xangri-lá
+RS,água santa
+RS,áurea
 SC,abdon batista
 SC,abelardo luz
-SC,agrolandia
-SC,agronomica
+SC,agrolândia
+SC,agronômica
 SC,alfredo wagner
 SC,alto bela vista
 SC,anchieta
 SC,angelina
 SC,anita garibaldi
-SC,anitapolis
-SC,antonio carlos
-SC,apiuna
-SC,arabuta
+SC,anitápolis
+SC,antônio carlos
+SC,apiúna
+SC,arabutã
 SC,araquari
-SC,ararangua
-SC,armazem
+SC,araranguá
+SC,armazém
 SC,arroio trinta
 SC,arvoredo
 SC,ascurra
 SC,atalanta
 SC,aurora
-SC,balneario arroio do silva
-SC,balneario barra do sul
-SC,balneario camboriu
-SC,balneario gaivota
-SC,balneario picarras
-SC,balneario rincao
+SC,balneário arroio do silva
+SC,balneário barra do sul
+SC,balneário camboriú
+SC,balneário gaivota
+SC,balneário piçarras
+SC,balneário rincão
 SC,bandeirante
 SC,barra bonita
 SC,barra velha
 SC,bela vista do toldo
 SC,belmonte
 SC,benedito novo
-SC,biguacu
+SC,biguaçu
 SC,blumenau
 SC,bocaina do sul
 SC,bom jardim da serra
@@ -4457,111 +4457,111 @@ SC,bom jesus
 SC,bom jesus do oeste
 SC,bom retiro
 SC,bombinhas
-SC,botuvera
-SC,braco do norte
-SC,braco do trombudo
-SC,brunopolis
+SC,botuverá
+SC,braço do norte
+SC,braço do trombudo
+SC,brunópolis
 SC,brusque
 SC,caibi
 SC,calmon
-SC,camboriu
+SC,camboriú
 SC,campo alegre
 SC,campo belo do sul
-SC,campo ere
+SC,campo erê
 SC,campos novos
 SC,canelinha
 SC,canoinhas
 SC,capinzal
 SC,capivari de baixo
-SC,capao alto
+SC,capão alto
 SC,catanduvas
 SC,caxambu do sul
-SC,cacador
+SC,caçador
 SC,celso ramos
 SC,cerro negro
-SC,chapadao do lageado
-SC,chapeco
+SC,chapadão do lageado
+SC,chapecó
 SC,cocal do sul
-SC,concordia
+SC,concórdia
 SC,cordilheira alta
 SC,coronel freitas
 SC,coronel martins
 SC,correia pinto
-SC,corupa
-SC,criciuma
-SC,cunha pora
-SC,cunhatai
+SC,corupá
+SC,criciúma
+SC,cunha porã
+SC,cunhataí
 SC,curitibanos
 SC,descanso
-SC,dionisio cerqueira
+SC,dionísio cerqueira
 SC,dona emma
 SC,doutor pedrinho
 SC,entre rios
 SC,ermo
 SC,erval velho
 SC,faxinal dos guedes
-SC,flor do sertao
-SC,florianopolis
+SC,flor do sertão
+SC,florianópolis
 SC,formosa do sul
 SC,forquilhinha
 SC,fraiburgo
-SC,frei rogerio
-SC,galvao
+SC,frei rogério
+SC,galvão
 SC,garopaba
 SC,garuva
 SC,gaspar
 SC,governador celso ramos
 SC,gravatal
-SC,grao-para
+SC,grão-pará
 SC,guabiruba
 SC,guaraciaba
 SC,guaramirim
-SC,guaruja do sul
-SC,guatambu
+SC,guarujá do sul
+SC,guatambú
 SC,herval d'oeste
 SC,ibiam
-SC,ibicare
+SC,ibicaré
 SC,ibirama
 SC,ilhota
-SC,imarui
+SC,imaruí
 SC,imbituba
 SC,imbuia
 SC,indaial
-SC,iomere
+SC,iomerê
 SC,ipira
-SC,ipora do oeste
-SC,ipuacu
+SC,iporã do oeste
+SC,ipuaçu
 SC,ipumirim
 SC,iraceminha
 SC,irani
 SC,irati
-SC,irineopolis
-SC,itaiopolis
-SC,itajai
+SC,irineópolis
+SC,itaiópolis
+SC,itajaí
 SC,itapema
 SC,itapiranga
-SC,itapoa
+SC,itapoá
 SC,ituporanga
-SC,ita
-SC,icara
-SC,jabora
+SC,itá
+SC,içara
+SC,jaborá
 SC,jacinto machado
 SC,jaguaruna
-SC,jaragua do sul
-SC,jardinopolis
-SC,joacaba
+SC,jaraguá do sul
+SC,jardinópolis
+SC,joaçaba
 SC,joinville
-SC,jose boiteux
-SC,jupia
-SC,lacerdopolis
+SC,josé boiteux
+SC,jupiá
+SC,lacerdópolis
 SC,lages
 SC,laguna
 SC,lajeado grande
 SC,laurentino
-SC,lauro muller
-SC,lebon regis
+SC,lauro müller
+SC,lebon régis
 SC,leoberto leal
-SC,lindoia do sul
+SC,lindóia do sul
 SC,lontras
 SC,luiz alves
 SC,luzerna
@@ -4569,7 +4569,7 @@ SC,macieira
 SC,mafra
 SC,major gercino
 SC,major vieira
-SC,maracaja
+SC,maracajá
 SC,maravilha
 SC,marema
 SC,massaranduba
@@ -4577,11 +4577,11 @@ SC,matos costa
 SC,meleiro
 SC,mirim doce
 SC,modelo
-SC,mondai
+SC,mondaí
 SC,monte carlo
 SC,monte castelo
 SC,morro grande
-SC,morro da fumaca
+SC,morro da fumaça
 SC,navegantes
 SC,nova erechim
 SC,nova itaberaba
@@ -4589,17 +4589,17 @@ SC,nova trento
 SC,nova veneza
 SC,novo horizonte
 SC,orleans
-SC,otacilio costa
+SC,otacílio costa
 SC,ouro
 SC,ouro verde
 SC,paial
 SC,painel
-SC,palhoca
+SC,palhoça
 SC,palma sola
 SC,palmeira
 SC,palmitos
 SC,papanduva
-SC,paraiso
+SC,paraíso
 SC,passo de torres
 SC,passos maia
 SC,paulo lopes
@@ -4607,7 +4607,7 @@ SC,pedras grandes
 SC,penha
 SC,peritiba
 SC,pescaria brava
-SC,petrolandia
+SC,petrolândia
 SC,pinhalzinho
 SC,pinheiro preto
 SC,piratuba
@@ -4617,11 +4617,11 @@ SC,ponte alta
 SC,ponte alta do norte
 SC,ponte serrada
 SC,porto belo
-SC,porto uniao
+SC,porto união
 SC,pouso redondo
 SC,praia grande
 SC,presidente castello branco
-SC,presidente getulio
+SC,presidente getúlio
 SC,presidente nereu
 SC,princesa
 SC,quilombo
@@ -4636,12 +4636,12 @@ SC,rio do sul
 SC,rio dos cedros
 SC,riqueza
 SC,rodeio
-SC,romelandia
+SC,romelândia
 SC,salete
 SC,saltinho
 SC,salto veloso
-SC,sangao
-SC,santa cecilia
+SC,sangão
+SC,santa cecília
 SC,santa helena
 SC,santa rosa de lima
 SC,santa rosa do sul
@@ -4653,83 +4653,83 @@ SC,saudades
 SC,schroeder
 SC,seara
 SC,serra alta
-SC,sideropolis
+SC,siderópolis
 SC,sombrio
 SC,sul brasil
-SC,sao bento do sul
-SC,sao bernardino
-SC,sao bonifacio
-SC,sao carlos
-SC,sao cristovao do sul
-SC,sao domingos
-SC,sao francisco do sul
-SC,sao joaquim
-SC,sao jose
-SC,sao jose do cedro
-SC,sao jose do cerrito
-SC,sao joao batista
-SC,sao joao do itaperiu
-SC,sao joao do oeste
-SC,sao joao do sul
-SC,sao lourenco do oeste
-SC,sao ludgero
-SC,sao martinho
-SC,sao miguel da boa vista
-SC,sao miguel do oeste
-SC,sao pedro de alcantara
-SC,taio
-SC,tangara
+SC,são bento do sul
+SC,são bernardino
+SC,são bonifácio
+SC,são carlos
+SC,são cristóvão do sul
+SC,são domingos
+SC,são francisco do sul
+SC,são joaquim
+SC,são josé
+SC,são josé do cedro
+SC,são josé do cerrito
+SC,são joão batista
+SC,são joão do itaperiú
+SC,são joão do oeste
+SC,são joão do sul
+SC,são lourenço do oeste
+SC,são ludgero
+SC,são martinho
+SC,são miguel da boa vista
+SC,são miguel do oeste
+SC,são pedro de alcântara
+SC,taió
+SC,tangará
 SC,tigrinhos
 SC,tijucas
-SC,timbe do sul
-SC,timbo
-SC,timbo grande
+SC,timbé do sul
+SC,timbó
+SC,timbó grande
 SC,treviso
-SC,treze tilias
+SC,treze tílias
 SC,treze de maio
 SC,trombudo central
-SC,tres barras
-SC,tubarao
-SC,tunapolis
+SC,três barras
+SC,tubarão
+SC,tunápolis
 SC,turvo
-SC,uniao do oeste
+SC,união do oeste
 SC,urubici
 SC,urupema
 SC,urussanga
 SC,vargem
 SC,vargem bonita
-SC,vargeao
+SC,vargeão
 SC,vidal ramos
 SC,videira
 SC,vitor meireles
 SC,witmarsum
-SC,xanxere
+SC,xanxerê
 SC,xavantina
 SC,xaxim
-SC,zortea
-SC,agua doce
-SC,aguas frias
-SC,aguas mornas
-SC,aguas de chapeco
-SE,amparo do sao francisco
-SE,aquidaba
+SC,zortéa
+SC,água doce
+SC,águas frias
+SC,águas mornas
+SC,águas de chapecó
+SE,amparo do são francisco
+SE,aquidabã
 SE,aracaju
-SE,araua
+SE,arauá
 SE,areia branca
 SE,barra dos coqueiros
 SE,boquim
 SE,brejo grande
 SE,campo do brito
 SE,canhoba
-SE,caninde de sao francisco
+SE,canindé de são francisco
 SE,capela
 SE,carira
-SE,carmopolis
-SE,cedro de sao joao
-SE,cristinapolis
+SE,carmópolis
+SE,cedro de são joão
+SE,cristinápolis
 SE,cumbe
 SE,divina pastora
-SE,estancia
+SE,estância
 SE,feira nova
 SE,frei paulo
 SE,gararu
@@ -4742,7 +4742,7 @@ SE,itabaianinha
 SE,itabi
 SE,itaporanga d'ajuda
 SE,japaratuba
-SE,japoata
+SE,japoatã
 SE,lagarto
 SE,laranjeiras
 SE,macambira
@@ -4752,97 +4752,97 @@ SE,maruim
 SE,moita bonita
 SE,monte alegre de sergipe
 SE,muribeca
-SE,neopolis
+SE,neópolis
 SE,nossa senhora aparecida
-SE,nossa senhora da gloria
+SE,nossa senhora da glória
 SE,nossa senhora das dores
 SE,nossa senhora de lourdes
 SE,nossa senhora do socorro
 SE,pacatuba
 SE,pedra mole
 SE,pedrinhas
-SE,pinhao
+SE,pinhão
 SE,pirambu
 SE,porto da folha
-SE,poco redondo
-SE,poco verde
-SE,propria
+SE,poço redondo
+SE,poço verde
+SE,propriá
 SE,riachuelo
-SE,riachao do dantas
-SE,ribeiropolis
-SE,rosario do catete
+SE,riachão do dantas
+SE,ribeirópolis
+SE,rosário do catete
 SE,salgado
 SE,santa luzia do itanhy
 SE,santa rosa de lima
-SE,santana do sao francisco
+SE,santana do são francisco
 SE,santo amaro das brotas
-SE,simao dias
+SE,simão dias
 SE,siriri
-SE,sao cristovao
-SE,sao domingos
-SE,sao francisco
-SE,sao miguel do aleixo
+SE,são cristóvão
+SE,são domingos
+SE,são francisco
+SE,são miguel do aleixo
 SE,telha
 SE,tobias barreto
 SE,tomar do geru
-SE,umbauba
+SE,umbaúba
 SP,adamantina
 SP,adolfo
-SP,aguai
+SP,aguaí
 SP,agudos
 SP,alambari
 SP,alfredo marcondes
 SP,altair
-SP,altinopolis
+SP,altinópolis
 SP,alto alegre
-SP,aluminio
-SP,alvinlandia
+SP,alumínio
+SP,alvinlândia
 SP,americana
 SP,amparo
-SP,americo brasiliense
-SP,americo de campos
-SP,analandia
+SP,américo brasiliense
+SP,américo de campos
+SP,analândia
 SP,andradina
 SP,angatuba
 SP,anhembi
 SP,anhumas
 SP,aparecida
 SP,aparecida d'oeste
-SP,apiai
+SP,apiaí
 SP,aramina
 SP,arandu
-SP,arapei
+SP,arapeí
 SP,araraquara
 SP,araras
-SP,aracariguama
-SP,aracatuba
-SP,aracoiaba da serra
-SP,arco-iris
+SP,araçariguama
+SP,araçatuba
+SP,araçoiaba da serra
+SP,arco-íris
 SP,arealva
 SP,areias
-SP,areiopolis
+SP,areiópolis
 SP,ariranha
 SP,artur nogueira
-SP,aruja
-SP,aspasia
+SP,arujá
+SP,aspásia
 SP,assis
 SP,atibaia
 SP,auriflama
 SP,avanhandava
-SP,avare
-SP,avai
+SP,avaré
+SP,avaí
 SP,bady bassitt
 SP,balbinos
 SP,bananal
 SP,barbosa
 SP,bariri
 SP,barra bonita
-SP,barra do chapeu
+SP,barra do chapéu
 SP,barra do turvo
 SP,barretos
 SP,barrinha
 SP,barueri
-SP,barao de antonina
+SP,barão de antonina
 SP,bastos
 SP,batatais
 SP,bauru
@@ -4853,34 +4853,34 @@ SP,bertioga
 SP,bilac
 SP,birigui
 SP,biritiba mirim
-SP,boa esperanca do sul
+SP,boa esperança do sul
 SP,bocaina
 SP,bofete
 SP,boituva
-SP,bom jesus dos perdoes
-SP,bom sucesso de itarare
-SP,boraceia
+SP,bom jesus dos perdões
+SP,bom sucesso de itararé
+SP,boracéia
 SP,borborema
 SP,borebi
-SP,bora
+SP,borá
 SP,botucatu
-SP,braganca paulista
-SP,brauna
+SP,bragança paulista
+SP,braúna
 SP,brejo alegre
 SP,brodowski
 SP,brotas
 SP,buri
 SP,buritama
 SP,buritizal
-SP,balsamo
-SP,cabreuva
-SP,cabralia paulista
+SP,bálsamo
+SP,cabreúva
+SP,cabrália paulista
 SP,cachoeira paulista
 SP,caconde
-SP,cafelandia
+SP,cafelândia
 SP,caiabu
 SP,caieiras
-SP,caiua
+SP,caiuá
 SP,cajamar
 SP,cajati
 SP,cajobi
@@ -4889,254 +4889,254 @@ SP,campina do monte alegre
 SP,campinas
 SP,campo limpo paulista
 SP,campos novos paulista
-SP,campos do jordao
-SP,cananeia
+SP,campos do jordão
+SP,cananéia
 SP,canas
 SP,canitar
 SP,capela do alto
 SP,capivari
-SP,capao bonito
+SP,capão bonito
 SP,caraguatatuba
-SP,carapicuiba
+SP,carapicuíba
 SP,cardoso
 SP,casa branca
 SP,castilho
 SP,catanduva
-SP,catigua
-SP,cacapava
+SP,catiguá
+SP,caçapava
 SP,cedral
-SP,cerqueira cesar
+SP,cerqueira césar
 SP,cerquilho
-SP,cesario lange
+SP,cesário lange
 SP,charqueada
 SP,chavantes
 SP,clementina
 SP,colina
-SP,colombia
+SP,colômbia
 SP,conchal
 SP,conchas
-SP,cordeiropolis
+SP,cordeirópolis
 SP,coroados
 SP,coronel macedo
-SP,corumbatai
+SP,corumbataí
 SP,cosmorama
-SP,cosmopolis
+SP,cosmópolis
 SP,cotia
 SP,cravinhos
 SP,cristais paulista
 SP,cruzeiro
-SP,cruzalia
-SP,cubatao
+SP,cruzália
+SP,cubatão
 SP,cunha
-SP,cassia dos coqueiros
-SP,candido mota
-SP,candido rodrigues
+SP,cássia dos coqueiros
+SP,cândido mota
+SP,cândido rodrigues
 SP,descalvado
 SP,diadema
 SP,dirce reis
-SP,divinolandia
+SP,divinolândia
 SP,dobrada
-SP,dois corregos
-SP,dolcinopolis
+SP,dois córregos
+SP,dolcinópolis
 SP,dourado
 SP,dracena
 SP,duartina
 SP,dumont
-SP,echapora
+SP,echaporã
 SP,eldorado
 SP,elias fausto
-SP,elisiario
-SP,embauba
+SP,elisiário
+SP,embaúba
 SP,embu das artes
-SP,embu-guacu
-SP,emilianopolis
+SP,embu-guaçu
+SP,emilianópolis
 SP,engenheiro coelho
-SP,espirito santo do pinhal
-SP,espirito santo do turvo
+SP,espírito santo do pinhal
+SP,espírito santo do turvo
 SP,estiva gerbi
 SP,estrela d'oeste
 SP,estrela do norte
 SP,euclides da cunha paulista
 SP,fartura
 SP,fernando prestes
-SP,fernandopolis
-SP,fernao
+SP,fernandópolis
+SP,fernão
 SP,ferraz de vasconcelos
 SP,flora rica
 SP,floreal
-SP,florinea
-SP,florida paulista
+SP,florínea
+SP,flórida paulista
 SP,franca
 SP,francisco morato
 SP,franco da rocha
 SP,gabriel monteiro
-SP,garca
-SP,gastao vidigal
-SP,gaviao peixoto
+SP,garça
+SP,gastão vidigal
+SP,gavião peixoto
 SP,general salgado
 SP,getulina
-SP,glicerio
-SP,guaimbe
-SP,guaicara
+SP,glicério
+SP,guaimbê
+SP,guaiçara
 SP,guapiara
-SP,guapiacu
+SP,guapiaçu
 SP,guaraci
 SP,guarani d'oeste
-SP,guaranta
+SP,guarantã
 SP,guararapes
 SP,guararema
-SP,guaratingueta
-SP,guaracai
-SP,guarei
+SP,guaratinguetá
+SP,guaraçaí
+SP,guareí
 SP,guariba
-SP,guaruja
+SP,guarujá
 SP,guarulhos
-SP,guara
-SP,guatapara
-SP,guaira
-SP,guzolandia
-SP,galia
-SP,herculandia
+SP,guará
+SP,guatapará
+SP,guaíra
+SP,guzolândia
+SP,gália
+SP,herculândia
 SP,holambra
-SP,hortolandia
+SP,hortolândia
 SP,iacanga
 SP,iacri
 SP,iaras
-SP,ibate
+SP,ibaté
 SP,ibirarema
-SP,ibira
+SP,ibirá
 SP,ibitinga
-SP,ibiuna
-SP,icem
-SP,iepe
+SP,ibiúna
+SP,icém
+SP,iepê
 SP,igarapava
-SP,igarata
-SP,igaracu do tiete
+SP,igaratá
+SP,igaraçu do tietê
 SP,iguape
 SP,ilha comprida
 SP,ilha solteira
 SP,ilhabela
 SP,indaiatuba
 SP,indiana
-SP,indiapora
-SP,inubia paulista
+SP,indiaporã
+SP,inúbia paulista
 SP,ipaussu
-SP,ipero
-SP,ipeuna
-SP,ipigua
+SP,iperó
+SP,ipeúna
+SP,ipiguá
 SP,iporanga
-SP,ipua
-SP,iracemapolis
+SP,ipuã
+SP,iracemápolis
 SP,irapuru
-SP,irapua
-SP,itabera
+SP,irapuã
+SP,itaberá
 SP,itajobi
 SP,itaju
-SP,itanhaem
+SP,itanhaém
 SP,itaoca
 SP,itapecerica da serra
 SP,itapetininga
 SP,itapeva
 SP,itapevi
 SP,itapira
-SP,itapirapua paulista
+SP,itapirapuã paulista
 SP,itaporanga
 SP,itapura
-SP,itapui
+SP,itapuí
 SP,itaquaquecetuba
-SP,itarare
+SP,itararé
 SP,itariri
 SP,itatiba
 SP,itatinga
-SP,itai
+SP,itaí
 SP,itirapina
-SP,itirapua
+SP,itirapuã
 SP,itobi
 SP,itu
 SP,itupeva
 SP,ituverava
-SP,itapolis
+SP,itápolis
 SP,jaborandi
 SP,jaboticabal
-SP,jacarei
+SP,jacareí
 SP,jaci
 SP,jacupiranga
-SP,jaguariuna
+SP,jaguariúna
 SP,jales
 SP,jambeiro
 SP,jandira
-SP,jardinopolis
+SP,jardinópolis
 SP,jarinu
-SP,jau
+SP,jaú
 SP,jeriquara
-SP,joanopolis
-SP,jose bonifacio
-SP,joao ramalho
+SP,joanópolis
+SP,josé bonifácio
+SP,joão ramalho
 SP,jumirim
-SP,jundiai
-SP,junqueiropolis
+SP,jundiaí
+SP,junqueirópolis
 SP,juquitiba
-SP,juquia
-SP,julio mesquita
+SP,juquiá
+SP,júlio mesquita
 SP,lagoinha
 SP,laranjal paulista
 SP,lavrinhas
-SP,lavinia
+SP,lavínia
 SP,leme
-SP,lencois paulista
+SP,lençóis paulista
 SP,limeira
-SP,lindoia
+SP,lindóia
 SP,lins
 SP,lorena
 SP,lourdes
 SP,louveira
-SP,lucianopolis
-SP,lucelia
-SP,luiziania
-SP,lupercio
-SP,lutecia
-SP,luis antonio
+SP,lucianópolis
+SP,lucélia
+SP,luiziânia
+SP,lupércio
+SP,lutécia
+SP,luís antônio
 SP,macatuba
 SP,macaubal
-SP,macedonia
+SP,macedônia
 SP,magda
 SP,mairinque
-SP,mairipora
+SP,mairiporã
 SP,manduri
-SP,maraba paulista
-SP,maracai
+SP,marabá paulista
+SP,maracaí
 SP,marapoama
-SP,marinopolis
-SP,mariapolis
-SP,martinopolis
-SP,marilia
-SP,matao
-SP,maua
-SP,mendonca
+SP,marinópolis
+SP,mariápolis
+SP,martinópolis
+SP,marília
+SP,matão
+SP,mauá
+SP,mendonça
 SP,meridiano
-SP,mesopolis
-SP,miguelopolis
-SP,mineiros do tiete
+SP,mesópolis
+SP,miguelópolis
+SP,mineiros do tietê
 SP,mira estrela
 SP,miracatu
-SP,mirandopolis
+SP,mirandópolis
 SP,mirante do paranapanema
 SP,mirassol
-SP,mirassolandia
+SP,mirassolândia
 SP,mococa
-SP,mogi guacu
+SP,mogi guaçu
 SP,mogi mirim
 SP,mogi das cruzes
 SP,mombuca
-SP,mongagua
+SP,mongaguá
 SP,monte alegre do sul
 SP,monte alto
-SP,monte aprazivel
+SP,monte aprazível
 SP,monte azul paulista
 SP,monte castelo
 SP,monte mor
 SP,monteiro lobato
-SP,moncoes
+SP,monções
 SP,morro agudo
 SP,morungaba
 SP,motuca
@@ -5144,29 +5144,29 @@ SP,murutinga do sul
 SP,nantes
 SP,narandiba
 SP,natividade da serra
-SP,nazare paulista
+SP,nazaré paulista
 SP,neves paulista
 SP,nhandeara
-SP,nipoa
-SP,nova alianca
+SP,nipoã
+SP,nova aliança
 SP,nova campina
-SP,nova canaa paulista
+SP,nova canaã paulista
 SP,nova castilho
 SP,nova europa
 SP,nova granada
 SP,nova guataporanga
-SP,nova independencia
-SP,nova luzitania
+SP,nova independência
+SP,nova luzitânia
 SP,nova odessa
 SP,novais
 SP,novo horizonte
 SP,nuporanga
-SP,ocaucu
-SP,olimpia
+SP,ocauçu
+SP,olímpia
 SP,onda verde
 SP,oriente
-SP,orindiuva
-SP,orlandia
+SP,orindiúva
+SP,orlândia
 SP,osasco
 SP,oscar bressane
 SP,osvaldo cruz
@@ -5179,31 +5179,31 @@ SP,palmares paulista
 SP,palmeira d'oeste
 SP,palmital
 SP,panorama
-SP,paraguacu paulista
+SP,paraguaçu paulista
 SP,paraibuna
 SP,paranapanema
-SP,paranapua
-SP,parapua
-SP,paraiso
+SP,paranapuã
+SP,parapuã
+SP,paraíso
 SP,pardinho
-SP,pariquera-acu
+SP,pariquera-açu
 SP,parisi
-SP,patrocinio paulista
-SP,pauliceia
-SP,paulistania
+SP,patrocínio paulista
+SP,paulicéia
+SP,paulistânia
 SP,paulo de faria
-SP,paulinia
+SP,paulínia
 SP,pederneiras
 SP,pedra bela
-SP,pedranopolis
+SP,pedranópolis
 SP,pedregulho
 SP,pedreira
 SP,pedrinhas paulista
 SP,pedro de toledo
-SP,penapolis
+SP,penápolis
 SP,pereira barreto
 SP,pereiras
-SP,peruibe
+SP,peruíbe
 SP,piacatu
 SP,piedade
 SP,pilar do sul
@@ -5215,7 +5215,7 @@ SP,piquete
 SP,piracaia
 SP,piracicaba
 SP,piraju
-SP,pirajui
+SP,pirajuí
 SP,pirangi
 SP,pirapora do bom jesus
 SP,pirapozinho
@@ -5225,8 +5225,8 @@ SP,pitangueiras
 SP,planalto
 SP,platina
 SP,poloni
-SP,pompeia
-SP,pongai
+SP,pompéia
+SP,pongaí
 SP,pontal
 SP,pontalinda
 SP,pontes gestal
@@ -5236,75 +5236,75 @@ SP,porto feliz
 SP,porto ferreira
 SP,potim
 SP,potirendaba
-SP,poa
+SP,poá
 SP,pracinha
-SP,pradopolis
+SP,pradópolis
 SP,praia grande
-SP,pratania
+SP,pratânia
 SP,presidente alves
 SP,presidente bernardes
-SP,presidente epitacio
+SP,presidente epitácio
 SP,presidente prudente
 SP,presidente venceslau
-SP,promissao
+SP,promissão
 SP,quadra
-SP,quata
+SP,quatá
 SP,queiroz
 SP,queluz
 SP,quintana
 SP,rafard
 SP,rancharia
-SP,redencao da serra
-SP,regente feijo
-SP,reginopolis
+SP,redenção da serra
+SP,regente feijó
+SP,reginópolis
 SP,registro
 SP,restinga
 SP,ribeira
-SP,ribeirao bonito
-SP,ribeirao branco
-SP,ribeirao corrente
-SP,ribeirao grande
-SP,ribeirao pires
-SP,ribeirao preto
-SP,ribeirao do sul
-SP,ribeirao dos indios
+SP,ribeirão bonito
+SP,ribeirão branco
+SP,ribeirão corrente
+SP,ribeirão grande
+SP,ribeirão pires
+SP,ribeirão preto
+SP,ribeirão do sul
+SP,ribeirão dos índios
 SP,rifaina
-SP,rincao
-SP,rinopolis
+SP,rincão
+SP,rinópolis
 SP,rio claro
 SP,rio grande da serra
 SP,rio das pedras
-SP,riolandia
+SP,riolândia
 SP,riversul
 SP,rosana
 SP,roseira
-SP,rubineia
-SP,rubiacea
+SP,rubinéia
+SP,rubiácea
 SP,sabino
 SP,sagres
 SP,sales
 SP,sales oliveira
-SP,salesopolis
-SP,salmourao
+SP,salesópolis
+SP,salmourão
 SP,saltinho
 SP,salto
 SP,salto grande
 SP,salto de pirapora
 SP,sandovalina
-SP,santa adelia
+SP,santa adélia
 SP,santa albertina
 SP,santa branca
-SP,santa barbara d'oeste
+SP,santa bárbara d'oeste
 SP,santa clara d'oeste
-SP,santa cruz da conceicao
-SP,santa cruz da esperanca
+SP,santa cruz da conceição
+SP,santa cruz da esperança
 SP,santa cruz das palmeiras
 SP,santa cruz do rio pardo
 SP,santa ernestina
-SP,santa fe do sul
+SP,santa fé do sul
 SP,santa gertrudes
 SP,santa isabel
-SP,santa lucia
+SP,santa lúcia
 SP,santa maria da serra
 SP,santa mercedes
 SP,santa rita d'oeste
@@ -5312,105 +5312,105 @@ SP,santa rita do passa quatro
 SP,santa rosa de viterbo
 SP,santa salete
 SP,santana da ponte pensa
-SP,santana de parnaiba
-SP,santo anastacio
-SP,santo andre
-SP,santo antonio da alegria
-SP,santo antonio de posse
-SP,santo antonio do aracangua
-SP,santo antonio do jardim
-SP,santo antonio do pinhal
+SP,santana de parnaíba
+SP,santo anastácio
+SP,santo andré
+SP,santo antônio da alegria
+SP,santo antônio de posse
+SP,santo antônio do aracanguá
+SP,santo antônio do jardim
+SP,santo antônio do pinhal
 SP,santo expedito
 SP,santos
-SP,santopolis do aguapei
-SP,sarapui
-SP,sarutaia
-SP,sebastianopolis do sul
+SP,santópolis do aguapeí
+SP,sarapuí
+SP,sarutaiá
+SP,sebastianópolis do sul
 SP,serra azul
 SP,serra negra
 SP,serrana
-SP,sertaozinho
+SP,sertãozinho
 SP,sete barras
-SP,severinia
+SP,severínia
 SP,silveiras
 SP,socorro
 SP,sorocaba
 SP,sud mennucci
-SP,sumare
+SP,sumaré
 SP,suzano
-SP,suzanapolis
-SP,sao bento do sapucai
-SP,sao bernardo do campo
-SP,sao caetano do sul
-SP,sao carlos
-SP,sao francisco
-SP,sao joaquim da barra
-SP,sao jose da bela vista
-SP,sao jose do barreiro
-SP,sao jose do rio pardo
-SP,sao jose do rio preto
-SP,sao jose dos campos
-SP,sao joao da boa vista
-SP,sao joao das duas pontes
-SP,sao joao de iracema
-SP,sao joao do pau d'alho
-SP,sao lourenco da serra
-SP,sao luiz do paraitinga
-SP,sao manuel
-SP,sao miguel arcanjo
-SP,sao paulo
-SP,sao pedro
-SP,sao pedro do turvo
-SP,sao roque
-SP,sao sebastiao
-SP,sao sebastiao da grama
-SP,sao simao
-SP,sao vicente
-SP,tabapua
+SP,suzanápolis
+SP,são bento do sapucaí
+SP,são bernardo do campo
+SP,são caetano do sul
+SP,são carlos
+SP,são francisco
+SP,são joaquim da barra
+SP,são josé da bela vista
+SP,são josé do barreiro
+SP,são josé do rio pardo
+SP,são josé do rio preto
+SP,são josé dos campos
+SP,são joão da boa vista
+SP,são joão das duas pontes
+SP,são joão de iracema
+SP,são joão do pau d'alho
+SP,são lourenço da serra
+SP,são luiz do paraitinga
+SP,são manuel
+SP,são miguel arcanjo
+SP,são paulo
+SP,são pedro
+SP,são pedro do turvo
+SP,são roque
+SP,são sebastião
+SP,são sebastião da grama
+SP,são simão
+SP,são vicente
+SP,tabapuã
 SP,tabatinga
-SP,taboao da serra
+SP,taboão da serra
 SP,taciba
-SP,taguai
-SP,taiacu
-SP,taiuva
-SP,tambau
+SP,taguaí
+SP,taiaçu
+SP,taiúva
+SP,tambaú
 SP,tanabi
 SP,tapiratiba
-SP,tapirai
+SP,tapiraí
 SP,taquaral
 SP,taquaritinga
 SP,taquarituba
-SP,taquarivai
+SP,taquarivaí
 SP,tarabai
-SP,taruma
-SP,tatui
-SP,taubate
-SP,tejupa
+SP,tarumã
+SP,tatuí
+SP,taubaté
+SP,tejupá
 SP,teodoro sampaio
 SP,terra roxa
-SP,tiete
+SP,tietê
 SP,timburi
 SP,torre de pedra
 SP,torrinha
 SP,trabiju
-SP,tremembe
-SP,tres fronteiras
+SP,tremembé
+SP,três fronteiras
 SP,tuiuti
 SP,tupi paulista
-SP,tupa
-SP,turiuba
+SP,tupã
+SP,turiúba
 SP,turmalina
 SP,ubarana
 SP,ubatuba
 SP,ubirajara
 SP,uchoa
-SP,uniao paulista
+SP,união paulista
 SP,uru
-SP,urupes
-SP,urania
+SP,urupês
+SP,urânia
 SP,valentim gentil
 SP,valinhos
-SP,valparaiso
+SP,valparaíso
 SP,vargem
 SP,vargem grande paulista
 SP,vargem grande do sul
@@ -5418,118 +5418,118 @@ SP,vera cruz
 SP,vinhedo
 SP,viradouro
 SP,vista alegre do alto
-SP,vitoria brasil
+SP,vitória brasil
 SP,votorantim
 SP,votuporanga
-SP,varzea paulista
+SP,várzea paulista
 SP,zacarias
-SP,aguas da prata
-SP,aguas de lindoia
-SP,aguas de santa barbara
-SP,aguas de sao pedro
-SP,alvares florence
-SP,alvares machado
-SP,alvaro de carvalho
-SP,oleo
-TO,abreulandia
-TO,aguiarnopolis
-TO,alianca do tocantins
+SP,águas da prata
+SP,águas de lindóia
+SP,águas de santa bárbara
+SP,águas de são pedro
+SP,álvares florence
+SP,álvares machado
+SP,álvaro de carvalho
+SP,óleo
+TO,abreulândia
+TO,aguiarnópolis
+TO,aliança do tocantins
 TO,almas
 TO,alvorada
-TO,ananas
+TO,ananás
 TO,angico
 TO,aparecida do rio negro
 TO,aragominas
 TO,araguacema
-TO,araguana
+TO,araguanã
 TO,araguatins
-TO,araguacu
-TO,araguaina
+TO,araguaçu
+TO,araguaína
 TO,arapoema
 TO,arraias
-TO,augustinopolis
+TO,augustinópolis
 TO,aurora do tocantins
-TO,axixa do tocantins
-TO,babaculandia
+TO,axixá do tocantins
+TO,babaçulândia
 TO,bandeirantes do tocantins
 TO,barra do ouro
-TO,barrolandia
-TO,bernardo sayao
+TO,barrolândia
+TO,bernardo sayão
 TO,bom jesus do tocantins
-TO,brasilandia do tocantins
-TO,brejinho de nazare
+TO,brasilândia do tocantins
+TO,brejinho de nazaré
 TO,buriti do tocantins
 TO,cachoeirinha
 TO,campos lindos
 TO,cariri do tocantins
-TO,carmolandia
+TO,carmolândia
 TO,carrasco bonito
 TO,caseara
-TO,centenario
+TO,centenário
 TO,chapada da natividade
 TO,chapada de areia
 TO,colinas do tocantins
-TO,colmeia
+TO,colméia
 TO,combinado
-TO,conceicao do tocantins
-TO,couto magalhaes
-TO,cristalandia
-TO,crixas do tocantins
-TO,darcinopolis
-TO,dianopolis
-TO,divinopolis do tocantins
-TO,dois irmaos do tocantins
-TO,duere
+TO,conceição do tocantins
+TO,couto magalhães
+TO,cristalândia
+TO,crixás do tocantins
+TO,darcinópolis
+TO,dianópolis
+TO,divinópolis do tocantins
+TO,dois irmãos do tocantins
+TO,dueré
 TO,esperantina
-TO,figueiropolis
-TO,filadelfia
+TO,figueirópolis
+TO,filadélfia
 TO,formoso do araguaia
-TO,fatima
+TO,fátima
 TO,goianorte
 TO,goiatins
-TO,guarai
+TO,guaraí
 TO,gurupi
 TO,ipueiras
-TO,itacaja
+TO,itacajá
 TO,itaguatins
 TO,itapiratins
-TO,itapora do tocantins
-TO,jau do tocantins
+TO,itaporã do tocantins
+TO,jaú do tocantins
 TO,juarina
-TO,lagoa da confusao
+TO,lagoa da confusão
 TO,lagoa do tocantins
 TO,lajeado
 TO,lavandeira
 TO,lizarda
-TO,luzinopolis
-TO,marianopolis do tocantins
+TO,luzinópolis
+TO,marianópolis do tocantins
 TO,mateiros
-TO,maurilandia do tocantins
+TO,maurilândia do tocantins
 TO,miracema do tocantins
 TO,miranorte
 TO,monte santo do tocantins
 TO,monte do carmo
-TO,muricilandia
+TO,muricilândia
 TO,natividade
-TO,nazare
+TO,nazaré
 TO,nova olinda
-TO,nova rosalandia
+TO,nova rosalândia
 TO,novo acordo
 TO,novo alegre
 TO,novo jardim
-TO,oliveira de fatima
+TO,oliveira de fátima
 TO,palmas
 TO,palmeirante
 TO,palmeiras do tocantins
-TO,palmeiropolis
-TO,parana
-TO,paraiso do tocantins
+TO,palmeirópolis
+TO,paranã
+TO,paraíso do tocantins
 TO,pau d'arco
 TO,pedro afonso
 TO,peixe
 TO,pequizeiro
 TO,pindorama do tocantins
-TO,piraque
+TO,piraquê
 TO,pium
 TO,ponte alta do bom jesus
 TO,ponte alta do tocantins
@@ -5538,35 +5538,35 @@ TO,porto nacional
 TO,praia norte
 TO,presidente kennedy
 TO,pugmil
-TO,recursolandia
+TO,recursolândia
 TO,riachinho
 TO,rio sono
-TO,rio da conceicao
+TO,rio da conceição
 TO,rio dos bois
 TO,sampaio
-TO,sandolandia
-TO,santa fe do araguaia
+TO,sandolândia
+TO,santa fé do araguaia
 TO,santa maria do tocantins
 TO,santa rita do tocantins
 TO,santa rosa do tocantins
 TO,santa tereza do tocantins
 TO,santa terezinha do tocantins
-TO,silvanopolis
+TO,silvanópolis
 TO,sucupira
-TO,sao bento do tocantins
-TO,sao felix do tocantins
-TO,sao miguel do tocantins
-TO,sao salvador do tocantins
-TO,sao sebastiao do tocantins
-TO,sao valerio
-TO,sitio novo do tocantins
-TO,tabocao
+TO,são bento do tocantins
+TO,são félix do tocantins
+TO,são miguel do tocantins
+TO,são salvador do tocantins
+TO,são sebastião do tocantins
+TO,são valério
+TO,sítio novo do tocantins
+TO,tabocão
 TO,taguatinga
 TO,taipas do tocantins
-TO,talisma
-TO,tocantinopolis
-TO,tocantinia
+TO,talismã
+TO,tocantinópolis
+TO,tocantínia
 TO,tupirama
 TO,tupiratins
-TO,wanderlandia
-TO,xambioa
+TO,wanderlândia
+TO,xambioá
