@@ -855,6 +855,12 @@ models:
             field: updated_at
             datepart: day
             interval: 1
+      - dbt_utils.expression_is_true:
+          name: check_review_creation_date_before_review_answer_timestamp
+          arguments:
+            expression: "review_creation_date < review_answer_timestamp"
+          config:
+            severity: warn
     columns:
       - name: order_id
         description: "Código único de uma compra"
