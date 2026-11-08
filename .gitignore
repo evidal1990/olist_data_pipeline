@@ -220,6 +220,7 @@ __marimo__/
 .DS_Store
 .claude/*
 docs/*
+!docs/decisions/
 airbyte-bq-key.json
 dbt-bq-user-key.json
 .dbt/
