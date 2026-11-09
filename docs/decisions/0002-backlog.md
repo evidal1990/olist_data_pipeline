@@ -11,7 +11,7 @@ uma tarefa, troque _Pendente_ pela evidência (números, consultas, commits).
 | ID | Tarefa | Decisão | Depende de | Status |
 |---|---|---|---|---|
 | T01 | Registrar a linha de base dos testes `valid_city_for_state` | D1, D2 | – | Done |
-| T02 | Tratar hífen como espaço em `_city_key` | D1 | T01 | To do |
+| T02 | Tratar hífen como espaço em `_city_key` | D1 | T01 | Done |
 | T03 | Levantar os candidatos a alias | D2 | T02 | To do |
 | T04 | Criar o seed `city_aliases` com testes | D2 | T03 | To do |
 | T05 | Integrar `city_aliases` ao teste `valid_city_for_state` | D2 | T04 | To do |
@@ -89,7 +89,50 @@ falhas de `geolocation_city` caem cerca de 743 linhas; as quedas em
 
 #### Evidência
 
-_Pendente._
+| Teste | Antes (T01) | Depois | Diferença |
+|---|---|---|---|
+| `geolocation_city` | 5.199 linhas / 981 pares | 4.456 linhas / 963 pares | −743 linhas / −18 pares |
+| `customer_city` | 2.268 linhas / 292 pares | 1.918 linhas / 286 pares | −350 linhas / −6 pares |
+| `seller_city` | 290 linhas / 95 pares | 284 linhas / 93 pares | −6 linhas / −2 pares |
+
+##### Fonte
+
+- **Mudança:** `_city_key` em `macros/valid_city_for_state.sql` passou a aplicar
+  `replace(..., '-', ' ')` depois do tratamento do apóstrofo.
+- **Linhas com falha:** execução de
+  `dbt test --select "test_name:valid_city_for_state"` (`PASS=0 WARN=3 ERROR=0`).
+- **Pares, hífens restantes e nomes-alvo:** SQL compilado de cada teste,
+  executado no BigQuery.
+- **Dialeto Postgres:** o projeto não tem target Postgres. A expressão gerada
+  para o Postgres foi testada com `SELECT` em valores de exemplo no container
+  `olistdb` (Postgres 16): `Mogi-Guaçu` e `mogi guacu` geram a mesma chave
+  (`mogi guacu`), e `Itapejara D'Oeste` continua gerando `itapejara d oeste`.
+
+##### Data dos dados
+
+2026-11-08 às 21:28 (horário de Brasília). Os testes foram rodados de novo às
+21:30 com `--store-failures`, com os mesmos números, para que as tabelas de
+auditoria `postgres_staging_dbt_test__audit.valid_city_for_state_*` mostrem as
+falhas atuais.
+
+##### Resultado do aceite
+
+- `mogi-guacu`, `biritiba-mirim` e `mogi-mirim` não aparecem mais nas falhas.
+- A queda em `geolocation_city` foi de exatamente 743 linhas e 18 pares, o
+  previsto na análise da ADR-0002.
+
+##### Observação
+
+As linhas com hífen que continuam falhando (13 em geolocalização, 1 em clientes
+e 14 em vendedores) não são falha da correção:
+
+- **Distritos e localidades:** `bacaxa (saquarema) - distrito`,
+  `monte gordo (camacari) - distrito`, `colônia z-3`, `vau-acu`.
+- **UF colada no nome:** `sao paulo - sp` (8), `andira-pr` (4), `lages - sc`
+  (2), `guarulhos-sp`, `venda nova do imigrante-es`. É um padrão sistemático,
+  principalmente em vendedores, que vale avaliar na T03 como regra (remover o
+  sufixo de UF), e não como alias.
+
 
 ### T03. Levantar os candidatos a alias
 
@@ -312,11 +355,11 @@ _Pendente._
 
 | Teste | Linha de base (T01) | Após D1 (T02) | Após D2 (T05) |
 |---|---|---|---|
-| `stg_geolocation.geolocation_city` | 5.199 linhas / 981 pares (0,70% de 738.016) | | |
-| `stg_customers.customer_city` | 2.268 linhas / 292 pares (0,72% de 314.000) | | |
-| `stg_sellers.seller_city` | 290 linhas / 95 pares (3,41% de 8.500) | | |
+| `stg_geolocation.geolocation_city` | 5.199 linhas / 981 pares (0,70% de 738.016) | 4.456 linhas / 963 pares (0,60%) | |
+| `stg_customers.customer_city` | 2.268 linhas / 292 pares (0,72% de 314.000) | 1.918 linhas / 286 pares (0,61%) | |
+| `stg_sellers.seller_city` | 290 linhas / 95 pares (3,41% de 8.500) | 284 linhas / 93 pares (3,34%) | |
 
-Fonte e data da linha de base: ver a evidência da T01.
+Fonte e data de cada medição: ver a evidência da T01 e da T02.
 
 ## Fora do escopo
 

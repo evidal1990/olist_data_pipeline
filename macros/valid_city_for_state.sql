@@ -1,12 +1,13 @@
 {#
     Chave de comparação de nomes de cidade: minúsculas, sem acento,
-    apóstrofo tratado como espaço e espaços repetidos reduzidos a um.
+    apóstrofo e hífen tratados como espaço e espaços repetidos reduzidos a um.
     Ex.: 'Itapejara D''Oeste' e 'itapejara d  oeste' -> 'itapejara d oeste'
+         'Mogi-Guaçu' e 'mogi guacu' -> 'mogi guacu' (ADR-0002, D1)
 #}
 {% macro _city_key(expr) -%}
 {#- apóstrofo como literal: no BigQuery '' não escapa aspas, então usamos "'" -#}
 {%- set apostrophe = "chr(39)" if target.type == 'postgres' else '"\'"' -%}
-{{ clean_text("replace(translate(lower(" ~ expr ~ "), 'áàâãäéèêëíìîïóòôõöúùûüç', 'aaaaaeeeeiiiiooooouuuuc'), " ~ apostrophe ~ ", ' ')") }}
+{{ clean_text("replace(replace(translate(lower(" ~ expr ~ "), 'áàâãäéèêëíìîïóòôõöúùûüç', 'aaaaaeeeeiiiiooooouuuuc'), " ~ apostrophe ~ ", ' '), '-', ' ')") }}
 {%- endmacro %}
 
 {% test valid_city_for_state(model, column_name, state_column) %}
