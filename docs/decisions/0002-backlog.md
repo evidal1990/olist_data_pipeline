@@ -12,9 +12,9 @@ uma tarefa, troque _Pendente_ pela evidência (números, consultas, commits).
 |---|---|---|---|---|
 | T01 | Registrar a linha de base dos testes `valid_city_for_state` | D1, D2 | – | Done |
 | T02 | Tratar hífen como espaço em `_city_key` | D1 | T01 | Done |
-| T03 | Levantar os candidatos a alias | D2 | T02 | To do |
-| T04 | Criar o seed `city_aliases` com testes | D2 | T03 | To do |
-| T05 | Integrar `city_aliases` ao teste `valid_city_for_state` | D2 | T04 | To do |
+| T03 | Levantar os candidatos a alias | D2 | T02 | Done |
+| T04 | Criar o seed `city_aliases` com testes | D2, D8 | T03 | To do |
+| T05 | Integrar `city_aliases` e as regras R1/R2 ao teste `valid_city_for_state` | D2, D8 | T04 | To do |
 | T06 | Criar o seed `cep_uf_ranges` com testes | D5 | – | To do |
 | T07 | Configurar a camada intermediate | D5 | – | To do |
 | T08 | Criar `int_geolocation_validated` | D4, D5, D6 | T04, T06, T07 | To do |
@@ -151,14 +151,141 @@ da D2.
 
 #### Evidência
 
-_Pendente._
+##### Escopo
+
+- **Base:** falhas dos três testes depois da T02 (6.658 linhas, 996 pares
+  cidade/UF somando os três testes).
+- **Recorte:** os 286 pares que somam 80% das linhas com falha foram
+  classificados um a um. Os 710 restantes ficam como cauda longa (D3).
+- **Método:** cada par foi comparado com o seed `brazilian_cities` da mesma UF
+  (similaridade de texto e nome contido em outro). Depois, cada caso foi
+  revisado manualmente e classificado.
+
+##### Resultado
+
+| Grupo | Linhas (geo / clientes / vendedores) | Total | Tratamento |
+|---|---|---|---|
+| Alias (renomeação ou grafia oficial) | 1.290 / 264 / 7 | 1.561 (23,4%) | Seed `city_aliases` (T04) |
+| Alias por exceção: `piumhii` | 98 / 85 / 0 | 183 (2,7%) | Seed `city_aliases` (T04), D2 revisada |
+| Regra R1: UF colada no nome | 5 / 0 / 31 | 36 (0,5%) | Regra no teste (T05), D8 |
+| Regra R2: "cidade, estado, brasil" | 2 / 0 / 9 | 11 (0,2%) | Regra no teste (T05), D8 |
+| Regra R3: região administrativa do DF | 287 / 28 / 5 | 320 (4,8%) | 35 regiões no seed `city_aliases` (T04), D8 |
+| Fora: distritos, localidades, erros de digitação, UF errada | 2.774 / 1.541 / 232 | 4.547 (68,3%) | Monitorar (D3) |
+| **Total** | 4.456 / 1.918 / 284 | 6.658 | |
+
+Os números de cada grupo valem para todas as falhas, não só para o recorte de
+80%.
+
+##### Candidatos a alias
+
+37 aliases. Todos os nomes de destino foram conferidos no seed
+`brazilian_cities` (lista de municípios do IBGE), na mesma UF.
+
+| Nome na fonte | UF | Nome IBGE (seed) | Tipo | Geo | Clientes | Vendedores |
+|---|---|---|---|---|---|---|
+| `santana do livramento` | RS | sant'ana do livramento | Grafia oficial diferente | 306 | 59 | 0 |
+| `embu` | SP | embu das artes | Renomeação | 285 | 31 | 0 |
+| `parati` | RJ | paraty | Grafia oficial diferente | 153 | 35 | 0 |
+| `bom jesus` | GO | bom jesus de goiás | Nome abreviado | 53 | 28 | 0 |
+| `acu` | RN | assú | Grafia oficial diferente | 61 | 6 | 0 |
+| `espigao do oeste` | RO | espigão d'oeste | Grafia oficial diferente | 45 | 18 | 0 |
+| `santa isabel do para` | PA | santa izabel do pará | Grafia oficial diferente | 42 | 21 | 0 |
+| `brasopolis` | MG | brazópolis | Grafia oficial diferente | 47 | 9 | 0 |
+| `armacao de buzios` | RJ | armação dos búzios | Grafia oficial diferente | 34 | 0 | 0 |
+| `buzios` | RJ | armação dos búzios | Nome abreviado | 26 | 0 | 0 |
+| `sao luis do paraitinga` | SP | são luiz do paraitinga | Grafia oficial diferente | 18 | 8 | 0 |
+| `sao thome das letras` | MG | são tomé das letras | Grafia oficial diferente | 19 | 7 | 0 |
+| `eldorado dos carajas` | PA | eldorado do carajás | Grafia oficial diferente | 22 | 0 | 0 |
+| `amparo da serra` | MG | amparo do serra | Grafia oficial diferente | 13 | 3 | 0 |
+| `florinia` | SP | florínea | Grafia oficial diferente | 14 | 2 | 0 |
+| `santa barbara doeste` | SP | santa bárbara d'oeste | Grafia oficial diferente | 15 | 0 | 0 |
+| `couto de magalhaes` | TO | couto magalhães | Grafia oficial diferente | 6 | 7 | 0 |
+| `santo antonio do leverger` | MT | santo antônio de leverger | Grafia oficial diferente | 11 | 2 | 0 |
+| `picarras` | SC | balneário piçarras | Renomeação | 9 | 1 | 2 |
+| `santa rita do ibitipoca` | MG | santa rita de ibitipoca | Grafia oficial diferente | 7 | 5 | 0 |
+| `barao de monte alto` | MG | barão do monte alto | Grafia oficial diferente | 11 | 0 | 0 |
+| `santa teresinha` | BA | santa terezinha | Grafia oficial diferente | 6 | 5 | 0 |
+| `dias davila` | BA | dias d'ávila | Grafia oficial diferente | 9 | 0 | 0 |
+| `gouvea` | MG | gouveia | Grafia oficial diferente | 9 | 0 | 0 |
+| `jequirica` | BA | jiquiriçá | Grafia oficial diferente | 9 | 0 | 0 |
+| `lagoa do itaenga` | PE | lagoa de itaenga | Grafia oficial diferente | 9 | 0 | 0 |
+| `trajano de morais` | RJ | trajano de moraes | Grafia oficial diferente | 9 | 0 | 0 |
+| `bataipora` | MS | batayporã | Grafia oficial diferente | 2 | 6 | 0 |
+| `planaltina de goias` | GO | planaltina | Nome alternativo | 2 | 6 | 0 |
+| `itapage` | CE | itapajé | Grafia oficial diferente | 5 | 2 | 0 |
+| `sao jorge do oeste` | PR | são jorge d'oeste | Grafia oficial diferente | 4 | 3 | 0 |
+| `iguaraci` | PE | iguaracy | Grafia oficial diferente | 6 | 0 | 0 |
+| `itabirinha de mantena` | MG | itabirinha | Renomeação | 6 | 0 | 0 |
+| `sao luiz` | RR | são luiz do anauá | Nome abreviado | 6 | 0 | 0 |
+| `sao valerio da natividade` | TO | são valério | Renomeação | 6 | 0 | 0 |
+| `alta floresta do oeste` | RO | alta floresta d'oeste | Grafia oficial diferente | 5 | 0 | 0 |
+| `paincandu` | PR | paiçandu | Grafia oficial diferente | 0 | 0 | 5 |
+
+Além desses 37, entra a exceção `piumhii` → piumhi (MG), um erro de digitação
+sistemático com 183 linhas, aprovada depois do levantamento.
+
+- **Fonte:** o nome oficial é o que está no seed (IBGE). O tipo (renomeação,
+  grafia ou nome abreviado) foi classificado pelo Claude. Os atos legais de
+  renomeação não foram consultados.
+- **Padrão recorrente:** "do oeste" ou "doeste" no lugar de "d'Oeste"
+  (`espigao do oeste`, `santa barbara doeste`, `sao jorge do oeste`,
+  `alta floresta do oeste`). Não vira regra porque existem municípios
+  oficiais com "do Oeste" (ex.: São Miguel do Oeste/SC); fica como alias.
+
+##### Candidatos a regra
+
+Padrões sistemáticos, mais baratos de tratar com uma regra do que com aliases:
+
+- **UF colada no nome:** a sigla da própria UF no fim do nome, com espaço,
+  hífen ou barra (`sao paulo - sp`, `andira-pr`, `lages - sc`,
+  `cariacica / es`, `brasilia df`). Regra: remover o sufixo quando ele for
+  igual à UF da linha e o resto for um município dessa UF.
+- **"cidade, estado, brasil":** formato de geocodificador
+  (`novo hamburgo, rio grande do sul, brasil`). Regra: usar só o primeiro
+  trecho.
+- **Região administrativa do DF:** o DF tem um único município, Brasília.
+  Taguatinga, Ceilândia, Cruzeiro, Guará, Sobradinho, Lago Sul, Samambaia e
+  as demais são regiões administrativas. Regra: em UF = DF, o município é
+  Brasília. Cuidado: a regra precisa confirmar a UF pelo CEP, para não mapear
+  para Brasília uma linha com a UF errada.
+
+##### Fora do escopo dos aliases
+
+- **Distritos e localidades** (a maior parte): `bonfim paulista` (Ribeirão
+  Preto), `barra de sao joao` (Casimiro de Abreu), `arraial d ajuda` (Porto
+  Seguro), `goitacazes` (Campos), `trancoso`, `maresias`, `papucaia`.
+- **Erros de digitação:** 212 linhas, sendo 183 de `piumhii` (Piumhi/MG).
+  Os outros têm 6 linhas ou menos (`ribeirao pretp`, `portoferreira`,
+  `tabao da serra`, `sao jose do rio pret`, `alta alegre dos parecis`).
+- **Cidade de outra UF:** `curitiba / SP`, `caxias do sul / SP`,
+  `rio de janeiro / SP`. É inconsistência de UF, tratada pelas flags da D5.
+
+##### Decisões tomadas
+
+Registradas no adendo de 2026-11-08 da ADR-0002.
+
+1. **Regras:** as três entram como a nova decisão D8. A regra do DF (R3)
+   ficou como uma lista fechada das 35 regiões administrativas no seed
+   `city_aliases`, em vez de uma regra que confirma a UF pelo CEP. Assim o teste
+   não depende do CEP, e uma linha com a UF errada continua falhando. Com a
+   lista fechada, R3 resolve 320 linhas (e não 322): ficam de fora
+   `riacho fundo 2` e `ceilandia norte`, uma linha cada.
+2. **`piumhii`:** entra como exceção ao critério da D2, com tipo
+   `erro_digitacao_sistematico`.
+
+##### Data dos dados
+
+Tabelas de auditoria gravadas em 2026-11-08 às 21:30 (horário de Brasília),
+pela execução com `--store-failures` da T02.
 
 ### T04. Criar o seed `city_aliases` com testes
 
 #### O que
 
-Criar `seeds/city_aliases.csv` com as colunas `nome_fonte`, `estado`
-e `cidade_ibge`, mais a documentação no `schema.yml` dos seeds. Testes:
+Criar `seeds/city_aliases.csv` com as colunas `nome_fonte`, `estado`,
+`cidade_ibge` e `tipo`, mais a documentação no `schema.yml` dos seeds. O
+conteúdo vem da T03: os 37 aliases, `piumhii` (exceção) e as 35 regiões
+administrativas do DF com destino Brasília (R3). Testes:
 
 - `unique_combination_of_columns` em (`nome_fonte`, `estado`);
 - `not_null` nas três colunas;
@@ -176,8 +303,10 @@ _Pendente._
 
 #### O que
 
-Antes de comparar com `brazilian_cities`, o teste resolve o nome pelo
-alias (`left join` em `city_aliases`, comparando pela mesma chave `_city_key`).
+Antes de comparar com `brazilian_cities`, o teste aplica as regras R1 (UF
+colada no nome) e R2 ("cidade, estado, brasil") e resolve o nome pelo alias
+(`left join` em `city_aliases`, comparando pela mesma chave `_city_key`). R1 e
+R2 ficam numa macro compartilhada, que a T08 reutiliza.
 
 #### Aceite
 

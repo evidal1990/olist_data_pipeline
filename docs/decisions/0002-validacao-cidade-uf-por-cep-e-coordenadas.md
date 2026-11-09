@@ -179,3 +179,55 @@ staging.
     severidade `warn`).
 4. Rodar `dbt build` e atualizar os dashboards da staging.
 5. Mudar o status desta ADR para **Aceita** após a revisão.
+
+## Adendo (2026-11-08): regras de normalização e exceção de alias
+
+O levantamento da T03 (ver
+[backlog](0002-backlog.md#t03-levantar-os-candidatos-a-alias)) encontrou
+padrões sistemáticos que não são renomeações e por isso não cabem no critério
+da D2. Também encontrou um erro de digitação com volume alto.
+
+### D8. Regras de normalização do nome da cidade
+
+Antes de comparar com o seed, o teste `valid_city_for_state` e o
+`int_geolocation_validated` (D5) aplicam:
+
+- **R1. UF colada no nome:** se o nome termina com a sigla da própria UF da
+  linha, separada por espaço, hífen ou barra (`sao paulo - sp`, `andira-pr`,
+  `cariacica / es`), o sufixo é removido. Só vale quando a sigla é igual à UF
+  da linha. Efeito medido: 36 linhas.
+- **R2. "cidade, estado, brasil":** formato de geocodificador
+  (`novo hamburgo, rio grande do sul, brasil`). Usa-se só o trecho antes da
+  primeira vírgula. Efeito medido: 11 linhas.
+- **R3. Regiões administrativas do DF:** o DF tem um único município,
+  Brasília. As 35 regiões administrativas oficiais (Taguatinga, Ceilândia,
+  Guará, Sobradinho, Lago Sul etc.) entram no seed `city_aliases` com destino
+  Brasília e tipo `regiao_administrativa_df`. Efeito medido: 320 linhas.
+
+R3 usa uma lista fechada no seed, e não uma regra do tipo "toda cidade com
+UF = DF é Brasília". Assim o teste não depende do CEP, e uma linha com a UF
+errada (ex.: `goiania / DF`) continua falhando.
+
+### D2 (revisão). Exceção para erro de digitação sistemático
+
+`piumhii` → Piumhi/MG entra no `city_aliases` como exceção ao critério da D2,
+com tipo `erro_digitacao_sistematico`. Motivo: é o único erro de digitação com
+volume relevante (183 linhas em geolocalização e clientes), e a grafia correta
+não é ambígua. Os demais erros de digitação encontrados têm 6 linhas ou menos
+e continuam fora.
+
+Novas exceções só entram com a mesma justificativa: erro sistemático, volume
+relevante e correção sem ambiguidade, registrados neste adendo.
+
+### Consequências
+
+- O seed `city_aliases` ganha a coluna `tipo` (`renomeacao`, `grafia_oficial`,
+  `nome_abreviado`, `regiao_administrativa_df`, `erro_digitacao_sistematico`),
+  para que cada linha seja auditável.
+- Efeito esperado sobre as 6.658 falhas depois da T02: aliases 1.744 linhas
+  (incluindo `piumhii`), R1 36, R2 11, R3 320. Sobram cerca de 4.547 linhas
+  (distritos, localidades, erros de digitação pequenos e UF errada),
+  monitoradas pela D3.
+- R1 e R2 são implementadas no teste (T05) e repetidas no
+  `int_geolocation_validated` (T08). Para não duplicar a lógica, ela deve
+  ficar numa macro compartilhada.
