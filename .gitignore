@@ -221,9 +221,12 @@ __marimo__/
 .claude/*
 docs/*
 !docs/decisions/
+docs/data-quality/
 airbyte-bq-key.json
 dbt-bq-user-key.json
 .dbt/
 dbt_project.yml
 dbt_packages/
 dbt_internal_packages/
+
+analyses/*
